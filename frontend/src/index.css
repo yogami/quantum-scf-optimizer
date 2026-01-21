@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --quantum-glow: rgba(14, 165, 233, 0.6);
+    --quantum-primary: #0ea5e9;
+    --quantum-dark: #0c4a6e;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+}
+
+/* Quantum glow effect */
+.quantum-card {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(14, 165, 233, 0.2);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.quantum-card:hover {
+    border-color: rgba(14, 165, 233, 0.5);
+    box-shadow: 0 0 30px var(--quantum-glow);
+}
+
+/* Upload dropzone */
+.dropzone {
+    border: 2px dashed rgba(14, 165, 233, 0.4);
+    background: rgba(14, 165, 233, 0.05);
+    transition: all 0.3s ease;
+}
+
+.dropzone:hover,
+.dropzone.active {
+    border-color: var(--quantum-primary);
+    background: rgba(14, 165, 233, 0.1);
+}
+
+/* Metric cards */
+.metric-card {
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.1) 0%, rgba(14, 165, 233, 0.05) 100%);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(14, 165, 233, 0.2);
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Table styles */
+.comparison-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.comparison-table th {
+    background: rgba(14, 165, 233, 0.2);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.comparison-table td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(14, 165, 233, 0.1);
+}
+
+/* Loading animation */
+@keyframes quantum-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.quantum-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(14, 165, 233, 0.2);
+    border-top-color: var(--quantum-primary);
+    border-radius: 50%;
+    animation: quantum-spin 1s linear infinite;
+}
+
+/* Button styles */
+.btn-quantum {
+    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-quantum:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(14, 165, 233, 0.3);
+}
+
+.btn-quantum:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
