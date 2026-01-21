@@ -23,14 +23,14 @@ class PDFReportGenerator:
     def _add_custom_styles(self):
         """Add custom paragraph styles."""
         self.styles.add(ParagraphStyle(
-            name='Title',
+            name='QuantumTitle',
             parent=self.styles['Heading1'],
             fontSize=24,
             textColor=HexColor('#1a1a2e'),
             spaceAfter=20
         ))
         self.styles.add(ParagraphStyle(
-            name='Metric',
+            name='QuantumMetric',
             parent=self.styles['Normal'],
             fontSize=14,
             textColor=HexColor('#16213e'),
@@ -62,7 +62,7 @@ class PDFReportGenerator:
         story = []
         
         # Title
-        story.append(Paragraph("Quantum SCF Optimization Report", self.styles['Title']))
+        story.append(Paragraph("Quantum SCF Optimization Report", self.styles['QuantumTitle']))
         story.append(Spacer(1, 0.5*cm))
         
         # Summary metrics
@@ -72,9 +72,9 @@ class PDFReportGenerator:
                            / classical_result.total_risk * 100) if classical_result.total_risk > 0 else 0
         speedup = classical_result.solve_time_ms / quantum_result.solve_time_ms if quantum_result.solve_time_ms > 0 else 1
         
-        story.append(Paragraph(f"<b>Yield Improvement:</b> {yield_improvement:+.1f}%", self.styles['Metric']))
-        story.append(Paragraph(f"<b>Risk Reduction:</b> {risk_improvement:+.1f}%", self.styles['Metric']))
-        story.append(Paragraph(f"<b>Speedup Factor:</b> {speedup:.2f}x", self.styles['Metric']))
+        story.append(Paragraph(f"<b>Yield Improvement:</b> {yield_improvement:+.1f}%", self.styles['QuantumMetric']))
+        story.append(Paragraph(f"<b>Risk Reduction:</b> {risk_improvement:+.1f}%", self.styles['QuantumMetric']))
+        story.append(Paragraph(f"<b>Speedup Factor:</b> {speedup:.2f}x", self.styles['QuantumMetric']))
         story.append(Spacer(1, 1*cm))
         
         # Comparison table
@@ -100,7 +100,7 @@ class PDFReportGenerator:
         story.append(Spacer(1, 1*cm))
         
         # Solver logs
-        story.append(Paragraph("<b>Quantum Solver Logs:</b>", self.styles['Metric']))
+        story.append(Paragraph("<b>Quantum Solver Logs:</b>", self.styles['QuantumMetric']))
         if quantum_result.solver_logs:
             story.append(Paragraph(quantum_result.solver_logs.replace('\n', '<br/>'), self.styles['Normal']))
         
