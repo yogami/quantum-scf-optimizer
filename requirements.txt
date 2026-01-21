@@ -4,9 +4,9 @@ uvicorn[standard]==0.27.0
 pydantic==2.5.3
 python-multipart==0.0.6
 
-# Quantum Computing (Slimmed)
-dwave-ocean-sdk==6.8.0
-qiskit==1.0.2
+# Quantum-Inspired Optimization (Lightweight)
+dwave-system==1.23.0
+dwave-neal==0.6.0
 
 # Classical Optimization
 pulp==2.7.0
@@ -18,8 +18,3 @@ numpy==1.26.3
 # PDF Generation
 reportlab==4.0.9
 qrcode[pil]==7.4.2
-
-# Testing
-pytest==8.0.0
-pytest-asyncio==0.23.3
-httpx==0.26.0
