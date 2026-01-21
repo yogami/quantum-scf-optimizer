@@ -12,8 +12,7 @@ qiskit-aer==0.13.3
 # Classical Optimization
 pulp==2.7.0
 
-# ML/Data Science
-torch==2.2.0
+# Data Science (Slimmed)
 pandas==2.2.0
 numpy==1.26.3
 
