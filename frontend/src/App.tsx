@@ -40,6 +40,7 @@ function App() {
     const [result, setResult] = useState<OptimizationResult | null>(null)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState<string | null>(null)
+    const [provider, setProvider] = useState<'planqk' | 'dwave'>('planqk')
 
     const handleOptimize = async (csvContent: string) => {
         setLoading(true)
@@ -53,7 +54,8 @@ function App() {
                     csv_content: csvContent,
                     budget: 1000000,
                     risk_tolerance: 50,
-                    esg_min: 60
+                    esg_min: 60,
+                    quantum_provider: provider
                 })
             })
 
@@ -107,6 +109,32 @@ function App() {
             </header>
 
             <main className="max-w-7xl mx-auto">
+                {/* Provider Selector */}
+                {!result && !loading && (
+                    <div className="flex justify-center mb-8">
+                        <div className="inline-flex rounded-lg p-1 bg-slate-800/50 border border-slate-700">
+                            <button
+                                onClick={() => setProvider('planqk')}
+                                className={`px-4 py-2 rounded-md text-sm transition-all ${provider === 'planqk'
+                                        ? 'bg-quantum-600 text-white shadow-lg'
+                                        : 'text-slate-400 hover:text-slate-200'
+                                    }`}
+                            >
+                                🇪🇺 PlanQK/Kipu
+                            </button>
+                            <button
+                                onClick={() => setProvider('dwave')}
+                                className={`px-4 py-2 rounded-md text-sm transition-all ${provider === 'dwave'
+                                        ? 'bg-quantum-600 text-white shadow-lg'
+                                        : 'text-slate-400 hover:text-slate-200'
+                                    }`}
+                            >
+                                🇺🇸 D-Wave Leap
+                            </button>
+                        </div>
+                    </div>
+                )}
+
                 {/* Upload Section */}
                 {!result && (
                     <CSVUpload onUpload={handleOptimize} loading={loading} />
@@ -131,7 +159,7 @@ function App() {
                         <div className="quantum-spinner mx-auto mb-4"></div>
                         <p className="text-quantum-300">Running quantum optimization...</p>
                         <p className="text-slate-500 text-sm mt-2">
-                            Comparing classical PuLP vs D-Wave hybrid solver
+                            Comparing classical PuLP vs {provider === 'dwave' ? 'D-Wave Leap' : 'PlanQK/Kipu'}
                         </p>
                     </div>
                 )}
@@ -174,8 +202,8 @@ function App() {
 
             {/* Footer */}
             <footer className="text-center mt-16 text-slate-500 text-sm">
-                <p>© 2026 Berlin AI Labs · Quantum SCF Risk Optimizer v1.0</p>
-                <p className="mt-1">Powered by D-Wave Leap & Qiskit</p>
+                <p>© 2026 Berlin AI Labs · Quantum SCF Risk Optimizer v1.1</p>
+                <p className="mt-1">Powered by PlanQK, Kipu Quantum & D-Wave</p>
             </footer>
         </div>
     )

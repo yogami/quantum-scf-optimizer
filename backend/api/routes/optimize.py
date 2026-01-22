@@ -20,6 +20,7 @@ class OptimizeRequest(BaseModel):
     budget: float = 1_000_000
     risk_tolerance: float = 50
     esg_min: float = 60
+    quantum_provider: str = "planqk"
 
 
 class OptimizeResponse(BaseModel):
@@ -52,7 +53,8 @@ async def optimize_scf(request: OptimizeRequest):
         tiers,
         budget=request.budget,
         risk_tolerance=request.risk_tolerance,
-        esg_min=request.esg_min
+        esg_min=request.esg_min,
+        quantum_provider=request.quantum_provider
     )
     
     # Store for PDF generation
@@ -66,8 +68,9 @@ async def optimize_scf_upload(
     file: UploadFile = File(...),
     budget: float = 1_000_000,
     risk_tolerance: float = 50,
-    esg_min: float = 60
-):
+    esg_min: float = 60,
+    quantum_provider: str = "planqk"
+) -> OptimizeResponse:
     """
     Upload CSV file and run optimization.
     
@@ -94,7 +97,8 @@ async def optimize_scf_upload(
         tiers,
         budget=budget,
         risk_tolerance=risk_tolerance,
-        esg_min=esg_min
+        esg_min=esg_min,
+        quantum_provider=quantum_provider
     )
     
     job_store[result["job_id"]] = result

@@ -5,7 +5,7 @@ from io import StringIO
 from typing import Optional
 
 from domain.entities import SCFTier, OptimizationResult
-from infrastructure.quantum import ClassicalSolver, DWaveSolver
+from infrastructure.quantum import ClassicalSolver, DWaveSolver, PlanQKSolver
 from infrastructure.pdf import PDFReportGenerator
 
 
@@ -14,7 +14,8 @@ class OptimizeSCFUseCase:
     
     def __init__(self):
         self.classical_solver = ClassicalSolver()
-        self.quantum_solver = DWaveSolver()
+        self.dwave_solver = DWaveSolver()
+        self.planqk_solver = PlanQKSolver()
         self.pdf_generator = PDFReportGenerator()
     
     def parse_csv(self, csv_content: str) -> list[SCFTier]:
@@ -48,14 +49,21 @@ class OptimizeSCFUseCase:
         tiers: list[SCFTier],
         budget: float = 1_000_000,
         risk_tolerance: float = 50,
-        esg_min: float = 60
+        esg_min: float = 60,
+        quantum_provider: str = "planqk"
     ) -> dict:
         """Run both classical and quantum optimization."""
         classical_result = self.classical_solver.optimize(
             tiers, budget, risk_tolerance, esg_min
         )
         
-        quantum_result = self.quantum_solver.optimize(
+        # Select quantum solver
+        if quantum_provider.lower() == "dwave":
+            quantum_solver = self.dwave_solver
+        else:
+            quantum_solver = self.planqk_solver
+
+        quantum_result = quantum_solver.optimize(
             tiers, budget, risk_tolerance, esg_min
         )
         

@@ -30,7 +30,7 @@ Open http://localhost:5173 and upload the sample CSV or your own data.
 
 - **CSV Upload**: Drag-and-drop 10+ tier supply chain data
 - **Classical Baseline**: PuLP linear programming for comparison
-- **Quantum Optimization**: D-Wave Leap hybrid solver with Qiskit QAOA fallback
+- **Quantum Optimization**: D-Wave Leap (US) vs PlanQK/Kipu (EU Sovereign Hybrid)
 - **Visual Dashboard**: Plotly charts for allocation comparison
 - **PDF Reports**: QR-shareable benchmark summaries
 
