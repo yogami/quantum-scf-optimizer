@@ -7,7 +7,6 @@ python-multipart==0.0.6
 # Quantum-Inspired Optimization (Lightweight)
 dwave-system==1.23.0
 dwave-neal==0.6.0
-planqk-sdk==3.11.0
 httpx==0.26.0
 
 # Classical Optimization
