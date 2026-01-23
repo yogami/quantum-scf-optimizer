@@ -40,7 +40,7 @@ function App() {
     const [result, setResult] = useState<OptimizationResult | null>(null)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState<string | null>(null)
-    const [provider, setProvider] = useState<'planqk' | 'dwave'>('planqk')
+    const [provider, setProvider] = useState<'planqk' | 'dwave' | 'ibm'>('planqk')
 
     const handleOptimize = async (csvContent: string) => {
         setLoading(true)
@@ -116,8 +116,8 @@ function App() {
                             <button
                                 onClick={() => setProvider('planqk')}
                                 className={`px-4 py-2 rounded-md text-sm transition-all ${provider === 'planqk'
-                                        ? 'bg-quantum-600 text-white shadow-lg'
-                                        : 'text-slate-400 hover:text-slate-200'
+                                    ? 'bg-quantum-600 text-white shadow-lg'
+                                    : 'text-slate-400 hover:text-slate-200'
                                     }`}
                             >
                                 🇪🇺 PlanQK/Kipu
@@ -125,11 +125,20 @@ function App() {
                             <button
                                 onClick={() => setProvider('dwave')}
                                 className={`px-4 py-2 rounded-md text-sm transition-all ${provider === 'dwave'
-                                        ? 'bg-quantum-600 text-white shadow-lg'
-                                        : 'text-slate-400 hover:text-slate-200'
+                                    ? 'bg-quantum-600 text-white shadow-lg'
+                                    : 'text-slate-400 hover:text-slate-200'
                                     }`}
                             >
-                                🇺🇸 D-Wave Leap
+                                🇺🇸 D-Wave
+                            </button>
+                            <button
+                                onClick={() => setProvider('ibm')}
+                                className={`px-4 py-2 rounded-md text-sm transition-all ${provider === 'ibm'
+                                    ? 'bg-quantum-600 text-white shadow-lg'
+                                    : 'text-slate-400 hover:text-slate-200'
+                                    }`}
+                            >
+                                🇩🇪 IBM (Ehningen)
                             </button>
                         </div>
                     </div>
@@ -159,7 +168,11 @@ function App() {
                         <div className="quantum-spinner mx-auto mb-4"></div>
                         <p className="text-quantum-300">Running quantum optimization...</p>
                         <p className="text-slate-500 text-sm mt-2">
-                            Comparing classical PuLP vs {provider === 'dwave' ? 'D-Wave Leap' : 'PlanQK/Kipu'}
+                            Comparing classical PuLP vs {
+                                provider === 'dwave' ? 'D-Wave Leap' :
+                                    provider === 'ibm' ? 'IBM Quantum (Eagle)' :
+                                        'PlanQK/Kipu'
+                            }
                         </p>
                     </div>
                 )}
