@@ -33,3 +33,5 @@ class OptimizationResult:
     solver_type: str  # "classical" or "quantum"
     solve_time_ms: float
     solver_logs: Optional[str] = None
+    confidence_score: float = 100.0  # Percentage of convergence
+    optimality_gap: float = 0.0     # Theoretical distance from global optimum

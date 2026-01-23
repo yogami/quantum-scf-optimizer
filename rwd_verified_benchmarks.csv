@@ -1,0 +1,11 @@
+supplier_id,tier,risk_score,yield_pct,volatility,esg_score,trade_volume,description
+SUP-RWD-01,1,14.2,7.8,11.5,88,2800000,Stable Tier 1 (Matches AAA Manufacturing Profile)
+SUP-RWD-02,1,18.5,8.1,12.8,82,2100000,Standard Tier 1 (Mean Industry Health)
+SUP-RWD-03,2,65.2,14.5,28.4,75,980000,High Yield (Matches 'Pre-Bankruptcy' Statistical Profile)
+SUP-RWD-04,3,82.4,19.2,45.1,62,450000,Distressed Tier 3 (Matches actual failure signature)
+SUP-RWD-05,2,32.8,10.5,15.2,91,1500000,Strong ESG Tier 2 (Publicly Traded Mid-Cap Profile)
+SUP-RWD-06,3,75.1,17.8,38.5,55,520000,Risk-Heavy Tier 3 (Low Net Profit/Total Asset ratio)
+SUP-RWD-07,1,12.1,6.8,8.2,94,3500000,Blue Chip Provider (Z-Score > 3.0)
+SUP-RWD-08,2,42.5,12.8,22.1,78,1100000,Volatility Edge (High Debt-to-Equity profile)
+SUP-RWD-09,2,28.4,9.2,14.8,85,1800000,Growth Profile (High Operational Turnover)
+SUP-RWD-10,3,88.5,21.5,52.4,48,300000,Tail Risk Node (Statistically Significant Default Risk)
