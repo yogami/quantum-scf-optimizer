@@ -15,8 +15,9 @@ from domain.entities import OptimizationResult
 class PDFReportGenerator:
     """Generates PDF benchmark reports with QR codes."""
     
-    def __init__(self, base_url: str = "https://quantum-scf-optimizer.up.railway.app"):
-        self.base_url = base_url
+    def __init__(self, base_url: Optional[str] = None):
+        import os
+        self.base_url = base_url or os.environ.get("BASE_URL", "https://quantum-scf-optimizer-production.up.railway.app")
         self.styles = getSampleStyleSheet()
         self._add_custom_styles()
     

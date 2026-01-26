@@ -7,8 +7,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from fastapi.openapi.utils import get_openapi
-
 from api.routes import optimize
 
 app = FastAPI(
@@ -19,7 +19,7 @@ app = FastAPI(
     openapi_url="/api/openapi.json"
 )
 
-# CORS for frontend
+# CORS for external dev
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -28,8 +28,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include routes
+# Include routes first
 app.include_router(optimize.router, prefix="/api")
+
+# Serve frontend static files
+# Note: Ensure frontend/dist exists (run npm build)
+frontend_path = Path(__file__).parent.parent.parent / "frontend" / "dist"
+if frontend_path.exists():
+    app.mount("/", StaticFiles(directory=str(frontend_path), html=True), name="frontend")
+else:
+    @app.get("/")
+    async def root_fallback():
+        return {"message": "Quantum SCF Backend Live. Frontend build not detected. Please run 'npm run build' in /frontend."}
 
 
 @app.get("/api/health")
