@@ -18,12 +18,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.openapi.utils import get_openapi
 
-# Use absolute project import
 try:
     import backend.api.routes.optimize as optimize_routes
 except ImportError:
-    # Fallback if running from inside backend/api
-    import api.routes.optimize as optimize_routes
+    optimize_routes = None
 
 app = FastAPI(
     title="Quantum SCF Risk Optimizer",
@@ -37,7 +35,6 @@ app = FastAPI(
 @app.get("/api/health")
 async def health_check():
     """Health check endpoint for Railway deployment verification."""
-    # Simple JSON response, no logic
     return {"status": "healthy", "service": "quantum-scf-optimizer"}
 
 # 2. CORS
@@ -49,8 +46,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 3. API Routes
-app.include_router(optimize_routes.router, prefix="/api")
+# 3. API Routes (Lazy Loading)
+def include_routes():
+    try:
+        # Use absolute project import
+        import backend.api.routes.optimize as optimize_routes
+        app.include_router(optimize_routes.router, prefix="/api")
+    except ImportError:
+        try:
+            import api.routes.optimize as optimize_routes
+            app.include_router(optimize_routes.router, prefix="/api")
+        except ImportError as e:
+            print(f"CRITICAL: Could not load optimize routes: {e}")
+
+include_routes()
 
 # 4. Frontend Static Files (Catch-all root mount)
 frontend_path = root_path / "frontend" / "dist"

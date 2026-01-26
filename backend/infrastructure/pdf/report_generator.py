@@ -6,7 +6,6 @@ from reportlab.lib.units import cm
 from reportlab.lib.colors import HexColor
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-import qrcode
 from reportlab.lib.utils import ImageReader
 
 from domain.entities import OptimizationResult
@@ -40,6 +39,7 @@ class PDFReportGenerator:
     
     def _generate_qr(self, job_id: str) -> ImageReader:
         """Generate QR code for report sharing."""
+        import qrcode
         url = f"{self.base_url}/report/{job_id}"
         qr = qrcode.QRCode(version=1, box_size=10, border=2)
         qr.add_data(url)
