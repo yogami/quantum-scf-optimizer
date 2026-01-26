@@ -61,11 +61,11 @@ export default function NetworkGraph({ classicalAllocations, quantumAllocations 
                     plot_bgcolor: 'transparent',
                     font: { color: '#94a3b8' },
                     xaxis: {
-                        title: 'Supplier',
+                        title: { text: 'Supplier' },
                         gridcolor: 'rgba(148, 163, 184, 0.1)'
                     },
                     yaxis: {
-                        title: 'Allocation (€)',
+                        title: { text: 'Allocation (€)' },
                         gridcolor: 'rgba(148, 163, 184, 0.1)',
                         tickformat: ',.0f'
                     },
@@ -94,7 +94,7 @@ export default function NetworkGraph({ classicalAllocations, quantumAllocations 
                             y: classicalAllocations.map(a => a.expected_return),
                             text: classicalAllocations.map(a => a.supplier_id),
                             type: 'scatter',
-                            mode: 'markers+text',
+                            mode: 'text+markers' as any,
                             name: 'Classical',
                             textposition: 'top center',
                             marker: {
@@ -108,7 +108,7 @@ export default function NetworkGraph({ classicalAllocations, quantumAllocations 
                             y: quantumAllocations.map(a => a.expected_return),
                             text: quantumAllocations.map(a => a.supplier_id),
                             type: 'scatter',
-                            mode: 'markers+text',
+                            mode: 'text+markers' as any,
                             name: 'Quantum',
                             textposition: 'top center',
                             marker: {
@@ -123,11 +123,11 @@ export default function NetworkGraph({ classicalAllocations, quantumAllocations 
                         plot_bgcolor: 'transparent',
                         font: { color: '#94a3b8' },
                         xaxis: {
-                            title: 'Risk Contribution',
+                            title: { text: 'Risk Contribution' },
                             gridcolor: 'rgba(148, 163, 184, 0.1)'
                         },
                         yaxis: {
-                            title: 'Expected Return (€)',
+                            title: { text: 'Expected Return (€)' },
                             gridcolor: 'rgba(148, 163, 184, 0.1)',
                             tickformat: ',.0f'
                         },
