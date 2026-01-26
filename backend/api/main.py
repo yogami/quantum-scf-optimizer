@@ -59,7 +59,12 @@ if frontend_path.exists():
 else:
     @app.get("/")
     async def root_fallback():
-        return {"message": "Quantum SCF Backend Live. No frontend build found. Please run 'npm run build' in /frontend."}
+        return {
+            "message": "Quantum SCF Backend Live. No frontend build found.",
+            "searched_path": str(frontend_path),
+            "cwd": os.getcwd(),
+            "root_contents": os.listdir("/") if os.name != 'nt' else []
+        }
 
 
 def custom_openapi():
