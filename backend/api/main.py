@@ -32,7 +32,8 @@ app = FastAPI(
 # 1. Health Check (Immediate Priority)
 @app.get("/api/health")
 async def health_check():
-    return {"status": "healthy", "service": "quantum-scf-optimizer-v2"}
+    """Health check endpoint for Railway deployment verification."""
+    return {"status": "healthy", "service": "quantum-scf-optimizer"}
 
 # 2. CORS
 app.add_middleware(
@@ -43,7 +44,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 3. API Routes (Lazy Loading to prevent boot delays)
+# 3. API Routes
 try:
     import backend.api.routes.optimize as optimize_routes
     app.include_router(optimize_routes.router, prefix="/api")
@@ -52,17 +53,6 @@ except ImportError as e:
 
 # 4. Frontend Integration
 frontend_dist = root_path / "frontend" / "dist"
-
-# Debug endpoint to verify file structure in production
-@app.get("/api/debug/paths")
-async def debug_paths():
-    return {
-        "root": str(root_path),
-        "frontend_dist": str(frontend_dist),
-        "frontend_exists": frontend_dist.exists(),
-        "frontend_contents": os.listdir(str(frontend_dist)) if frontend_dist.exists() else [],
-        "cwd": os.getcwd()
-    }
 
 @app.get("/")
 async def serve_index():
