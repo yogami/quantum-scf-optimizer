@@ -1,0 +1,9 @@
+version: 3
+project:
+  id: "git@gitlab.com:planqk-foss/planqk-starter-python.git"
+  name: "Platform-Starter-Python"
+  labels:
+    - "Platform"
+    - "Open Source"
+    - "PLANQK"
+    - "Starter"

@@ -1,0 +1,15 @@
+[project]
+name = "planqk-starter-python"
+version = "1.0.0"
+description = "Starter project for PLANQK services"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "planqk-commons>=1.32.0",
+    "planqk-quantum>=3.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "notebook>=7.5.1",
+]

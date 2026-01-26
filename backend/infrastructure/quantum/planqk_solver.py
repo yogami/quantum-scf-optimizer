@@ -13,9 +13,9 @@ class PlanQKSolver(SolverPort):
     
     def __init__(self):
         # PlanQK uses Service Gateway Credentials
-        self.access_key = os.environ.get("PLANQK_ACCESS_KEY")
-        self.secret_key = os.environ.get("PLANQK_SECRET_KEY")
-        self.service_url = os.environ.get("PLANQK_SERVICE_URL")
+        self.access_key = os.environ.get("PLANQK_ACCESS_KEY", "").strip()
+        self.secret_key = os.environ.get("PLANQK_SECRET_KEY", "").strip()
+        self.service_url = os.environ.get("PLANQK_SERVICE_URL", "").strip()
         self._use_fallback = False
         
     def _build_qubo(self, tiers: list[SCFTier]) -> dict:
@@ -35,50 +35,109 @@ class PlanQKSolver(SolverPort):
                 Q[(i, j)] = penalty / n
         return Q
     
-    def _planqk_solve(self, Q: dict):
-        """Attempt to solve using PlanQK/Kipu REST API."""
-        if not self.access_key or not self.secret_key or not self.service_url:
-            return None, "Missing PlanQK credentials (Access Key / Secret / Service URL)"
+    def _planqk_solve(self, tiers: list[SCFTier], budget: float, risk_tolerance: float, esg_min: float):
+        """Attempt to solve using PlanQK/Kipu REST API with polling."""
+        pat = os.environ.get("PLANQK_PERSONAL_ACCESS_TOKEN")
+        if not self.service_url:
+            return None, "Missing PLANQK_SERVICE_URL"
             
+        auth_header = {}
+        if pat:
+            auth_header = {"Authorization": f"Bearer {pat}"}
+        elif self.access_key and self.secret_key:
+            # Traditional OAuth2 token request
+            try:
+                auth_str = f"{self.access_key}:{self.secret_key}"
+                encoded_auth = base64.b64encode(auth_str.encode()).decode()
+                with httpx.Client() as client:
+                    token_res = client.post(
+                        "https://gateway.hub.kipu-quantum.com/token",
+                        data={"grant_type": "client_credentials"},
+                        headers={"Authorization": f"Basic {encoded_auth}"},
+                        timeout=10.0
+                    )
+                    token_res.raise_for_status()
+                    token = token_res.json().get("access_token")
+                    auth_header = {"Authorization": f"Bearer {token}"}
+            except Exception as e:
+                return None, f"PlanQK Auth Error: {str(e)}"
+        else:
+            return None, "Missing PlanQK credentials (PAT or Key/Secret)"
+
         try:
-            # 1. Obtain Access Token
-            auth_str = f"{self.access_key}:{self.secret_key}"
-            encoded_auth = base64.b64encode(auth_str.encode()).decode()
-            
+            # Prepare tiers data for the service
+            tiers_data = [
+                {
+                    "supplier_id": t.supplier_id,
+                    "risk_score": float(t.risk_score),
+                    "yield_pct": float(t.yield_pct),
+                    "esg_score": float(t.esg_score)
+                }
+                for t in tiers
+            ]
+
             with httpx.Client() as client:
-                token_res = client.post(
-                    "https://gateway.hub.kipu-quantum.com/token",
-                    data={"grant_type": "client_credentials"},
-                    headers={"Authorization": f"Basic {encoded_auth}"},
-                    timeout=10.0
-                )
-                token_res.raise_for_status()
-                token = token_res.json().get("access_token")
-                
-                # 2. Execute Service
+                # 1. Execute Service
                 payload = {
-                    "data": {"qubo": {str(k): v for k, v in Q.items()}},
-                    "params": {"solver": "kipu-quantum-hub"}
+                    "data": {
+                        "tiers": tiers_data,
+                        "budget": float(budget)
+                    },
+                    "params": {
+                        "risk_tolerance": float(risk_tolerance),
+                        "esg_min": float(esg_min)
+                    }
                 }
                 
+                # Ensure trailing slash for service URL as per docs
+                base_url = self.service_url if self.service_url.endswith("/") else f"{self.service_url}/"
+                
                 exec_res = client.post(
-                    self.service_url,
+                    base_url,
                     json=payload,
-                    headers={"Authorization": f"Bearer {token}"},
+                    headers={**auth_header, "Content-Type": "application/json", "Accept": "application/json"},
                     timeout=30.0
                 )
                 exec_res.raise_for_status()
                 exec_data = exec_res.json()
-                
-                # 3. Poll for result (Simplified for POC)
                 job_id = exec_data.get("id")
-                # In a real app, you'd poll /result/{job_id}
-                # For this POC, we return the simulation fallback if polling is needed
-                return None, f"Job {job_id} submitted to Kipu Hub (Polling required)"
+                
+                # 2. Poll for result (Wait up to 30s for POC)
+                max_retries = 15
+                for i in range(max_retries):
+                    status_res = client.get(
+                        f"{base_url}{job_id}",
+                        headers={**auth_header, "Accept": "application/json"},
+                        timeout=10.0
+                    )
+                    status_res.raise_for_status()
+                    job_status = status_res.json().get("status")
+                    
+                    if job_status == "SUCCEEDED":
+                        result_res = client.get(
+                            f"{base_url}{job_id}/result",
+                            headers={**auth_header, "Accept": "application/json"},
+                            timeout=10.0
+                        )
+                        result_res.raise_for_status()
+                        result_data = result_res.json()
+                        # Extract bitstring/sample from result
+                        sample = result_data.get("sample") or result_data.get("result", {}).get("sample")
+                        # Handle potential string keys from JSON
+                        if sample:
+                            sample = {int(k) if isinstance(k, str) and k.isdigit() else k: v for k, v in sample.items()}
+                        return sample, f"Sovereign Quantum (Kipu Hub - Job {job_id})"
+                    
+                    if job_status in ["FAILED", "CANCELLED", "UNKNOWN"]:
+                        return None, f"Job {job_id} {job_status}"
+                        
+                    time.sleep(2) # Wait before next poll
+                    
+                return None, f"Job {job_id} timed out after {max_retries*2}s"
                 
         except Exception as e:
-            return None, f"PlanQK API Error: {str(e)}"
-            
+            return None, f"PlanQK Execution Error: {str(e)}"
+
     def _simulated_fallback(self, Q: dict) -> tuple:
         """Local Simulated Annealing - 'Berlin Sandbox' mode."""
         try:
@@ -87,26 +146,29 @@ class PlanQKSolver(SolverPort):
             response = sampler.sample_qubo(Q, num_reads=50, seed=42)
             return response.first.sample, "Simulated Quantum (Berlin Sandbox)"
         except Exception as e:
-            # Ultimate fallback if neal is also missing (unlikely)
+            # Ultimate fallback
             size = 0
             if Q:
                 for k in Q.keys():
-                    size = max(size, k[0] + 1, k[1] + 1)
+                    if isinstance(k, tuple):
+                        size = max(size, k[0] + 1, k[1] + 1)
             sample = {i: 1 for i in range(size)}
             return sample, f"Greedy fallback: {str(e)}"
 
     def optimize(
-        self, tiers, budget, risk_tolerance, esg_min
+        self, tiers: list[SCFTier], budget: float, risk_tolerance: float, esg_min: float
     ) -> OptimizationResult:
         start_time = time.time()
-        Q = self._build_qubo(tiers)
         
-        # 1. Try PlanQK REST API
-        sample, method = self._planqk_solve(Q)
+        # 1. Try PlanQK/Kipu REST API
+        sample, method = self._planqk_solve(tiers, budget, risk_tolerance, esg_min)
+        error_log = ""
         
         # 2. Fallback to Local Sandbox if API fails or credentials missing
         if not sample:
+            error_log = f"PlanQK API Failed: {method}. Falling back to sandbox.\n"
             self._use_fallback = True
+            Q = self._build_qubo(tiers)
             sample, method = self._simulated_fallback(Q)
             
         solve_time = (time.time() - start_time) * 1000
@@ -139,7 +201,7 @@ class PlanQKSolver(SolverPort):
             total_risk=total_risk,
             solver_type="Sovereign Quantum (Kipu Hub)" if not self._use_fallback else "Sandbox (EU Fallback)",
             solve_time_ms=solve_time,
-            solver_logs=f"Method: {method}\nPlatform: PlanQK (Germany)",
+            solver_logs=f"{error_log}Method: {method}\nPlatform: PlanQK (Germany)",
             confidence_score=99.7,
             optimality_gap=0.03
         )

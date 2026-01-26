@@ -1,0 +1,14 @@
+.git
+.idea
+.vscode
+.devcontainer
+.venv
+input
+notebooks
+out
+__pycache__/
+.pytest_cache/
+.DS_Store
+.run
+CLAUDE.md
+.mcp.json

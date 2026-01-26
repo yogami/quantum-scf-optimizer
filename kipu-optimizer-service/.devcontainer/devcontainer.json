@@ -1,0 +1,49 @@
+{
+  "name": "planqk-starter-python",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {
+    "ghcr.io/va-h/devcontainers-features/uv:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts",
+      "nvmVersion": "latest"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": ["bash", "-i", "./.devcontainer/post-create.sh"],
+
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-python.vscode-pylance",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter"
+        }
+      }
+    }
+  },
+
+  "mounts": [
+    // Linux/MacOS
+    "source=${localEnv:HOME}/.config/planqk,target=/home/vscode/.config/planqk,type=bind,consistency=cached"
+    // Windows
+    // "source=${localEnv:LOCALAPPDATA}/planqk,target=/home/vscode/.config/planqk,type=bind,consistency=cached"
+  ]
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}

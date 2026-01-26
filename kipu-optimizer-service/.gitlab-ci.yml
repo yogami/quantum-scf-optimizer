@@ -1,0 +1,43 @@
+variables:
+  UV_VERSION: 0.8
+  PYTHON_VERSION: 3.11
+  BASE_LAYER: bookworm-slim
+  # GitLab CI creates a separate mountpoint for the build directory,
+  # so we need to copy instead of using hard links.
+  UV_LINK_MODE: copy
+  UV_CACHE_DIR: .uv-cache
+
+stages:
+  - install
+  - compliance
+
+install:
+  stage: install
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+  image: ghcr.io/astral-sh/uv:$UV_VERSION-python$PYTHON_VERSION-$BASE_LAYER
+  script:
+    - uv sync --frozen
+    - uv export --format requirements-txt --no-dev --no-emit-project > requirements.txt
+  artifacts:
+    expire_in: 1 hour
+    paths:
+      - .venv
+      - requirements.txt
+
+oss-compliance-check:
+  stage: compliance
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+  image: ubuntu:latest
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends ca-certificates curl
+    - curl https://raw.githubusercontent.com/fossas/fossa-cli/master/install-latest.sh | bash
+    - source .venv/bin/activate
+  script:
+    - FOSSA_REVISION=$([ -z $CI_COMMIT_TAG ] && echo $CI_COMMIT_SHA || echo $CI_COMMIT_TAG)
+    - FOSSA_BRANCH=$([ -z $CI_COMMIT_BRANCH ] && echo 'main' || echo $CI_COMMIT_BRANCH)
+    - fossa analyze -b $FOSSA_BRANCH -r $FOSSA_REVISION .
+    - fossa test -r $FOSSA_REVISION

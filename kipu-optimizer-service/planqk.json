@@ -1,0 +1,11 @@
+{
+  "name": "kipu-optimizer-service",
+  "version": "1.0.0",
+  "descriptionFile": "README.md",
+  "resources": {
+    "cpu": 1,
+    "memory": 1
+  },
+  "runtime": "PYTHON_TEMPLATE",
+  "serviceId": "1f0a8974-eba4-4479-84ac-3dfa4503c9fe"
+}

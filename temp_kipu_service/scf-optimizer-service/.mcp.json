@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "kipu-quantum-hub": {
+      "command": "uvx",
+      "args": ["kipu-quantum-hub-mcp"],
+      "env": {
+        "KIPU_ACCESS_TOKEN": "<YOUR_PERSONAL_ACCESS_TOKEN>"
+      }
+    }
+  }
+}
