@@ -19,19 +19,36 @@ class PlanQKSolver(SolverPort):
         self._use_fallback = False
         
     def _build_qubo(self, tiers: list[SCFTier]) -> dict:
-        """Build QUBO matrix for PlanQK/Kipu optimization."""
+        """
+        Build Advanced HOBO-inspired QUBO matrix.
+        Targets double-digit alpha by pricing systemic cluster risks.
+        """
         n = len(tiers)
         Q = {}
-        for i, tier in enumerate(tiers):
-            # ESG-weighted yield/risk formulation
-            # PlanQK/Kipu often excels at multi-objective problems
-            esg_bonus = tier.esg_score / 100.0
-            Q[(i, i)] = -tier.yield_pct + (0.5 * tier.risk_score) - esg_bonus
         
-        # Cross-tier risk correlation penalty
-        penalty = 800
+        # 1. Advanced Node Weighting (Yield + Compliance Arbitrage)
+        for i, tier in enumerate(tiers):
+            # We treat ESG not just as a bonus, but as an insurance premium.
+            # Avoidance of high-risk ESG suppliers prevents future liability spikes.
+            esg_compliance_value = (tier.esg_score - 50) * 0.1
+            yield_term = -tier.yield_pct 
+            risk_term = 0.4 * tier.risk_score
+            
+            Q[(i, i)] = yield_term + risk_term - esg_compliance_value
+
+        # 2. Systemic Cluster Risk (The 'HOBO' proxy)
+        # Instead of a flat penalty, we penalize suppliers with similar risk profiles
+        # to prevent 'Portfolio Correlation Collapse'
         for i in range(n):
             for j in range(i + 1, n):
+                # Calculate correlation proxy based on tier and risk scores
+                correlation_risk = abs(tiers[i].risk_score - tiers[j].risk_score) < 5
+                same_tier = tiers[i].tier == tiers[j].tier
+                
+                penalty = 0
+                if same_tier: penalty += 500  # Diversity requirement
+                if correlation_risk: penalty += 1200 # Systemic failure overlap
+                
                 Q[(i, j)] = penalty / n
         return Q
     
