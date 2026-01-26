@@ -1,15 +1,29 @@
 """FastAPI Main Application - Quantum SCF Risk Optimizer API."""
 import sys
+import os
 from pathlib import Path
 
-# Add backend to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Identify project root and backend directory
+root_path = Path(__file__).parent.parent.parent.resolve()
+backend_path = root_path / "backend"
+
+# Add to sys.path for absolute imports
+if str(root_path) not in sys.path:
+    sys.path.insert(0, str(root_path))
+if str(backend_path) not in sys.path:
+    sys.path.insert(0, str(backend_path))
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.openapi.utils import get_openapi
-from api.routes import optimize
+
+# Use absolute project import
+try:
+    import backend.api.routes.optimize as optimize_routes
+except ImportError:
+    # Fallback if running from inside backend/api
+    import api.routes.optimize as optimize_routes
 
 app = FastAPI(
     title="Quantum SCF Risk Optimizer",
@@ -19,7 +33,14 @@ app = FastAPI(
     openapi_url="/api/openapi.json"
 )
 
-# CORS for external dev
+# 1. Health Check (Defined FIRST to avoid any shadowing/import delays)
+@app.get("/api/health")
+async def health_check():
+    """Health check endpoint for Railway deployment verification."""
+    # Simple JSON response, no logic
+    return {"status": "healthy", "service": "quantum-scf-optimizer"}
+
+# 2. CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -28,24 +49,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 1. API Routes (Router)
-app.include_router(optimize.router, prefix="/api")
+# 3. API Routes
+app.include_router(optimize_routes.router, prefix="/api")
 
-# 2. Health Check (Crucial to be before root mount)
-@app.get("/api/health")
-async def health_check():
-    """Health check endpoint for Railway deployment verification."""
-    return {"status": "healthy", "service": "quantum-scf-optimizer"}
-
-# 3. Frontend Static Files (Catch-all root mount)
-# Note: Ensure frontend/dist exists (run npm build)
-frontend_path = Path(__file__).parent.parent.parent / "frontend" / "dist"
+# 4. Frontend Static Files (Catch-all root mount)
+frontend_path = root_path / "frontend" / "dist"
 if frontend_path.exists():
     app.mount("/", StaticFiles(directory=str(frontend_path), html=True), name="frontend")
 else:
     @app.get("/")
     async def root_fallback():
-        return {"message": "Quantum SCF Backend Live. Frontend build not detected. Please run 'npm run build' in /frontend."}
+        return {"message": "Quantum SCF Backend Live. No frontend build found. Please run 'npm run build' in /frontend."}
 
 
 def custom_openapi():

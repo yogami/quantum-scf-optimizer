@@ -19,4 +19,5 @@ numpy==1.26.3
 
 # PDF Generation
 reportlab==4.0.9
-qrcode[pil]==7.4.2
+qrcode==7.4.2
+Pillow==10.2.0

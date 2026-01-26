@@ -6,6 +6,6 @@
     "deploy": {
         "startCommand": "python -m uvicorn backend.api.main:app --host 0.0.0.0 --port $PORT",
         "healthcheckPath": "/api/health",
-        "healthcheckTimeout": 120
+        "healthcheckTimeout": 300
     }
 }
