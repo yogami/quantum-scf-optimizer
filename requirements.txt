@@ -3,6 +3,7 @@ fastapi==0.109.0
 uvicorn[standard]==0.27.0
 pydantic==2.5.3
 python-multipart==0.0.6
+aiofiles==23.2.1
 
 # Quantum-Inspired Optimization (Lightweight)
 dwave-system==1.23.0

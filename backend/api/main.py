@@ -28,10 +28,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include routes first
+# 1. API Routes (Router)
 app.include_router(optimize.router, prefix="/api")
 
-# Serve frontend static files
+# 2. Health Check (Crucial to be before root mount)
+@app.get("/api/health")
+async def health_check():
+    """Health check endpoint for Railway deployment verification."""
+    return {"status": "healthy", "service": "quantum-scf-optimizer"}
+
+# 3. Frontend Static Files (Catch-all root mount)
 # Note: Ensure frontend/dist exists (run npm build)
 frontend_path = Path(__file__).parent.parent.parent / "frontend" / "dist"
 if frontend_path.exists():
@@ -40,12 +46,6 @@ else:
     @app.get("/")
     async def root_fallback():
         return {"message": "Quantum SCF Backend Live. Frontend build not detected. Please run 'npm run build' in /frontend."}
-
-
-@app.get("/api/health")
-async def health_check():
-    """Health check endpoint for Railway deployment verification."""
-    return {"status": "healthy", "service": "quantum-scf-optimizer"}
 
 
 def custom_openapi():
