@@ -2,9 +2,17 @@
 import sys
 import os
 from pathlib import Path
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.openapi.utils import get_openapi
+from fastapi.responses import FileResponse
 
 # Identify project root and backend directory
-root_path = Path(__file__).parent.parent.parent.resolve()
+# Handle both local and Docker environments
+current_file = Path(__file__).resolve()
+# If main.py is in backend/api/main.py
+root_path = current_file.parent.parent.parent
 backend_path = root_path / "backend"
 
 # Add to sys.path for absolute imports
@@ -12,16 +20,6 @@ if str(root_path) not in sys.path:
     sys.path.insert(0, str(root_path))
 if str(backend_path) not in sys.path:
     sys.path.insert(0, str(backend_path))
-
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.openapi.utils import get_openapi
-
-try:
-    import backend.api.routes.optimize as optimize_routes
-except ImportError:
-    optimize_routes = None
 
 app = FastAPI(
     title="Quantum SCF Risk Optimizer",
@@ -31,10 +29,9 @@ app = FastAPI(
     openapi_url="/api/openapi.json"
 )
 
-# 1. Health Check (Defined FIRST to avoid any shadowing/import delays)
+# 1. Health Check (Immediate Priority)
 @app.get("/api/health")
 async def health_check():
-    """Health check endpoint for Railway deployment verification."""
     return {"status": "healthy", "service": "quantum-scf-optimizer"}
 
 # 2. CORS
@@ -46,53 +43,56 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 3. API Routes (Lazy Loading)
-def include_routes():
-    try:
-        # Use absolute project import
-        import backend.api.routes.optimize as optimize_routes
-        app.include_router(optimize_routes.router, prefix="/api")
-    except ImportError:
-        try:
-            import api.routes.optimize as optimize_routes
-            app.include_router(optimize_routes.router, prefix="/api")
-        except ImportError as e:
-            print(f"CRITICAL: Could not load optimize routes: {e}")
+# 3. API Routes (Lazy Loading to prevent boot delays)
+try:
+    import backend.api.routes.optimize as optimize_routes
+    app.include_router(optimize_routes.router, prefix="/api")
+except ImportError as e:
+    print(f"Warning: Could not load optimize routes: {e}")
 
-include_routes()
+# 4. Frontend Integration
+frontend_dist = root_path / "frontend" / "dist"
 
-# 4. Frontend Static Files (Catch-all root mount)
-frontend_path = root_path / "frontend" / "dist"
-if frontend_path.exists():
-    app.mount("/", StaticFiles(directory=str(frontend_path), html=True), name="frontend")
-else:
-    @app.get("/")
-    async def root_fallback():
-        return {
-            "message": "Quantum SCF Backend Live. No frontend build found.",
-            "searched_path": str(frontend_path),
-            "cwd": os.getcwd(),
-            "root_contents": os.listdir("/") if os.name != 'nt' else []
-        }
+# Debug endpoint to verify file structure in production
+@app.get("/api/debug/paths")
+async def debug_paths():
+    return {
+        "root": str(root_path),
+        "frontend_dist": str(frontend_dist),
+        "frontend_exists": frontend_dist.exists(),
+        "frontend_contents": os.listdir(str(frontend_dist)) if frontend_dist.exists() else [],
+        "cwd": os.getcwd()
+    }
 
+@app.get("/")
+async def serve_index():
+    index_file = frontend_dist / "index.html"
+    if index_file.exists():
+        return FileResponse(index_file)
+    return {
+        "message": "Quantum SCF Backend Live. Frontend build not found.",
+        "path_searched": str(index_file),
+        "current_dir": os.getcwd()
+    }
+
+# Mount static files for assets (JS/CSS)
+if frontend_dist.exists():
+    app.mount("/assets", StaticFiles(directory=str(frontend_dist / "assets")), name="assets")
+    # Also mount root dist in case of other static files
+    app.mount("/", StaticFiles(directory=str(frontend_dist)), name="root_static")
 
 def custom_openapi():
-    """Custom OpenAPI schema for Agent-Ready discovery."""
     if app.openapi_schema:
         return app.openapi_schema
-    
     openapi_schema = get_openapi(
         title="Quantum SCF Risk Optimizer API",
         version="1.0.0",
         description="Berlin AI Labs - Hybrid quantum/classical SCF optimization",
         routes=app.routes,
     )
-    
     openapi_schema["info"]["x-agent-ready"] = True
     openapi_schema["info"]["x-capability"] = "quantum-scf-optimization"
-    
     app.openapi_schema = openapi_schema
     return app.openapi_schema
-
 
 app.openapi = custom_openapi
