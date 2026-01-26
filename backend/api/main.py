@@ -32,7 +32,7 @@ app = FastAPI(
 # 1. Health Check (Immediate Priority)
 @app.get("/api/health")
 async def health_check():
-    return {"status": "healthy", "service": "quantum-scf-optimizer"}
+    return {"status": "healthy", "service": "quantum-scf-optimizer-v2"}
 
 # 2. CORS
 app.add_middleware(
