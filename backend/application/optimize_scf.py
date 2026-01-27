@@ -6,6 +6,7 @@ from typing import Optional
 
 from domain.entities import SCFTier, OptimizationResult
 from infrastructure.quantum import ClassicalSolver, DWaveSolver, PlanQKSolver, IBMSolver
+from infrastructure.cascadeguard.adapter import CascadeGuardSCFAdapter
 from infrastructure.pdf import PDFReportGenerator
 
 
@@ -17,6 +18,7 @@ class OptimizeSCFUseCase:
         self.dwave_solver = DWaveSolver()
         self.planqk_solver = PlanQKSolver()
         self.ibm_solver = IBMSolver()
+        self.cascadeguard_solver = CascadeGuardSCFAdapter()
         self.pdf_generator = PDFReportGenerator()
     
     def parse_csv(self, csv_content: str) -> list[SCFTier]:
@@ -63,6 +65,8 @@ class OptimizeSCFUseCase:
             quantum_solver = self.dwave_solver
         elif quantum_provider.lower() == "ibm":
             quantum_solver = self.ibm_solver
+        elif quantum_provider.lower() == "cascadeguard":
+            quantum_solver = self.cascadeguard_solver
         else:
             quantum_solver = self.planqk_solver
 
