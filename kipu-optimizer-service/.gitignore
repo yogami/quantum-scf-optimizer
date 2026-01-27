@@ -353,3 +353,7 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/macos,python,windows,visualstudiocode,jetbrains+all,jupyternotebooks
 
 planqk.zip
+
+# Agent Context Injections
+.agent_rules.md
+.agent_catalog.md

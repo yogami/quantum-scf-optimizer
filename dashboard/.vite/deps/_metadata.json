@@ -1,0 +1,61 @@
+{
+  "hash": "ad29d65d",
+  "configHash": "f1df7466",
+  "lockfileHash": "f1e18a33",
+  "browserHash": "96f4822c",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "cf897dce",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "a923bb56",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "f1fd28bf",
+      "needsInterop": true
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "0cc306e2",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "02c8ba44",
+      "needsInterop": false
+    },
+    "react-force-graph": {
+      "src": "../../node_modules/react-force-graph/dist/react-force-graph.mjs",
+      "file": "react-force-graph.js",
+      "fileHash": "c74f02fe",
+      "needsInterop": false
+    },
+    "three": {
+      "src": "../../node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "7e726590",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-VX2H6PUQ": {
+      "file": "chunk-VX2H6PUQ.js"
+    },
+    "chunk-PSGFQQOX": {
+      "file": "chunk-PSGFQQOX.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
