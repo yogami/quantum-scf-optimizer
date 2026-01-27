@@ -73,52 +73,101 @@ async def get_demo_topology():
     return {"nodes": nodes, "links": links}
 
 @app.get("/api/live-scenario")
-async def get_live_scenario():
+async def get_live_scenario(scenario: str = "baseline"):
     """
-    Returns the REAL calculated risk profile for the Automotive Supply Chain scenario.
+    Returns the REAL calculated risk profile for various Supply Chain scenarios.
     """
     try:
-        # Define the Real-World Scenario (Figures in Millions EUR)
-        suppliers = [
-            {"id": "BMW Group", "tier": 0, "revenue": 50000.0}, # €50B
-            {"id": "Bosch", "tier": 1, "revenue": 15000.0},     # €15B
-            {"id": "ZF", "tier": 1, "revenue": 12000.0},        # €12B
-            {"id": "NXP", "tier": 2, "revenue": 8000.0},        # €8B
-            {"id": "Infineon", "tier": 2, "revenue": 7500.0},   # €7.5B
-            {"id": "TSMC", "tier": 3, "revenue": 60000.0}       # €60B
-        ]
+        # 1. DEFINE SCENARIOS
+        if scenario == "red-sea":
+            # Red Sea Blockade: High lead times for Asian Semi-conductors
+            suppliers = [
+                {"id": "BMW Group", "tier": 0, "revenue": 50000.0},
+                {"id": "Bosch", "tier": 1, "revenue": 15000.0},
+                {"id": "TSMC", "tier": 2, "revenue": 60000.0},
+                {"id": "GlobalFoundries", "tier": 2, "revenue": 8000.0}
+            ]
+            dependencies = [
+                ("BMW Group", "Bosch"),
+                ("Bosch", "TSMC"),
+                ("Bosch", "GlobalFoundries")
+            ]
+            total_exposure = 2400.0 # Doubled risk exposure
+            threshold = 0.3 # Lower threshold for panic
         
-        # Define Dependencies (The Real Graph)
-        dependencies = [
-            ("BMW Group", "Bosch"),
-            ("BMW Group", "ZF"),
-            ("Bosch", "NXP"),
-            ("Bosch", "Infineon"),
-            ("ZF", "NXP"),
-            ("NXP", "TSMC"),     # Critical Single Point
-            ("Infineon", "TSMC") # Critical Single Point
-        ]
+        elif scenario == "energy-crisis":
+            # Energy Crisis: EU Manufacturing under stress
+            suppliers = [
+                {"id": "Volkswagen", "tier": 0, "revenue": 65000.0},
+                {"id": "Continental", "tier": 1, "revenue": 12000.0},
+                {"id": "BASF", "tier": 2, "revenue": 18000.0},
+                {"id": "ThyssenKrupp", "tier": 2, "revenue": 9000.0}
+            ]
+            dependencies = [
+                ("Volkswagen", "Continental"),
+                ("Continental", "BASF"),
+                ("Continental", "ThyssenKrupp")
+            ]
+            total_exposure = 1800.0
+            threshold = 0.4
+            
+        elif scenario == "port-strike":
+            # Global Logistics Strike: Logistics hubs become single points of failure
+            suppliers = [
+                {"id": "Mercedes-Benz", "tier": 0, "revenue": 45000.0},
+                {"id": "ZF Group", "tier": 1, "revenue": 14000.0},
+                {"id": "Maersk Logistics", "tier": 2, "revenue": 25000.0}, # The critical node
+                {"id": "Kuhne+Nagel", "tier": 2, "revenue": 12000.0}
+            ]
+            dependencies = [
+                ("Mercedes-Benz", "ZF Group"),
+                ("ZF Group", "Maersk Logistics"),
+                ("ZF Group", "Kuhne+Nagel")
+            ]
+            total_exposure = 3200.0
+            threshold = 0.2
+            
+        else: # baseline
+            suppliers = [
+                {"id": "BMW Group", "tier": 0, "revenue": 50000.0},
+                {"id": "Bosch", "tier": 1, "revenue": 15000.0},
+                {"id": "ZF", "tier": 1, "revenue": 12000.0},
+                {"id": "NXP", "tier": 2, "revenue": 8000.0},
+                {"id": "Infineon", "tier": 2, "revenue": 7500.0},
+                {"id": "TSMC", "tier": 3, "revenue": 60000.0}
+            ]
+            dependencies = [
+                ("BMW Group", "Bosch"),
+                ("BMW Group", "ZF"),
+                ("Bosch", "NXP"),
+                ("Bosch", "Infineon"),
+                ("ZF", "NXP"),
+                ("NXP", "TSMC"),
+                ("Infineon", "TSMC")
+            ]
+            total_exposure = 1200.0
+            threshold = 0.5
 
-        # CALCULATE REAL RISK
-        # Total Exposure = €1.2B (1200M)
+        # 2. CALCULATE REAL RISK
         result = auditor.audit_contagion_risk(
             suppliers=suppliers,
-            total_exposure=1200.0, 
-            risk_threshold=0.5,
+            total_exposure=total_exposure, 
+            risk_threshold=threshold,
             dependencies=dependencies
         )
         
-        # Format for Frontend (match App.tsx expectations)
+        # 3. FORMAT FOR FRONTEND
         response = {
-            "spectral_radius": result.get("systemic_vulnerability_score", 0) * 100, # Scale for display (0.18 -> 18.0)
+            "scenario": scenario,
+            "spectral_radius": result.get("systemic_vulnerability_score", 0) * 100,
             "max_eigenvalue": result.get("stochastic_confirmation", 0),
             "risk_score": result.get("systemic_vulnerability_score", 0),
             "potential_loss": {
-                "amount": result.get("expected_contagion_loss_eur", 0) * 1000000, # Convert to absolute units if needed, or keep as M
+                "amount": result.get("expected_contagion_loss_eur", 0) * 1000000,
                 "currency": "EUR"
             },
             "topology": {
-                "nodes": [{"id": s["id"], "tier": s["tier"], "isCritical": s["id"] == "TSMC"} for s in suppliers],
+                "nodes": [{"id": s["id"], "tier": s["tier"], "isCritical": s["id"] in ["TSMC", "Maersk Logistics", "BASF"]} for s in suppliers],
                 "links": [{"source": s, "target": t} for s, t in dependencies]
             }
         }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Shield, AlertTriangle, CheckCircle, RefreshCw } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { Shield, AlertTriangle, RefreshCw, Zap, Activity, Network, Layers, Fingerprint, ChevronRight } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface AuditMetrics {
   spectral_radius: number;
@@ -20,12 +20,14 @@ interface AuditMetrics {
 const Dashboard = () => {
   const [metrics, setMetrics] = useState<AuditMetrics | null>(null);
   const [loading, setLoading] = useState(true);
+  const [scenario, setScenario] = useState('baseline');
 
-  const fetchLiveAudit = async () => {
+  const fetchLiveAudit = async (selectedScenario: string = 'baseline') => {
     try {
       setLoading(true);
-      // Connect to the actual Python Audit Engine
-      const res = await fetch('http://localhost:11885/api/live-scenario');
+      setScenario(selectedScenario);
+      // Connect to the actual Python Audit Engine with scenario param
+      const res = await fetch(`http://localhost:11885/api/live-scenario?scenario=${selectedScenario}`);
       const data = await res.json();
       setMetrics({
         spectral_radius: data.spectral_radius,
@@ -37,7 +39,7 @@ const Dashboard = () => {
       });
     } catch (e) {
       console.error("Engine Connection Failed", e);
-      // Fallback for visual stability if API is down during dev
+      // Fallback for visual stability
       setMetrics({
         spectral_radius: 18.42,
         max_eigenvalue: 0.95,
@@ -47,7 +49,7 @@ const Dashboard = () => {
         topology: { nodes: [], links: [] }
       });
     } finally {
-      setTimeout(() => setLoading(false), 800); // Minimal cinematic delay
+      setTimeout(() => setLoading(false), 800);
     }
   };
 
@@ -91,41 +93,57 @@ const Dashboard = () => {
       <main className="flex-1 grid grid-cols-12 gap-0 overflow-hidden font-sans">
 
         {/* LEFT COMPONENT: GLOBAL HEALTH */}
-        <aside className="col-span-3 border-r border-[#1F2833] bg-[#0B0C10] p-8 flex flex-col gap-8 overflow-y-auto">
-          <div className="text-white font-bold text-2xl mb-2 border-b border-[#1F2833] pb-4 tracking-tight">GLOBAL METRICS</div>
+        <aside className="col-span-3 border-r border-[#1F2833] bg-[#0B0C10] p-8 flex flex-col gap-6 overflow-y-auto relative z-10">
+          <div className="text-white font-bold text-2xl mb-2 border-b border-[#1F2833] pb-4 tracking-tight">SYSTEM RISK</div>
 
-          <div className="p-6 bg-[#1F2833] rounded-xl border border-[#45A29E]/20 shadow-lg shadow-black/50">
-            <div className="text-sm font-bold uppercase tracking-widest text-[#66FCF1] mb-2 opacity-90">Spectral Radius (λ₁)</div>
-            <div className="text-7xl text-white font-black tracking-tighter tabular-nums font-mono">
-              {metrics?.spectral_radius.toFixed(2)}
+          {/* SCENARIO SELECTOR */}
+          <div className="space-y-3">
+            <div className="text-[#66FCF1]/50 text-[10px] tracking-widest uppercase font-bold flex items-center gap-2 mb-2">
+              <Zap className="w-3 h-3 text-[#66FCF1]" /> SCENARIO SELECTOR
             </div>
-            <div className="w-full h-1.5 bg-black mt-5 rounded-full overflow-hidden">
-              <div className="h-full bg-[#66FCF1] shadow-[0_0_10px_#66FCF1]" style={{ width: `${Math.min((metrics?.spectral_radius || 0) * 5, 100)}%` }}></div>
-            </div>
+            {[
+              { id: 'baseline', label: 'BASELINE AUDIT', icon: <Shield className="w-4 h-4" /> },
+              { id: 'red-sea', label: 'RED SEA BLOCKADE', icon: <AlertTriangle className="w-4 h-4" /> },
+              { id: 'energy-crisis', label: 'ENERGY CRISIS', icon: <Zap className="w-4 h-4" /> },
+              { id: 'port-strike', label: 'PORT STRIKE', icon: <Activity className="w-4 h-4" /> }
+            ].map(s => (
+              <button
+                key={s.id}
+                onClick={() => fetchLiveAudit(s.id)}
+                className={`w-full text-left p-3 border transition-all flex items-center justify-between font-mono text-[11px] tracking-tight ${scenario === s.id
+                  ? 'bg-[#66FCF1] text-black border-[#66FCF1] font-bold shadow-[0_0_15px_rgba(102,252,241,0.3)]'
+                  : 'border-[#1F2833] text-gray-500 hover:border-[#66FCF1]/30 hover:text-[#66FCF1]'
+                  }`}
+              >
+                <span className="flex items-center gap-3">{s.icon} {s.label}</span>
+                {scenario === s.id && <div className="w-1.5 h-1.5 rounded-full bg-black animate-pulse" />}
+              </button>
+            ))}
           </div>
 
-          <div className="p-6 bg-[#1F2833] rounded-xl border border-[#FF4136]/30 relative overflow-hidden shadow-lg shadow-black/50">
-            <div className="absolute top-0 right-0 p-3 opacity-10">
-              <AlertTriangle className="w-16 h-16 text-[#FF4136]" />
+          <div className="mt-4 space-y-6">
+            <div className="text-[#66FCF1]/50 text-[10px] tracking-widest uppercase font-bold flex items-center gap-2">
+              <Activity className="w-3 h-3" /> GLOBAL METRICS
             </div>
-            <div className="text-sm font-bold uppercase tracking-widest text-[#FF4136] mb-2 opacity-90">Loss Exposure</div>
-            <div className="text-6xl text-white font-black tracking-tighter tabular-nums font-mono break-all leading-none">
-              €{(metrics?.potential_loss.amount / 1000000).toFixed(1)}M
-            </div>
-            <div className="text-sm text-[#FF4136] font-bold mt-4 flex items-center gap-2 bg-[#FF4136]/10 py-1.5 px-3 rounded w-fit">
-              <AlertTriangle className="w-4 h-4" />
-              Critical Threshold Exceeded
-            </div>
-          </div>
 
-          <div className="grid grid-cols-2 gap-4">
-            <div className="p-5 bg-[#1F2833] rounded-xl border border-white/5">
-              <div className="text-sm font-bold text-gray-400 mb-2">NODES</div>
-              <div className="text-4xl text-white font-bold tabular-nums font-mono">{metrics?.topology.nodes.length || 0}</div>
+            <div className="p-6 bg-[#1F2833]/50 border border-[#66FCF1]/10 rounded-xl relative overflow-hidden group hover:border-[#66FCF1]/30 transition-all">
+              <div className="text-[10px] font-bold uppercase tracking-widest text-[#66FCF1]/70 mb-2">Spectral Radius (λ₁)</div>
+              <div className="text-6xl text-white font-black tracking-tighter tabular-nums font-mono">
+                {metrics?.spectral_radius.toFixed(2)}
+              </div>
+              <div className="w-full h-1 bg-black/50 mt-4 overflow-hidden">
+                <div className="h-full bg-[#66FCF1]" style={{ width: `${Math.min((metrics?.spectral_radius || 0) * 4, 100)}%` }}></div>
+              </div>
             </div>
-            <div className="p-5 bg-[#1F2833] rounded-xl border border-white/5">
-              <div className="text-sm font-bold text-gray-400 mb-2">TIERS</div>
-              <div className="text-4xl text-white font-bold tabular-nums font-mono">3</div>
+
+            <div className="p-6 bg-[#1F2833]/50 border border-[#FF4136]/10 rounded-xl relative overflow-hidden group hover:border-[#FF4136]/30 transition-all">
+              <div className="text-[10px] font-bold uppercase tracking-widest text-[#FF4136]/70 mb-2">Loss Exposure</div>
+              <div className="text-5xl text-white font-black tracking-tighter tabular-nums font-mono break-all">
+                €{((metrics?.potential_loss?.amount || 0) / 1000000).toFixed(1)}M
+              </div>
+              <div className="flex items-center gap-2 mt-3 text-[10px] text-[#FF4136] font-bold uppercase italic">
+                <AlertTriangle className="w-3 h-3" /> CRITICAL LEVEL
+              </div>
             </div>
           </div>
         </aside>
@@ -188,7 +206,7 @@ const Dashboard = () => {
           </div>
 
           <div className="mt-auto">
-            <button onClick={fetchLiveAudit} className="w-full py-5 bg-[#66FCF1] hover:bg-[#45A29E] text-black font-black text-base tracking-widest transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 rounded shadow-[0_0_20px_rgba(102,252,241,0.3)]">
+            <button onClick={() => fetchLiveAudit(scenario)} className="w-full py-5 bg-[#66FCF1] hover:bg-[#45A29E] text-black font-black text-base tracking-widest transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 rounded shadow-[0_0_20px_rgba(102,252,241,0.3)]">
               <RefreshCw className="w-5 h-5" />
               REFRESH AUDIT
             </button>
