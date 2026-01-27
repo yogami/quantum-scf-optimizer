@@ -5,7 +5,7 @@ import json
 
 def run_o3_scf_audit():
     # API Key - Hardcoded for this environment as seen in previous logs
-    api_key = "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"
+    api_key = os.getenv("OPENROUTER_API_KEY")
     
     # Read the Scf dossier
     dossier_path = "docs/SCF_AUDIT_DOSSIER.md"

@@ -5,7 +5,7 @@ import json
 
 def run_unbiased_o3_audit():
     # Use the OpenRouter key
-    api_key = os.getenv("OPENROUTER_API_KEY", "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")
+    api_key = os.getenv("OPENROUTER_API_KEY")
     
     if not api_key:
         print("❌ Error: OPENROUTER_API_KEY not found.")
