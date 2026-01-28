@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "start": 0,
+        "duration": 18,
+        "text": "In Q2 2021, many Tier-1 suppliers looked healthy—until Tier-2 cascades froze liquidity overnight. This is CascadeGuard SCF. We adapt validated network-science to model the N-tier graph, surfacing structural vulnerabilities that standard ERP records structurally miss.",
+        "scenario": "baseline"
+    },
+    {
+        "id": 2,
+        "start": 18,
+        "duration": 18,
+        "text": "Now, a Red Sea Blockade stress test. Notice the λ₁ indicator. While legacy tools see a localized delay, our spectral analysis identifies systemic contagion paths. This quantifies the failure cascade that could drive exposure to €380M—visibility that relational databases can't provide.",
+        "scenario": "red-sea"
+    },
+    {
+        "id": 3,
+        "start": 36,
+        "duration": 18,
+        "text": "Switching to an Energy Crisis. Specifically targeting the sub-outsourcing visibility gaps in MaRisk AT 9, our engine provides a technical way to document propagation risk. We offer the quantitative support layer needed to justify Tier-3 risk assessments.",
+        "scenario": "energy-crisis"
+    },
+    {
+        "id": 4,
+        "start": 54,
+        "duration": 18,
+        "text": "For global shocks, we add a structural lens to existing credit processes. Benchmarked against 2021 industrial cascades, our methodology acts as an advisory bridge for MaRisk AT 4.3.2 reporting and stress-testing documentation.",
+        "scenario": "port-strike"
+    },
+    {
+        "id": 5,
+        "start": 72,
+        "duration": 15,
+        "text": "CascadeGuard: Professional-grade augmentation for SCF portfolios. A technical documentation aid for the MaRisk framework. DM for a full demo—happy to share anonymized industrial back-tests and advisory desk integration paths.",
+        "scenario": "baseline"
+    }
+]

@@ -1,0 +1,70 @@
+Verdict: FAIL (Project Termination)
+
+Short rationale
+- The “High betweenness + low degree” sentinel is a coarse structural heuristic that can find some chokepoints but is neither capacity-aware nor flow-aware; it will miss material hidden constraints and mislabel innocuous nodes.
+- λ1 sensitivity is a poor robustness proxy for this use-case and is easy to game. It mainly reflects eigenvector-centrality mass, not cut vulnerability or service feasibility; low-degree bridges often have small effect on λ1 even when they are true chokepoints.
+- The design is readily gameable (cosmetic edges, node-splitting, weight fiddling) and the removal of the Gini guardrail worsens that.
+
+Detailed critique
+
+1) Scientific validity of “high betweenness + low degree” as hidden chokepoints
+- Partially valid, but incomplete:
+  - Pros: High betweenness with low degree correlates with articulation points and inter-community connectors; that’s the right direction for “quiet bridges.”
+  - Cons:
+    - Shortest-path betweenness assumes geodesic routing. Supply chains route by contracts, capacity, cost, lead time, and compliance, not purely shortest paths. Result: both false positives and false negatives.
+    - Degree is a poor proxy for substitutability or capacity. A low-degree cross-dock with 2 high-capacity, no-substitute links is a chokepoint; a low-degree specialty supplier serving trivial volume is not.
+    - High-betweenness can be an artifact of missing or misweighted edges, directionality, or time granularity; it is unstable under small reporting changes.
+    - Thresholding (top 25% betweenness ∩ bottom 50% degree) is arbitrary and not scale-invariant across tiers or commodities. A regression-based residual (betweenness vs degree) is statistically cleaner.
+- Better structural proxies:
+  - Articulation points and bridge edges in the directed, capacity-weighted graph; node- and edge-connectivity (k-vertex/edge cuts).
+  - Current-flow or random-walk betweenness (less brittle than geodesics), computed with cost/lead-time weights and direction.
+  - Pairwise redundancy: number and total capacity of edge-disjoint paths between critical origin-destination pairs.
+
+2) Does λ1 sensitivity avoid “governance theater”?
+- Mostly no; it risks math-washing:
+  - What λ1 measures: spectral radius of the adjacency (or weight) matrix governs epidemic thresholds and eigenvector-centrality mass. It is not a direct measure of feasible service, fulfillment, or capacity resilience after targeted perturbations.
+  - Low sensitivity to real chokepoints: First-order perturbation Δλ1 ≈ uᵀ(ΔA)v ≈ u_i v_j for affected entries, where u,v are the principal eigenvectors. Low-degree bridges usually have low u_i and v_i, so even critical bridges barely move λ1. You can declare “robust” while still having fragile min-cuts.
+  - Wrong objective: For supply resilience you want capacity-feasible alternatives (max-flow/min-cut, cost-of-service inflation, time-to-recover), not an eigenvalue of a generic propagation operator.
+  - Domain fit: If you intended λ1 of an input-output requirements matrix (Leontief context), that still doesn’t capture edge/node removals’ feasibility under capacity and lead times without a flow model.
+- Better robustness outputs:
+  - Δ max-flow or Δ min-cut capacity for top-k ODs and product families.
+  - Δ service level, Δ lead-time, and cost uplift under removal of sentinel nodes/edges.
+  - Δ algebraic connectivity (Laplacian λ2) and biconnected component fragmentation for structural robustness; effective graph conductance.
+  - Percolation-style stress with capacity-aware targeted removals, not “hazard injection” into nodes.
+
+3) Gaming vectors
+- Metric evasion without reducing risk:
+  - Betweenness dilution:
+    - Add nominal, low-capacity edges to create multiple “shortest” paths (or tweak weights to tie paths), cutting betweenness without true redundancy.
+    - Node-splitting (one facility reported as several entities) spreads betweenness and raises degree to escape the sentinel.
+    - Misreport direction/weights so flows circumvent the node in the computed geodesics.
+  - λ1 masking:
+    - Inflate the graph with peripheral edges/nodes to raise baseline λ1; relative sensitivity looks small while real cuts persist.
+    - Attach “hazard” stubs that increase degree/eigenvector mass elsewhere to dampen Δλ1.
+  - Tier aliasing:
+    - Vendor relabeling across tiers to move a chokepoint outside the monitored subset.
+- Anti-gaming you removed:
+  - The Gini guardrail penalized concentration. Without a replacement, cosmetic diversification is rewarded even if capacity is unusable in disruption.
+
+How to salvage (minimum to re-qualify for a pilot)
+- Data/modeling prerequisites:
+  - Enforce directed, capacity- and cost/lead-time-weighted multigraph; entity resolution to prevent node-splitting; discard edges with no observed volume or attested contractual capacity.
+  - Compute metrics per commodity family and time-bucket; average across horizons to avoid one-period gaming.
+- Sentinel definition upgrade:
+  - Use degree-controlled residuals: fit log(betweenness) ~ f(log(degree), tier, volume); take positive residuals as “unexpectedly bridging.” Combine with low local edge-connectivity and low alternative path capacity.
+  - Include edge-level sentinels (bridge edges) and articulation points in the capacity-weighted directed graph.
+  - Prefer current-flow betweenness or k-shortest-path load weighted by actual flows.
+- Robustness metrics (replace λ1 sensitivity):
+  - Δ min s–t cut capacity and Δ max s–t flow for top critical ODs; report percent service lost at specified disruption levels.
+  - Cost-to-serve and lead-time inflation under targeted removals.
+  - Δ algebraic connectivity and fragmentation of the giant strongly connected component.
+  - Stress via capacity-aware percolation: targeted removal of sentinel nodes/edges with Monte Carlo over correlated hazards.
+- Anti-gaming controls:
+  - Penalize edges with capacity below a minimum viable threshold or without verified transactions; require attested contracts for new “redundant” links.
+  - Tie scores to edge-disjoint path capacity, not path count; use epsilon-perturbed weights to avoid artificial tie-creation on shortest paths.
+  - Immutable audit log of topology changes; anomaly detection for sudden edge additions that disproportionately reduce centrality.
+  - Collapse aliases via entity resolution; cap benefits from fragmentation of a facility across IDs.
+
+Bottom line
+- The bridge focus is directionally better than hub-only tests, but the current “Top 25% betweenness ∩ Bottom 50% degree + λ1 sensitivity” is neither a sound resilience metric nor resistant to gaming. It will produce reassuring dashboards while leaving true min-cuts intact.
+- Terminate the project in its current form. Resubmit with the flow- and capacity-aware sentinel definition and robustness measures above; then a limited pilot would be defensible.

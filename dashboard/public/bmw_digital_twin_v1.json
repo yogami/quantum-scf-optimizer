@@ -1,0 +1,5121 @@
+{
+  "nodes": [
+    {
+      "id": "Continental AG",
+      "tier": "1",
+      "spend": 3841.62,
+      "meta": {
+        "original_id": "SUPPLIER_0",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Robert Bosch GmbH",
+      "tier": "1",
+      "spend": 10110.83,
+      "meta": {
+        "original_id": "SUPPLIER_1",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "STMicroelectronics",
+      "tier": "2",
+      "spend": 1427.15,
+      "meta": {
+        "original_id": "SUPPLIER_2",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_3",
+      "tier": "2",
+      "spend": 298.38,
+      "meta": {
+        "original_id": "SUPPLIER_3",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "DuPont",
+      "tier": "3",
+      "spend": 938.29,
+      "meta": {
+        "original_id": "SUPPLIER_4",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Denso Corp",
+      "tier": "1",
+      "spend": 10070.18,
+      "meta": {
+        "original_id": "SUPPLIER_5",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Hyundai Mobis",
+      "tier": "1",
+      "spend": 3209.04,
+      "meta": {
+        "original_id": "SUPPLIER_6",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "CATL",
+      "tier": "1",
+      "spend": 1730.95,
+      "meta": {
+        "original_id": "SUPPLIER_7",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Renesas Electronics",
+      "tier": "2",
+      "spend": 1575.16,
+      "meta": {
+        "original_id": "SUPPLIER_8",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_9",
+      "tier": "2",
+      "spend": 241.71,
+      "meta": {
+        "original_id": "SUPPLIER_9",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "BorgWarner",
+      "tier": "1",
+      "spend": 1676.0,
+      "meta": {
+        "original_id": "SUPPLIER_10",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_11",
+      "tier": "2",
+      "spend": 800.15,
+      "meta": {
+        "original_id": "SUPPLIER_11",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_12",
+      "tier": "2",
+      "spend": 99.15,
+      "meta": {
+        "original_id": "SUPPLIER_12",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Infineon Technologies",
+      "tier": "2",
+      "spend": 1637.01,
+      "meta": {
+        "original_id": "SUPPLIER_13",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_14",
+      "tier": "2",
+      "spend": 221.08,
+      "meta": {
+        "original_id": "SUPPLIER_14",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_15",
+      "tier": "2",
+      "spend": 473.75,
+      "meta": {
+        "original_id": "SUPPLIER_15",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "ZF Friedrichshafen",
+      "tier": "1",
+      "spend": 4074.65,
+      "meta": {
+        "original_id": "SUPPLIER_16",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_17",
+      "tier": "2",
+      "spend": 311.07,
+      "meta": {
+        "original_id": "SUPPLIER_17",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_18",
+      "tier": "2",
+      "spend": 550.22,
+      "meta": {
+        "original_id": "SUPPLIER_18",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_19",
+      "tier": "2",
+      "spend": 888.06,
+      "meta": {
+        "original_id": "SUPPLIER_19",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_20",
+      "tier": "2",
+      "spend": 193.0,
+      "meta": {
+        "original_id": "SUPPLIER_20",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_21",
+      "tier": "2",
+      "spend": 56.33,
+      "meta": {
+        "original_id": "SUPPLIER_21",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_22",
+      "tier": "2",
+      "spend": 598.34,
+      "meta": {
+        "original_id": "SUPPLIER_22",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_23",
+      "tier": "2",
+      "spend": 280.2,
+      "meta": {
+        "original_id": "SUPPLIER_23",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_24",
+      "tier": "3",
+      "spend": 146.12,
+      "meta": {
+        "original_id": "SUPPLIER_24",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_25",
+      "tier": "2",
+      "spend": 644.47,
+      "meta": {
+        "original_id": "SUPPLIER_25",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Lear Corp",
+      "tier": "1",
+      "spend": 2569.67,
+      "meta": {
+        "original_id": "SUPPLIER_26",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Bridgestone",
+      "tier": "1",
+      "spend": 2296.11,
+      "meta": {
+        "original_id": "SUPPLIER_27",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_28",
+      "tier": "2",
+      "spend": 322.4,
+      "meta": {
+        "original_id": "SUPPLIER_28",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_29",
+      "tier": "2",
+      "spend": 894.0,
+      "meta": {
+        "original_id": "SUPPLIER_29",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_30",
+      "tier": "2",
+      "spend": 410.49,
+      "meta": {
+        "original_id": "SUPPLIER_30",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_31",
+      "tier": "2",
+      "spend": 323.84,
+      "meta": {
+        "original_id": "SUPPLIER_31",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_32",
+      "tier": "2",
+      "spend": 151.09,
+      "meta": {
+        "original_id": "SUPPLIER_32",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_33",
+      "tier": "2",
+      "spend": 391.95,
+      "meta": {
+        "original_id": "SUPPLIER_33",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_34",
+      "tier": "3",
+      "spend": 811.31,
+      "meta": {
+        "original_id": "SUPPLIER_34",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_35",
+      "tier": "3",
+      "spend": 892.35,
+      "meta": {
+        "original_id": "SUPPLIER_35",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_36",
+      "tier": "2",
+      "spend": 209.1,
+      "meta": {
+        "original_id": "SUPPLIER_36",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_37",
+      "tier": "2",
+      "spend": 233.19,
+      "meta": {
+        "original_id": "SUPPLIER_37",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_38",
+      "tier": "2",
+      "spend": 53.0,
+      "meta": {
+        "original_id": "SUPPLIER_38",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_39",
+      "tier": "3",
+      "spend": 94.73,
+      "meta": {
+        "original_id": "SUPPLIER_39",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_40",
+      "tier": "2",
+      "spend": 172.0,
+      "meta": {
+        "original_id": "SUPPLIER_40",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Panasonic Automotive",
+      "tier": "1",
+      "spend": 1724.63,
+      "meta": {
+        "original_id": "SUPPLIER_41",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_42",
+      "tier": "3",
+      "spend": 85.27,
+      "meta": {
+        "original_id": "SUPPLIER_42",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_43",
+      "tier": "2",
+      "spend": 64.49,
+      "meta": {
+        "original_id": "SUPPLIER_43",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Valeo",
+      "tier": "1",
+      "spend": 2378.26,
+      "meta": {
+        "original_id": "SUPPLIER_44",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_45",
+      "tier": "2",
+      "spend": 82.46,
+      "meta": {
+        "original_id": "SUPPLIER_45",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_46",
+      "tier": "3",
+      "spend": 32.94,
+      "meta": {
+        "original_id": "SUPPLIER_46",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_47",
+      "tier": "2",
+      "spend": 100.91,
+      "meta": {
+        "original_id": "SUPPLIER_47",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_48",
+      "tier": "3",
+      "spend": 623.98,
+      "meta": {
+        "original_id": "SUPPLIER_48",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "LG Chem",
+      "tier": "2",
+      "spend": 1129.14,
+      "meta": {
+        "original_id": "SUPPLIER_49",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_50",
+      "tier": "2",
+      "spend": 936.3,
+      "meta": {
+        "original_id": "SUPPLIER_50",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_51",
+      "tier": "3",
+      "spend": 32.09,
+      "meta": {
+        "original_id": "SUPPLIER_51",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "NVIDIA Corp",
+      "tier": "2",
+      "spend": 1330.89,
+      "meta": {
+        "original_id": "SUPPLIER_52",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_53",
+      "tier": "2",
+      "spend": 102.66,
+      "meta": {
+        "original_id": "SUPPLIER_53",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "NXP Semiconductors",
+      "tier": "2",
+      "spend": 1617.15,
+      "meta": {
+        "original_id": "SUPPLIER_54",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_55",
+      "tier": "2",
+      "spend": 364.61,
+      "meta": {
+        "original_id": "SUPPLIER_55",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_56",
+      "tier": "3",
+      "spend": 50.28,
+      "meta": {
+        "original_id": "SUPPLIER_56",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_57",
+      "tier": "2",
+      "spend": 224.26,
+      "meta": {
+        "original_id": "SUPPLIER_57",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_58",
+      "tier": "3",
+      "spend": 227.48,
+      "meta": {
+        "original_id": "SUPPLIER_58",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_59",
+      "tier": "3",
+      "spend": 302.04,
+      "meta": {
+        "original_id": "SUPPLIER_59",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_60",
+      "tier": "2",
+      "spend": 41.13,
+      "meta": {
+        "original_id": "SUPPLIER_60",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_61",
+      "tier": "2",
+      "spend": 472.92,
+      "meta": {
+        "original_id": "SUPPLIER_61",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_62",
+      "tier": "2",
+      "spend": 446.3,
+      "meta": {
+        "original_id": "SUPPLIER_62",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_63",
+      "tier": "3",
+      "spend": 84.57,
+      "meta": {
+        "original_id": "SUPPLIER_63",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_64",
+      "tier": "2",
+      "spend": 99.02,
+      "meta": {
+        "original_id": "SUPPLIER_64",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Magna International",
+      "tier": "1",
+      "spend": 9422.46,
+      "meta": {
+        "original_id": "SUPPLIER_65",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_66",
+      "tier": "3",
+      "spend": 316.8,
+      "meta": {
+        "original_id": "SUPPLIER_66",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_67",
+      "tier": "2",
+      "spend": 199.37,
+      "meta": {
+        "original_id": "SUPPLIER_67",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_68",
+      "tier": "2",
+      "spend": 89.1,
+      "meta": {
+        "original_id": "SUPPLIER_68",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_69",
+      "tier": "2",
+      "spend": 597.51,
+      "meta": {
+        "original_id": "SUPPLIER_69",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_70",
+      "tier": "3",
+      "spend": 129.49,
+      "meta": {
+        "original_id": "SUPPLIER_70",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_71",
+      "tier": "2",
+      "spend": 130.13,
+      "meta": {
+        "original_id": "SUPPLIER_71",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_72",
+      "tier": "3",
+      "spend": 197.26,
+      "meta": {
+        "original_id": "SUPPLIER_72",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_73",
+      "tier": "3",
+      "spend": 307.51,
+      "meta": {
+        "original_id": "SUPPLIER_73",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_74",
+      "tier": "2",
+      "spend": 908.38,
+      "meta": {
+        "original_id": "SUPPLIER_74",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_75",
+      "tier": "2",
+      "spend": 157.02,
+      "meta": {
+        "original_id": "SUPPLIER_75",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_76",
+      "tier": "3",
+      "spend": 76.52,
+      "meta": {
+        "original_id": "SUPPLIER_76",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_77",
+      "tier": "2",
+      "spend": 299.38,
+      "meta": {
+        "original_id": "SUPPLIER_77",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_78",
+      "tier": "2",
+      "spend": 250.35,
+      "meta": {
+        "original_id": "SUPPLIER_78",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_79",
+      "tier": "3",
+      "spend": 667.71,
+      "meta": {
+        "original_id": "SUPPLIER_79",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_80",
+      "tier": "2",
+      "spend": 56.43,
+      "meta": {
+        "original_id": "SUPPLIER_80",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_81",
+      "tier": "3",
+      "spend": 136.88,
+      "meta": {
+        "original_id": "SUPPLIER_81",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SK Innovation",
+      "tier": "2",
+      "spend": 1024.77,
+      "meta": {
+        "original_id": "SUPPLIER_82",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_83",
+      "tier": "2",
+      "spend": 60.64,
+      "meta": {
+        "original_id": "SUPPLIER_83",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_84",
+      "tier": "3",
+      "spend": 136.15,
+      "meta": {
+        "original_id": "SUPPLIER_84",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Faurecia",
+      "tier": "1",
+      "spend": 2634.17,
+      "meta": {
+        "original_id": "SUPPLIER_85",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_86",
+      "tier": "2",
+      "spend": 565.07,
+      "meta": {
+        "original_id": "SUPPLIER_86",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_87",
+      "tier": "2",
+      "spend": 682.97,
+      "meta": {
+        "original_id": "SUPPLIER_87",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_88",
+      "tier": "2",
+      "spend": 150.17,
+      "meta": {
+        "original_id": "SUPPLIER_88",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Nippon Steel",
+      "tier": "3",
+      "spend": 1002.7,
+      "meta": {
+        "original_id": "SUPPLIER_89",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_90",
+      "tier": "3",
+      "spend": 97.1,
+      "meta": {
+        "original_id": "SUPPLIER_90",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_91",
+      "tier": "2",
+      "spend": 103.82,
+      "meta": {
+        "original_id": "SUPPLIER_91",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_92",
+      "tier": "3",
+      "spend": 112.36,
+      "meta": {
+        "original_id": "SUPPLIER_92",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_93",
+      "tier": "2",
+      "spend": 471.41,
+      "meta": {
+        "original_id": "SUPPLIER_93",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_94",
+      "tier": "3",
+      "spend": 81.99,
+      "meta": {
+        "original_id": "SUPPLIER_94",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_95",
+      "tier": "3",
+      "spend": 24.07,
+      "meta": {
+        "original_id": "SUPPLIER_95",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Aisin Seiki",
+      "tier": "1",
+      "spend": 4018.65,
+      "meta": {
+        "original_id": "SUPPLIER_96",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_97",
+      "tier": "2",
+      "spend": 170.28,
+      "meta": {
+        "original_id": "SUPPLIER_97",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_98",
+      "tier": "2",
+      "spend": 63.05,
+      "meta": {
+        "original_id": "SUPPLIER_98",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_99",
+      "tier": "2",
+      "spend": 172.78,
+      "meta": {
+        "original_id": "SUPPLIER_99",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_100",
+      "tier": "3",
+      "spend": 198.7,
+      "meta": {
+        "original_id": "SUPPLIER_100",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_101",
+      "tier": "2",
+      "spend": 285.18,
+      "meta": {
+        "original_id": "SUPPLIER_101",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_102",
+      "tier": "2",
+      "spend": 64.22,
+      "meta": {
+        "original_id": "SUPPLIER_102",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_103",
+      "tier": "2",
+      "spend": 56.57,
+      "meta": {
+        "original_id": "SUPPLIER_103",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_104",
+      "tier": "3",
+      "spend": 79.73,
+      "meta": {
+        "original_id": "SUPPLIER_104",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_105",
+      "tier": "2",
+      "spend": 527.22,
+      "meta": {
+        "original_id": "SUPPLIER_105",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_106",
+      "tier": "2",
+      "spend": 332.75,
+      "meta": {
+        "original_id": "SUPPLIER_106",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_107",
+      "tier": "2",
+      "spend": 329.16,
+      "meta": {
+        "original_id": "SUPPLIER_107",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_108",
+      "tier": "3",
+      "spend": 67.45,
+      "meta": {
+        "original_id": "SUPPLIER_108",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_109",
+      "tier": "3",
+      "spend": 612.92,
+      "meta": {
+        "original_id": "SUPPLIER_109",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_110",
+      "tier": "2",
+      "spend": 103.52,
+      "meta": {
+        "original_id": "SUPPLIER_110",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_111",
+      "tier": "3",
+      "spend": 93.87,
+      "meta": {
+        "original_id": "SUPPLIER_111",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_112",
+      "tier": "2",
+      "spend": 589.27,
+      "meta": {
+        "original_id": "SUPPLIER_112",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_113",
+      "tier": "2",
+      "spend": 245.1,
+      "meta": {
+        "original_id": "SUPPLIER_113",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_114",
+      "tier": "2",
+      "spend": 478.88,
+      "meta": {
+        "original_id": "SUPPLIER_114",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_115",
+      "tier": "2",
+      "spend": 142.18,
+      "meta": {
+        "original_id": "SUPPLIER_115",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_116",
+      "tier": "2",
+      "spend": 46.55,
+      "meta": {
+        "original_id": "SUPPLIER_116",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_117",
+      "tier": "2",
+      "spend": 381.54,
+      "meta": {
+        "original_id": "SUPPLIER_117",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_118",
+      "tier": "2",
+      "spend": 39.26,
+      "meta": {
+        "original_id": "SUPPLIER_118",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_119",
+      "tier": "3",
+      "spend": 45.93,
+      "meta": {
+        "original_id": "SUPPLIER_119",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_120",
+      "tier": "3",
+      "spend": 467.45,
+      "meta": {
+        "original_id": "SUPPLIER_120",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_121",
+      "tier": "3",
+      "spend": 14.82,
+      "meta": {
+        "original_id": "SUPPLIER_121",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_122",
+      "tier": "2",
+      "spend": 41.8,
+      "meta": {
+        "original_id": "SUPPLIER_122",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_123",
+      "tier": "3",
+      "spend": 33.4,
+      "meta": {
+        "original_id": "SUPPLIER_123",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_124",
+      "tier": "3",
+      "spend": 861.28,
+      "meta": {
+        "original_id": "SUPPLIER_124",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_125",
+      "tier": "2",
+      "spend": 73.94,
+      "meta": {
+        "original_id": "SUPPLIER_125",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Texas Instruments",
+      "tier": "2",
+      "spend": 1412.46,
+      "meta": {
+        "original_id": "SUPPLIER_126",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_127",
+      "tier": "3",
+      "spend": 604.72,
+      "meta": {
+        "original_id": "SUPPLIER_127",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_128",
+      "tier": "3",
+      "spend": 352.89,
+      "meta": {
+        "original_id": "SUPPLIER_128",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_129",
+      "tier": "3",
+      "spend": 632.03,
+      "meta": {
+        "original_id": "SUPPLIER_129",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_130",
+      "tier": "2",
+      "spend": 455.26,
+      "meta": {
+        "original_id": "SUPPLIER_130",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_131",
+      "tier": "3",
+      "spend": 154.16,
+      "meta": {
+        "original_id": "SUPPLIER_131",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_132",
+      "tier": "3",
+      "spend": 105.85,
+      "meta": {
+        "original_id": "SUPPLIER_132",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_133",
+      "tier": "2",
+      "spend": 344.01,
+      "meta": {
+        "original_id": "SUPPLIER_133",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_134",
+      "tier": "3",
+      "spend": 306.12,
+      "meta": {
+        "original_id": "SUPPLIER_134",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_135",
+      "tier": "3",
+      "spend": 278.19,
+      "meta": {
+        "original_id": "SUPPLIER_135",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_136",
+      "tier": "3",
+      "spend": 214.85,
+      "meta": {
+        "original_id": "SUPPLIER_136",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_137",
+      "tier": "2",
+      "spend": 400.13,
+      "meta": {
+        "original_id": "SUPPLIER_137",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_138",
+      "tier": "3",
+      "spend": 53.0,
+      "meta": {
+        "original_id": "SUPPLIER_138",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_139",
+      "tier": "2",
+      "spend": 517.77,
+      "meta": {
+        "original_id": "SUPPLIER_139",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_140",
+      "tier": "2",
+      "spend": 447.17,
+      "meta": {
+        "original_id": "SUPPLIER_140",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_141",
+      "tier": "2",
+      "spend": 129.74,
+      "meta": {
+        "original_id": "SUPPLIER_141",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_142",
+      "tier": "3",
+      "spend": 225.63,
+      "meta": {
+        "original_id": "SUPPLIER_142",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_143",
+      "tier": "2",
+      "spend": 163.48,
+      "meta": {
+        "original_id": "SUPPLIER_143",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_144",
+      "tier": "4",
+      "spend": 26.15,
+      "meta": {
+        "original_id": "SUPPLIER_144",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_145",
+      "tier": "3",
+      "spend": 285.96,
+      "meta": {
+        "original_id": "SUPPLIER_145",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_146",
+      "tier": "2",
+      "spend": 233.53,
+      "meta": {
+        "original_id": "SUPPLIER_146",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_147",
+      "tier": "3",
+      "spend": 821.6,
+      "meta": {
+        "original_id": "SUPPLIER_147",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_148",
+      "tier": "2",
+      "spend": 616.23,
+      "meta": {
+        "original_id": "SUPPLIER_148",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_149",
+      "tier": "3",
+      "spend": 384.92,
+      "meta": {
+        "original_id": "SUPPLIER_149",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_150",
+      "tier": "3",
+      "spend": 801.78,
+      "meta": {
+        "original_id": "SUPPLIER_150",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_151",
+      "tier": "2",
+      "spend": 451.87,
+      "meta": {
+        "original_id": "SUPPLIER_151",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_152",
+      "tier": "3",
+      "spend": 277.67,
+      "meta": {
+        "original_id": "SUPPLIER_152",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_153",
+      "tier": "3",
+      "spend": 84.37,
+      "meta": {
+        "original_id": "SUPPLIER_153",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_154",
+      "tier": "2",
+      "spend": 225.15,
+      "meta": {
+        "original_id": "SUPPLIER_154",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_155",
+      "tier": "3",
+      "spend": 121.21,
+      "meta": {
+        "original_id": "SUPPLIER_155",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_156",
+      "tier": "2",
+      "spend": 232.47,
+      "meta": {
+        "original_id": "SUPPLIER_156",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_157",
+      "tier": "2",
+      "spend": 177.52,
+      "meta": {
+        "original_id": "SUPPLIER_157",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_158",
+      "tier": "3",
+      "spend": 162.02,
+      "meta": {
+        "original_id": "SUPPLIER_158",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_159",
+      "tier": "3",
+      "spend": 86.01,
+      "meta": {
+        "original_id": "SUPPLIER_159",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_160",
+      "tier": "3",
+      "spend": 181.23,
+      "meta": {
+        "original_id": "SUPPLIER_160",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_161",
+      "tier": "2",
+      "spend": 206.97,
+      "meta": {
+        "original_id": "SUPPLIER_161",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Intel Mobileye",
+      "tier": "2",
+      "spend": 1192.83,
+      "meta": {
+        "original_id": "SUPPLIER_162",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_163",
+      "tier": "4",
+      "spend": 215.44,
+      "meta": {
+        "original_id": "SUPPLIER_163",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_164",
+      "tier": "3",
+      "spend": 346.13,
+      "meta": {
+        "original_id": "SUPPLIER_164",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_165",
+      "tier": "3",
+      "spend": 209.53,
+      "meta": {
+        "original_id": "SUPPLIER_165",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_166",
+      "tier": "3",
+      "spend": 323.79,
+      "meta": {
+        "original_id": "SUPPLIER_166",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_167",
+      "tier": "2",
+      "spend": 123.41,
+      "meta": {
+        "original_id": "SUPPLIER_167",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_168",
+      "tier": "3",
+      "spend": 123.42,
+      "meta": {
+        "original_id": "SUPPLIER_168",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_169",
+      "tier": "3",
+      "spend": 352.59,
+      "meta": {
+        "original_id": "SUPPLIER_169",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_170",
+      "tier": "3",
+      "spend": 548.87,
+      "meta": {
+        "original_id": "SUPPLIER_170",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_171",
+      "tier": "4",
+      "spend": 194.22,
+      "meta": {
+        "original_id": "SUPPLIER_171",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_172",
+      "tier": "3",
+      "spend": 381.51,
+      "meta": {
+        "original_id": "SUPPLIER_172",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_173",
+      "tier": "3",
+      "spend": 537.66,
+      "meta": {
+        "original_id": "SUPPLIER_173",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_174",
+      "tier": "2",
+      "spend": 85.84,
+      "meta": {
+        "original_id": "SUPPLIER_174",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_175",
+      "tier": "2",
+      "spend": 809.59,
+      "meta": {
+        "original_id": "SUPPLIER_175",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_176",
+      "tier": "3",
+      "spend": 161.51,
+      "meta": {
+        "original_id": "SUPPLIER_176",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "ThyssenKrupp",
+      "tier": "3",
+      "spend": 954.72,
+      "meta": {
+        "original_id": "SUPPLIER_177",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_178",
+      "tier": "3",
+      "spend": 87.63,
+      "meta": {
+        "original_id": "SUPPLIER_178",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_179",
+      "tier": "3",
+      "spend": 74.78,
+      "meta": {
+        "original_id": "SUPPLIER_179",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_180",
+      "tier": "2",
+      "spend": 50.34,
+      "meta": {
+        "original_id": "SUPPLIER_180",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_181",
+      "tier": "3",
+      "spend": 163.42,
+      "meta": {
+        "original_id": "SUPPLIER_181",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_182",
+      "tier": "2",
+      "spend": 475.8,
+      "meta": {
+        "original_id": "SUPPLIER_182",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_183",
+      "tier": "3",
+      "spend": 94.43,
+      "meta": {
+        "original_id": "SUPPLIER_183",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_184",
+      "tier": "3",
+      "spend": 110.23,
+      "meta": {
+        "original_id": "SUPPLIER_184",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_185",
+      "tier": "3",
+      "spend": 258.87,
+      "meta": {
+        "original_id": "SUPPLIER_185",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_186",
+      "tier": "3",
+      "spend": 54.48,
+      "meta": {
+        "original_id": "SUPPLIER_186",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_187",
+      "tier": "3",
+      "spend": 51.01,
+      "meta": {
+        "original_id": "SUPPLIER_187",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_188",
+      "tier": "3",
+      "spend": 150.59,
+      "meta": {
+        "original_id": "SUPPLIER_188",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_189",
+      "tier": "2",
+      "spend": 247.45,
+      "meta": {
+        "original_id": "SUPPLIER_189",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_190",
+      "tier": "3",
+      "spend": 198.16,
+      "meta": {
+        "original_id": "SUPPLIER_190",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_191",
+      "tier": "2",
+      "spend": 136.05,
+      "meta": {
+        "original_id": "SUPPLIER_191",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_192",
+      "tier": "2",
+      "spend": 148.56,
+      "meta": {
+        "original_id": "SUPPLIER_192",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_193",
+      "tier": "3",
+      "spend": 623.14,
+      "meta": {
+        "original_id": "SUPPLIER_193",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_194",
+      "tier": "2",
+      "spend": 320.44,
+      "meta": {
+        "original_id": "SUPPLIER_194",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_195",
+      "tier": "2",
+      "spend": 431.43,
+      "meta": {
+        "original_id": "SUPPLIER_195",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_196",
+      "tier": "2",
+      "spend": 221.47,
+      "meta": {
+        "original_id": "SUPPLIER_196",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_197",
+      "tier": "3",
+      "spend": 114.61,
+      "meta": {
+        "original_id": "SUPPLIER_197",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_198",
+      "tier": "3",
+      "spend": 110.3,
+      "meta": {
+        "original_id": "SUPPLIER_198",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_199",
+      "tier": "2",
+      "spend": 258.34,
+      "meta": {
+        "original_id": "SUPPLIER_199",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_200",
+      "tier": "2",
+      "spend": 495.8,
+      "meta": {
+        "original_id": "SUPPLIER_200",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_201",
+      "tier": "2",
+      "spend": 191.35,
+      "meta": {
+        "original_id": "SUPPLIER_201",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "BASF",
+      "tier": "3",
+      "spend": 950.16,
+      "meta": {
+        "original_id": "SUPPLIER_202",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_203",
+      "tier": "2",
+      "spend": 376.98,
+      "meta": {
+        "original_id": "SUPPLIER_203",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_204",
+      "tier": "2",
+      "spend": 229.21,
+      "meta": {
+        "original_id": "SUPPLIER_204",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_205",
+      "tier": "3",
+      "spend": 710.38,
+      "meta": {
+        "original_id": "SUPPLIER_205",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_206",
+      "tier": "3",
+      "spend": 151.22,
+      "meta": {
+        "original_id": "SUPPLIER_206",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_207",
+      "tier": "2",
+      "spend": 114.55,
+      "meta": {
+        "original_id": "SUPPLIER_207",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_208",
+      "tier": "3",
+      "spend": 72.31,
+      "meta": {
+        "original_id": "SUPPLIER_208",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_209",
+      "tier": "3",
+      "spend": 143.01,
+      "meta": {
+        "original_id": "SUPPLIER_209",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_210",
+      "tier": "2",
+      "spend": 218.16,
+      "meta": {
+        "original_id": "SUPPLIER_210",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "ArcelorMittal",
+      "tier": "3",
+      "spend": 1024.28,
+      "meta": {
+        "original_id": "SUPPLIER_211",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_212",
+      "tier": "2",
+      "spend": 321.95,
+      "meta": {
+        "original_id": "SUPPLIER_212",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_213",
+      "tier": "4",
+      "spend": 24.03,
+      "meta": {
+        "original_id": "SUPPLIER_213",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_214",
+      "tier": "3",
+      "spend": 396.06,
+      "meta": {
+        "original_id": "SUPPLIER_214",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_215",
+      "tier": "4",
+      "spend": 112.09,
+      "meta": {
+        "original_id": "SUPPLIER_215",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_216",
+      "tier": "3",
+      "spend": 165.87,
+      "meta": {
+        "original_id": "SUPPLIER_216",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_217",
+      "tier": "3",
+      "spend": 29.87,
+      "meta": {
+        "original_id": "SUPPLIER_217",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_218",
+      "tier": "2",
+      "spend": 455.7,
+      "meta": {
+        "original_id": "SUPPLIER_218",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_219",
+      "tier": "2",
+      "spend": 240.7,
+      "meta": {
+        "original_id": "SUPPLIER_219",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_220",
+      "tier": "3",
+      "spend": 800.36,
+      "meta": {
+        "original_id": "SUPPLIER_220",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_221",
+      "tier": "3",
+      "spend": 48.96,
+      "meta": {
+        "original_id": "SUPPLIER_221",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_222",
+      "tier": "3",
+      "spend": 327.67,
+      "meta": {
+        "original_id": "SUPPLIER_222",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_223",
+      "tier": "3",
+      "spend": 454.6,
+      "meta": {
+        "original_id": "SUPPLIER_223",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_224",
+      "tier": "3",
+      "spend": 53.85,
+      "meta": {
+        "original_id": "SUPPLIER_224",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_225",
+      "tier": "3",
+      "spend": 35.64,
+      "meta": {
+        "original_id": "SUPPLIER_225",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_226",
+      "tier": "4",
+      "spend": 41.74,
+      "meta": {
+        "original_id": "SUPPLIER_226",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_227",
+      "tier": "2",
+      "spend": 113.69,
+      "meta": {
+        "original_id": "SUPPLIER_227",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_228",
+      "tier": "3",
+      "spend": 220.93,
+      "meta": {
+        "original_id": "SUPPLIER_228",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_229",
+      "tier": "3",
+      "spend": 94.44,
+      "meta": {
+        "original_id": "SUPPLIER_229",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_230",
+      "tier": "4",
+      "spend": 103.86,
+      "meta": {
+        "original_id": "SUPPLIER_230",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_231",
+      "tier": "2",
+      "spend": 183.63,
+      "meta": {
+        "original_id": "SUPPLIER_231",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_232",
+      "tier": "2",
+      "spend": 60.23,
+      "meta": {
+        "original_id": "SUPPLIER_232",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_233",
+      "tier": "3",
+      "spend": 172.84,
+      "meta": {
+        "original_id": "SUPPLIER_233",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_234",
+      "tier": "2",
+      "spend": 45.84,
+      "meta": {
+        "original_id": "SUPPLIER_234",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Michelin",
+      "tier": "1",
+      "spend": 1747.02,
+      "meta": {
+        "original_id": "SUPPLIER_235",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_236",
+      "tier": "3",
+      "spend": 210.49,
+      "meta": {
+        "original_id": "SUPPLIER_236",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_237",
+      "tier": "3",
+      "spend": 95.51,
+      "meta": {
+        "original_id": "SUPPLIER_237",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_238",
+      "tier": "3",
+      "spend": 105.39,
+      "meta": {
+        "original_id": "SUPPLIER_238",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_239",
+      "tier": "3",
+      "spend": 277.55,
+      "meta": {
+        "original_id": "SUPPLIER_239",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_240",
+      "tier": "2",
+      "spend": 49.09,
+      "meta": {
+        "original_id": "SUPPLIER_240",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_241",
+      "tier": "2",
+      "spend": 17.06,
+      "meta": {
+        "original_id": "SUPPLIER_241",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_242",
+      "tier": "3",
+      "spend": 327.13,
+      "meta": {
+        "original_id": "SUPPLIER_242",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_243",
+      "tier": "3",
+      "spend": 447.7,
+      "meta": {
+        "original_id": "SUPPLIER_243",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_244",
+      "tier": "3",
+      "spend": 58.35,
+      "meta": {
+        "original_id": "SUPPLIER_244",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_245",
+      "tier": "3",
+      "spend": 228.07,
+      "meta": {
+        "original_id": "SUPPLIER_245",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_246",
+      "tier": "2",
+      "spend": 212.48,
+      "meta": {
+        "original_id": "SUPPLIER_246",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_247",
+      "tier": "4",
+      "spend": 17.31,
+      "meta": {
+        "original_id": "SUPPLIER_247",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_248",
+      "tier": "2",
+      "spend": 54.4,
+      "meta": {
+        "original_id": "SUPPLIER_248",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_249",
+      "tier": "2",
+      "spend": 92.54,
+      "meta": {
+        "original_id": "SUPPLIER_249",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_250",
+      "tier": "3",
+      "spend": 285.88,
+      "meta": {
+        "original_id": "SUPPLIER_250",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_251",
+      "tier": "2",
+      "spend": 85.15,
+      "meta": {
+        "original_id": "SUPPLIER_251",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_252",
+      "tier": "3",
+      "spend": 50.64,
+      "meta": {
+        "original_id": "SUPPLIER_252",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "Qualcomm",
+      "tier": "2",
+      "spend": 1246.36,
+      "meta": {
+        "original_id": "SUPPLIER_253",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_254",
+      "tier": "3",
+      "spend": 261.24,
+      "meta": {
+        "original_id": "SUPPLIER_254",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_255",
+      "tier": "2",
+      "spend": 525.06,
+      "meta": {
+        "original_id": "SUPPLIER_255",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_256",
+      "tier": "3",
+      "spend": 307.54,
+      "meta": {
+        "original_id": "SUPPLIER_256",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_257",
+      "tier": "3",
+      "spend": 249.86,
+      "meta": {
+        "original_id": "SUPPLIER_257",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_258",
+      "tier": "3",
+      "spend": 57.72,
+      "meta": {
+        "original_id": "SUPPLIER_258",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_259",
+      "tier": "3",
+      "spend": 802.13,
+      "meta": {
+        "original_id": "SUPPLIER_259",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_260",
+      "tier": "4",
+      "spend": 385.3,
+      "meta": {
+        "original_id": "SUPPLIER_260",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "POSCO",
+      "tier": "3",
+      "spend": 974.94,
+      "meta": {
+        "original_id": "SUPPLIER_261",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_262",
+      "tier": "3",
+      "spend": 85.13,
+      "meta": {
+        "original_id": "SUPPLIER_262",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_263",
+      "tier": "3",
+      "spend": 402.09,
+      "meta": {
+        "original_id": "SUPPLIER_263",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_264",
+      "tier": "3",
+      "spend": 46.0,
+      "meta": {
+        "original_id": "SUPPLIER_264",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_265",
+      "tier": "2",
+      "spend": 406.03,
+      "meta": {
+        "original_id": "SUPPLIER_265",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_266",
+      "tier": "3",
+      "spend": 529.26,
+      "meta": {
+        "original_id": "SUPPLIER_266",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_267",
+      "tier": "2",
+      "spend": 312.45,
+      "meta": {
+        "original_id": "SUPPLIER_267",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_268",
+      "tier": "2",
+      "spend": 29.11,
+      "meta": {
+        "original_id": "SUPPLIER_268",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_269",
+      "tier": "3",
+      "spend": 609.6,
+      "meta": {
+        "original_id": "SUPPLIER_269",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_270",
+      "tier": "3",
+      "spend": 44.47,
+      "meta": {
+        "original_id": "SUPPLIER_270",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_271",
+      "tier": "2",
+      "spend": 109.14,
+      "meta": {
+        "original_id": "SUPPLIER_271",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_272",
+      "tier": "3",
+      "spend": 313.56,
+      "meta": {
+        "original_id": "SUPPLIER_272",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_273",
+      "tier": "4",
+      "spend": 203.14,
+      "meta": {
+        "original_id": "SUPPLIER_273",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_274",
+      "tier": "3",
+      "spend": 284.23,
+      "meta": {
+        "original_id": "SUPPLIER_274",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_275",
+      "tier": "2",
+      "spend": 397.99,
+      "meta": {
+        "original_id": "SUPPLIER_275",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_276",
+      "tier": "3",
+      "spend": 376.14,
+      "meta": {
+        "original_id": "SUPPLIER_276",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_277",
+      "tier": "3",
+      "spend": 220.15,
+      "meta": {
+        "original_id": "SUPPLIER_277",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_278",
+      "tier": "3",
+      "spend": 21.61,
+      "meta": {
+        "original_id": "SUPPLIER_278",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_279",
+      "tier": "3",
+      "spend": 214.5,
+      "meta": {
+        "original_id": "SUPPLIER_279",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_280",
+      "tier": "3",
+      "spend": 189.95,
+      "meta": {
+        "original_id": "SUPPLIER_280",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_281",
+      "tier": "3",
+      "spend": 171.37,
+      "meta": {
+        "original_id": "SUPPLIER_281",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_282",
+      "tier": "3",
+      "spend": 375.45,
+      "meta": {
+        "original_id": "SUPPLIER_282",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_283",
+      "tier": "3",
+      "spend": 134.18,
+      "meta": {
+        "original_id": "SUPPLIER_283",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_284",
+      "tier": "2",
+      "spend": 201.8,
+      "meta": {
+        "original_id": "SUPPLIER_284",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_285",
+      "tier": "4",
+      "spend": 94.66,
+      "meta": {
+        "original_id": "SUPPLIER_285",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_286",
+      "tier": "2",
+      "spend": 51.11,
+      "meta": {
+        "original_id": "SUPPLIER_286",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_287",
+      "tier": "3",
+      "spend": 329.0,
+      "meta": {
+        "original_id": "SUPPLIER_287",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_288",
+      "tier": "2",
+      "spend": 297.12,
+      "meta": {
+        "original_id": "SUPPLIER_288",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_289",
+      "tier": "2",
+      "spend": 136.02,
+      "meta": {
+        "original_id": "SUPPLIER_289",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_290",
+      "tier": "3",
+      "spend": 88.12,
+      "meta": {
+        "original_id": "SUPPLIER_290",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_291",
+      "tier": "4",
+      "spend": 147.92,
+      "meta": {
+        "original_id": "SUPPLIER_291",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_292",
+      "tier": "4",
+      "spend": 107.1,
+      "meta": {
+        "original_id": "SUPPLIER_292",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_293",
+      "tier": "4",
+      "spend": 53.21,
+      "meta": {
+        "original_id": "SUPPLIER_293",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_294",
+      "tier": "3",
+      "spend": 166.12,
+      "meta": {
+        "original_id": "SUPPLIER_294",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_295",
+      "tier": "4",
+      "spend": 186.78,
+      "meta": {
+        "original_id": "SUPPLIER_295",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_296",
+      "tier": "3",
+      "spend": 50.32,
+      "meta": {
+        "original_id": "SUPPLIER_296",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_297",
+      "tier": "2",
+      "spend": 21.92,
+      "meta": {
+        "original_id": "SUPPLIER_297",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_298",
+      "tier": "2",
+      "spend": 373.4,
+      "meta": {
+        "original_id": "SUPPLIER_298",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "SUPPLIER_299",
+      "tier": "4",
+      "spend": 283.64,
+      "meta": {
+        "original_id": "SUPPLIER_299",
+        "type": "Real-World-Entity"
+      }
+    },
+    {
+      "id": "BMW_GROUP_PROXY",
+      "tier": "Anchor",
+      "spend": 500000.0
+    }
+  ],
+  "edges": [
+    [
+      "Robert Bosch GmbH",
+      "Continental AG"
+    ],
+    [
+      "STMicroelectronics",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_3",
+      "Continental AG"
+    ],
+    [
+      "Denso Corp",
+      "Continental AG"
+    ],
+    [
+      "CATL",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_9",
+      "Continental AG"
+    ],
+    [
+      "BorgWarner",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_11",
+      "Continental AG"
+    ],
+    [
+      "Infineon Technologies",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_14",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_17",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_18",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_19",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_20",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_22",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_23",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_25",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_28",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_32",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_36",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_38",
+      "Continental AG"
+    ],
+    [
+      "Valeo",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_45",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_47",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_50",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_57",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_60",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_61",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_68",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_71",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_77",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_78",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_86",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_88",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_91",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_98",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_103",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_107",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_110",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_116",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_118",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_122",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_130",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_139",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_140",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_201",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_234",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_240",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_241",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_255",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_267",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_268",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_271",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_284",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_289",
+      "Continental AG"
+    ],
+    [
+      "SUPPLIER_3",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "DuPont",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "Hyundai Mobis",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "CATL",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "Renesas Electronics",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_15",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_17",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_21",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "Bridgestone",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_28",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_43",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_45",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "LG Chem",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "Magna International",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_67",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_75",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_78",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_97",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_99",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_106",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_112",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_125",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_133",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_137",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_140",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_141",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_143",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_156",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_175",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "ThyssenKrupp",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_189",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_195",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_196",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_199",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_204",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_210",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_212",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_232",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_251",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "Qualcomm",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_265",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_267",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_275",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "SUPPLIER_298",
+      "Robert Bosch GmbH"
+    ],
+    [
+      "STMicroelectronics",
+      "DuPont"
+    ],
+    [
+      "STMicroelectronics",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "Panasonic Automotive",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_57",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_79",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_102",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_166",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_175",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_192",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_198",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_238",
+      "STMicroelectronics"
+    ],
+    [
+      "SUPPLIER_3",
+      "Renesas Electronics"
+    ],
+    [
+      "SUPPLIER_217",
+      "SUPPLIER_3"
+    ],
+    [
+      "Denso Corp",
+      "DuPont"
+    ],
+    [
+      "Hyundai Mobis",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_12",
+      "DuPont"
+    ],
+    [
+      "Infineon Technologies",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_15",
+      "DuPont"
+    ],
+    [
+      "ZF Friedrichshafen",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_18",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_19",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_23",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_30",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_36",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_40",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_53",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_62",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_64",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_69",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_74",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_80",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_83",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_86",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_87",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_93",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_99",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_102",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_114",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_117",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_154",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_157",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_174",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_180",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_192",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_194",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_200",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_207",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_218",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_227",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_249",
+      "DuPont"
+    ],
+    [
+      "Qualcomm",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_286",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_288",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_297",
+      "DuPont"
+    ],
+    [
+      "SUPPLIER_11",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_12",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_22",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_24",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_30",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_33",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_34",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_39",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_42",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_62",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_67",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_135",
+      "Denso Corp"
+    ],
+    [
+      "SUPPLIER_9",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_29",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_31",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_37",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_50",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_55",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_60",
+      "Hyundai Mobis"
+    ],
+    [
+      "SK Innovation",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_101",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_105",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_110",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_115",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_133",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_143",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_148",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_154",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_161",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_182",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_191",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_203",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_231",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_248",
+      "Hyundai Mobis"
+    ],
+    [
+      "SUPPLIER_59",
+      "CATL"
+    ],
+    [
+      "SUPPLIER_129",
+      "CATL"
+    ],
+    [
+      "Renesas Electronics",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_14",
+      "Renesas Electronics"
+    ],
+    [
+      "SUPPLIER_20",
+      "Renesas Electronics"
+    ],
+    [
+      "Lear Corp",
+      "Renesas Electronics"
+    ],
+    [
+      "SUPPLIER_117",
+      "Renesas Electronics"
+    ],
+    [
+      "SUPPLIER_121",
+      "Renesas Electronics"
+    ],
+    [
+      "SUPPLIER_278",
+      "Renesas Electronics"
+    ],
+    [
+      "SUPPLIER_104",
+      "SUPPLIER_9"
+    ],
+    [
+      "SUPPLIER_124",
+      "SUPPLIER_9"
+    ],
+    [
+      "SUPPLIER_149",
+      "SUPPLIER_9"
+    ],
+    [
+      "SUPPLIER_234",
+      "SUPPLIER_9"
+    ],
+    [
+      "SUPPLIER_32",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_51",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_58",
+      "BorgWarner"
+    ],
+    [
+      "Faurecia",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_95",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_105",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_108",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_121",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_206",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_233",
+      "BorgWarner"
+    ],
+    [
+      "SUPPLIER_61",
+      "SUPPLIER_11"
+    ],
+    [
+      "SUPPLIER_225",
+      "SUPPLIER_11"
+    ],
+    [
+      "SUPPLIER_231",
+      "SUPPLIER_11"
+    ],
+    [
+      "SUPPLIER_245",
+      "SUPPLIER_11"
+    ],
+    [
+      "SUPPLIER_298",
+      "SUPPLIER_11"
+    ],
+    [
+      "SUPPLIER_12",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_84",
+      "SUPPLIER_12"
+    ],
+    [
+      "SUPPLIER_205",
+      "SUPPLIER_12"
+    ],
+    [
+      "Lear Corp",
+      "Infineon Technologies"
+    ],
+    [
+      "SUPPLIER_40",
+      "Infineon Technologies"
+    ],
+    [
+      "SUPPLIER_116",
+      "Infineon Technologies"
+    ],
+    [
+      "SUPPLIER_128",
+      "Infineon Technologies"
+    ],
+    [
+      "SUPPLIER_123",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_134",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_149",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_280",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_46",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_47",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_73",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_118",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_127",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_131",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_142",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_188",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_216",
+      "SUPPLIER_15"
+    ],
+    [
+      "Michelin",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_237",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_258",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_281",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_21",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_33",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_43",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "LG Chem",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_68",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "Aisin Seiki",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_113",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_146",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_148",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_151",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_167",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "BASF",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_219",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_246",
+      "ZF Friedrichshafen"
+    ],
+    [
+      "SUPPLIER_38",
+      "SUPPLIER_17"
+    ],
+    [
+      "SUPPLIER_46",
+      "SUPPLIER_17"
+    ],
+    [
+      "NVIDIA Corp",
+      "SUPPLIER_17"
+    ],
+    [
+      "SUPPLIER_147",
+      "SUPPLIER_17"
+    ],
+    [
+      "SUPPLIER_51",
+      "SUPPLIER_18"
+    ],
+    [
+      "NXP Semiconductors",
+      "SUPPLIER_18"
+    ],
+    [
+      "SUPPLIER_111",
+      "SUPPLIER_18"
+    ],
+    [
+      "SUPPLIER_161",
+      "SUPPLIER_18"
+    ],
+    [
+      "SUPPLIER_167",
+      "SUPPLIER_18"
+    ],
+    [
+      "SUPPLIER_24",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_153",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_172",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_236",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_264",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_165",
+      "SUPPLIER_20"
+    ],
+    [
+      "SUPPLIER_168",
+      "SUPPLIER_20"
+    ],
+    [
+      "SUPPLIER_21",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_34",
+      "SUPPLIER_21"
+    ],
+    [
+      "SUPPLIER_21",
+      "SUPPLIER_75"
+    ],
+    [
+      "SUPPLIER_42",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_76",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_151",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_152",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_157",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_158",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_174",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_24",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_35",
+      "SUPPLIER_24"
+    ],
+    [
+      "SUPPLIER_72",
+      "SUPPLIER_24"
+    ],
+    [
+      "SUPPLIER_134",
+      "SUPPLIER_24"
+    ],
+    [
+      "SUPPLIER_35",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_135",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_190",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_193",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_221",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_255",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_280",
+      "SUPPLIER_25"
+    ],
+    [
+      "Lear Corp",
+      "SUPPLIER_29"
+    ],
+    [
+      "Lear Corp",
+      "SUPPLIER_64"
+    ],
+    [
+      "Lear Corp",
+      "Magna International"
+    ],
+    [
+      "SUPPLIER_84",
+      "Lear Corp"
+    ],
+    [
+      "Lear Corp",
+      "SUPPLIER_91"
+    ],
+    [
+      "SUPPLIER_109",
+      "Lear Corp"
+    ],
+    [
+      "SUPPLIER_128",
+      "Lear Corp"
+    ],
+    [
+      "SUPPLIER_171",
+      "Lear Corp"
+    ],
+    [
+      "SUPPLIER_260",
+      "Lear Corp"
+    ],
+    [
+      "SUPPLIER_291",
+      "Lear Corp"
+    ],
+    [
+      "SUPPLIER_295",
+      "Lear Corp"
+    ],
+    [
+      "Valeo",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_56",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_90",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_92",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_106",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_119",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_164",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_168",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_288",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_290",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_294",
+      "Bridgestone"
+    ],
+    [
+      "SUPPLIER_180",
+      "SUPPLIER_28"
+    ],
+    [
+      "SUPPLIER_29",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_224",
+      "SUPPLIER_29"
+    ],
+    [
+      "SUPPLIER_245",
+      "SUPPLIER_29"
+    ],
+    [
+      "SUPPLIER_281",
+      "SUPPLIER_29"
+    ],
+    [
+      "SUPPLIER_98",
+      "SUPPLIER_30"
+    ],
+    [
+      "SUPPLIER_199",
+      "SUPPLIER_30"
+    ],
+    [
+      "SUPPLIER_39",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_55",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_56",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_181",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_242",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_250",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_282",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_81",
+      "SUPPLIER_32"
+    ],
+    [
+      "SUPPLIER_32",
+      "SK Innovation"
+    ],
+    [
+      "SUPPLIER_155",
+      "SUPPLIER_32"
+    ],
+    [
+      "SUPPLIER_48",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_59",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_97",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_127",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_188",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_232",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_58",
+      "SUPPLIER_34"
+    ],
+    [
+      "SUPPLIER_34",
+      "SUPPLIER_204"
+    ],
+    [
+      "SUPPLIER_35",
+      "SUPPLIER_71"
+    ],
+    [
+      "Nippon Steel",
+      "SUPPLIER_35"
+    ],
+    [
+      "SUPPLIER_163",
+      "SUPPLIER_35"
+    ],
+    [
+      "SUPPLIER_171",
+      "SUPPLIER_35"
+    ],
+    [
+      "Panasonic Automotive",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_53",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_81",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_108",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_130",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_259",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_70",
+      "SUPPLIER_39"
+    ],
+    [
+      "SUPPLIER_39",
+      "SUPPLIER_203"
+    ],
+    [
+      "SUPPLIER_222",
+      "SUPPLIER_39"
+    ],
+    [
+      "SUPPLIER_39",
+      "SUPPLIER_248"
+    ],
+    [
+      "SUPPLIER_292",
+      "SUPPLIER_39"
+    ],
+    [
+      "Panasonic Automotive",
+      "SUPPLIER_93"
+    ],
+    [
+      "SUPPLIER_144",
+      "Panasonic Automotive"
+    ],
+    [
+      "SUPPLIER_183",
+      "Panasonic Automotive"
+    ],
+    [
+      "SUPPLIER_213",
+      "Panasonic Automotive"
+    ],
+    [
+      "SUPPLIER_223",
+      "SUPPLIER_42"
+    ],
+    [
+      "SUPPLIER_48",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_80",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_214",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_229",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_283",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_136",
+      "Valeo"
+    ],
+    [
+      "SUPPLIER_63",
+      "SUPPLIER_45"
+    ],
+    [
+      "SUPPLIER_45",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_217",
+      "SUPPLIER_47"
+    ],
+    [
+      "SUPPLIER_243",
+      "SUPPLIER_47"
+    ],
+    [
+      "SUPPLIER_266",
+      "SUPPLIER_47"
+    ],
+    [
+      "SUPPLIER_131",
+      "SUPPLIER_48"
+    ],
+    [
+      "NVIDIA Corp",
+      "LG Chem"
+    ],
+    [
+      "NXP Semiconductors",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_76",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_95",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_115",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_125",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_138",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_153",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_186",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_196",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_266",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_277",
+      "LG Chem"
+    ],
+    [
+      "SUPPLIER_66",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_72",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_88",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_145",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_252",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_63",
+      "NVIDIA Corp"
+    ],
+    [
+      "Intel Mobileye",
+      "NVIDIA Corp"
+    ],
+    [
+      "SUPPLIER_124",
+      "SUPPLIER_53"
+    ],
+    [
+      "SUPPLIER_119",
+      "NXP Semiconductors"
+    ],
+    [
+      "SUPPLIER_166",
+      "NXP Semiconductors"
+    ],
+    [
+      "SUPPLIER_185",
+      "SUPPLIER_55"
+    ],
+    [
+      "SUPPLIER_208",
+      "SUPPLIER_55"
+    ],
+    [
+      "SUPPLIER_256",
+      "SUPPLIER_55"
+    ],
+    [
+      "SUPPLIER_138",
+      "SUPPLIER_56"
+    ],
+    [
+      "SUPPLIER_169",
+      "SUPPLIER_56"
+    ],
+    [
+      "SUPPLIER_263",
+      "SUPPLIER_56"
+    ],
+    [
+      "SUPPLIER_287",
+      "SUPPLIER_56"
+    ],
+    [
+      "SUPPLIER_70",
+      "SUPPLIER_57"
+    ],
+    [
+      "Faurecia",
+      "SUPPLIER_57"
+    ],
+    [
+      "SUPPLIER_94",
+      "SUPPLIER_57"
+    ],
+    [
+      "SUPPLIER_146",
+      "SUPPLIER_57"
+    ],
+    [
+      "SUPPLIER_58",
+      "SUPPLIER_227"
+    ],
+    [
+      "SUPPLIER_59",
+      "Aisin Seiki"
+    ],
+    [
+      "SUPPLIER_66",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_120",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_132",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_189",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_238",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_87",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_113",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_114",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_136",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_193",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_214",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_79",
+      "SUPPLIER_64"
+    ],
+    [
+      "SUPPLIER_172",
+      "SUPPLIER_64"
+    ],
+    [
+      "SUPPLIER_132",
+      "Magna International"
+    ],
+    [
+      "SUPPLIER_152",
+      "Magna International"
+    ],
+    [
+      "SUPPLIER_209",
+      "Magna International"
+    ],
+    [
+      "SUPPLIER_222",
+      "Magna International"
+    ],
+    [
+      "POSCO",
+      "Magna International"
+    ],
+    [
+      "SUPPLIER_270",
+      "Magna International"
+    ],
+    [
+      "SUPPLIER_73",
+      "SUPPLIER_66"
+    ],
+    [
+      "SUPPLIER_66",
+      "SUPPLIER_74"
+    ],
+    [
+      "SUPPLIER_184",
+      "SUPPLIER_66"
+    ],
+    [
+      "SUPPLIER_107",
+      "SUPPLIER_67"
+    ],
+    [
+      "SUPPLIER_219",
+      "SUPPLIER_67"
+    ],
+    [
+      "SUPPLIER_160",
+      "SUPPLIER_68"
+    ],
+    [
+      "SUPPLIER_243",
+      "SUPPLIER_68"
+    ],
+    [
+      "SUPPLIER_262",
+      "SUPPLIER_68"
+    ],
+    [
+      "SUPPLIER_77",
+      "SUPPLIER_69"
+    ],
+    [
+      "Nippon Steel",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_100",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_101",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_142",
+      "SUPPLIER_69"
+    ],
+    [
+      "Intel Mobileye",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_170",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_181",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_187",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_244",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_279",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_129",
+      "SUPPLIER_70"
+    ],
+    [
+      "SUPPLIER_183",
+      "SUPPLIER_71"
+    ],
+    [
+      "SUPPLIER_254",
+      "SUPPLIER_71"
+    ],
+    [
+      "SUPPLIER_100",
+      "SUPPLIER_72"
+    ],
+    [
+      "SUPPLIER_72",
+      "SUPPLIER_191"
+    ],
+    [
+      "SUPPLIER_72",
+      "SUPPLIER_265"
+    ],
+    [
+      "SUPPLIER_83",
+      "SUPPLIER_74"
+    ],
+    [
+      "SUPPLIER_173",
+      "SUPPLIER_74"
+    ],
+    [
+      "SUPPLIER_220",
+      "SUPPLIER_74"
+    ],
+    [
+      "SUPPLIER_112",
+      "SUPPLIER_75"
+    ],
+    [
+      "Texas Instruments",
+      "SUPPLIER_75"
+    ],
+    [
+      "SUPPLIER_137",
+      "SUPPLIER_75"
+    ],
+    [
+      "ThyssenKrupp",
+      "SUPPLIER_75"
+    ],
+    [
+      "SUPPLIER_145",
+      "SUPPLIER_77"
+    ],
+    [
+      "ArcelorMittal",
+      "SUPPLIER_77"
+    ],
+    [
+      "SUPPLIER_286",
+      "SUPPLIER_77"
+    ],
+    [
+      "SUPPLIER_164",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_179",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_187",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_190",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_294",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_90",
+      "SUPPLIER_79"
+    ],
+    [
+      "SUPPLIER_92",
+      "SUPPLIER_79"
+    ],
+    [
+      "SUPPLIER_247",
+      "SUPPLIER_79"
+    ],
+    [
+      "SUPPLIER_205",
+      "SUPPLIER_80"
+    ],
+    [
+      "SUPPLIER_104",
+      "SK Innovation"
+    ],
+    [
+      "Texas Instruments",
+      "SK Innovation"
+    ],
+    [
+      "SUPPLIER_160",
+      "SK Innovation"
+    ],
+    [
+      "SUPPLIER_165",
+      "SK Innovation"
+    ],
+    [
+      "SUPPLIER_194",
+      "SK Innovation"
+    ],
+    [
+      "SUPPLIER_239",
+      "SK Innovation"
+    ],
+    [
+      "SUPPLIER_123",
+      "SUPPLIER_84"
+    ],
+    [
+      "Faurecia",
+      "SUPPLIER_122"
+    ],
+    [
+      "SUPPLIER_226",
+      "Faurecia"
+    ],
+    [
+      "SUPPLIER_277",
+      "Faurecia"
+    ],
+    [
+      "SUPPLIER_241",
+      "SUPPLIER_86"
+    ],
+    [
+      "SUPPLIER_94",
+      "SUPPLIER_87"
+    ],
+    [
+      "SUPPLIER_109",
+      "SUPPLIER_87"
+    ],
+    [
+      "SUPPLIER_158",
+      "SUPPLIER_87"
+    ],
+    [
+      "SUPPLIER_274",
+      "SUPPLIER_88"
+    ],
+    [
+      "SUPPLIER_185",
+      "Nippon Steel"
+    ],
+    [
+      "SUPPLIER_229",
+      "SUPPLIER_91"
+    ],
+    [
+      "SUPPLIER_237",
+      "SUPPLIER_91"
+    ],
+    [
+      "SUPPLIER_92",
+      "SUPPLIER_103"
+    ],
+    [
+      "SUPPLIER_163",
+      "SUPPLIER_92"
+    ],
+    [
+      "SUPPLIER_92",
+      "SUPPLIER_210"
+    ],
+    [
+      "SUPPLIER_207",
+      "SUPPLIER_93"
+    ],
+    [
+      "SUPPLIER_220",
+      "SUPPLIER_93"
+    ],
+    [
+      "SUPPLIER_296",
+      "SUPPLIER_93"
+    ],
+    [
+      "SUPPLIER_111",
+      "SUPPLIER_94"
+    ],
+    [
+      "SUPPLIER_197",
+      "SUPPLIER_94"
+    ],
+    [
+      "SUPPLIER_273",
+      "SUPPLIER_94"
+    ],
+    [
+      "SUPPLIER_173",
+      "Aisin Seiki"
+    ],
+    [
+      "BASF",
+      "Aisin Seiki"
+    ],
+    [
+      "SUPPLIER_225",
+      "SUPPLIER_99"
+    ],
+    [
+      "SUPPLIER_100",
+      "SUPPLIER_251"
+    ],
+    [
+      "SUPPLIER_141",
+      "SUPPLIER_101"
+    ],
+    [
+      "SUPPLIER_283",
+      "SUPPLIER_101"
+    ],
+    [
+      "SUPPLIER_258",
+      "SUPPLIER_102"
+    ],
+    [
+      "SUPPLIER_279",
+      "SUPPLIER_103"
+    ],
+    [
+      "SUPPLIER_104",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_216",
+      "SUPPLIER_107"
+    ],
+    [
+      "SUPPLIER_270",
+      "SUPPLIER_109"
+    ],
+    [
+      "SUPPLIER_120",
+      "SUPPLIER_112"
+    ],
+    [
+      "SUPPLIER_249",
+      "SUPPLIER_113"
+    ],
+    [
+      "SUPPLIER_254",
+      "SUPPLIER_113"
+    ],
+    [
+      "SUPPLIER_228",
+      "SUPPLIER_119"
+    ],
+    [
+      "SUPPLIER_272",
+      "SUPPLIER_119"
+    ],
+    [
+      "SUPPLIER_144",
+      "Texas Instruments"
+    ],
+    [
+      "SUPPLIER_285",
+      "Texas Instruments"
+    ],
+    [
+      "SUPPLIER_299",
+      "SUPPLIER_128"
+    ],
+    [
+      "SUPPLIER_291",
+      "SUPPLIER_129"
+    ],
+    [
+      "SUPPLIER_150",
+      "SUPPLIER_130"
+    ],
+    [
+      "SUPPLIER_170",
+      "SUPPLIER_131"
+    ],
+    [
+      "SUPPLIER_250",
+      "SUPPLIER_132"
+    ],
+    [
+      "SUPPLIER_299",
+      "SUPPLIER_134"
+    ],
+    [
+      "SUPPLIER_159",
+      "SUPPLIER_135"
+    ],
+    [
+      "SUPPLIER_150",
+      "SUPPLIER_137"
+    ],
+    [
+      "SUPPLIER_156",
+      "SUPPLIER_137"
+    ],
+    [
+      "SUPPLIER_169",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_176",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_257",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_147",
+      "SUPPLIER_140"
+    ],
+    [
+      "SUPPLIER_275",
+      "SUPPLIER_140"
+    ],
+    [
+      "SUPPLIER_141",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_178",
+      "SUPPLIER_143"
+    ],
+    [
+      "SUPPLIER_182",
+      "SUPPLIER_143"
+    ],
+    [
+      "SUPPLIER_198",
+      "SUPPLIER_145"
+    ],
+    [
+      "SUPPLIER_159",
+      "SUPPLIER_146"
+    ],
+    [
+      "SUPPLIER_155",
+      "SUPPLIER_147"
+    ],
+    [
+      "SUPPLIER_269",
+      "SUPPLIER_148"
+    ],
+    [
+      "SUPPLIER_252",
+      "SUPPLIER_149"
+    ],
+    [
+      "SUPPLIER_244",
+      "SUPPLIER_150"
+    ],
+    [
+      "SUPPLIER_274",
+      "SUPPLIER_150"
+    ],
+    [
+      "SUPPLIER_246",
+      "SUPPLIER_154"
+    ],
+    [
+      "POSCO",
+      "SUPPLIER_155"
+    ],
+    [
+      "SUPPLIER_184",
+      "SUPPLIER_156"
+    ],
+    [
+      "SUPPLIER_269",
+      "SUPPLIER_157"
+    ],
+    [
+      "SUPPLIER_158",
+      "SUPPLIER_176"
+    ],
+    [
+      "SUPPLIER_160",
+      "SUPPLIER_212"
+    ],
+    [
+      "SUPPLIER_230",
+      "SUPPLIER_160"
+    ],
+    [
+      "SUPPLIER_278",
+      "SUPPLIER_160"
+    ],
+    [
+      "SUPPLIER_260",
+      "Intel Mobileye"
+    ],
+    [
+      "SUPPLIER_166",
+      "SUPPLIER_271"
+    ],
+    [
+      "SUPPLIER_233",
+      "SUPPLIER_170"
+    ],
+    [
+      "SUPPLIER_171",
+      "SUPPLIER_179"
+    ],
+    [
+      "SUPPLIER_178",
+      "SUPPLIER_172"
+    ],
+    [
+      "SUPPLIER_172",
+      "SUPPLIER_209"
+    ],
+    [
+      "SUPPLIER_276",
+      "SUPPLIER_173"
+    ],
+    [
+      "SUPPLIER_239",
+      "SUPPLIER_175"
+    ],
+    [
+      "SUPPLIER_208",
+      "SUPPLIER_176"
+    ],
+    [
+      "SUPPLIER_264",
+      "SUPPLIER_176"
+    ],
+    [
+      "SUPPLIER_186",
+      "ThyssenKrupp"
+    ],
+    [
+      "SUPPLIER_257",
+      "ThyssenKrupp"
+    ],
+    [
+      "SUPPLIER_178",
+      "SUPPLIER_200"
+    ],
+    [
+      "SUPPLIER_224",
+      "SUPPLIER_181"
+    ],
+    [
+      "SUPPLIER_197",
+      "SUPPLIER_182"
+    ],
+    [
+      "SUPPLIER_247",
+      "SUPPLIER_188"
+    ],
+    [
+      "SUPPLIER_190",
+      "SUPPLIER_218"
+    ],
+    [
+      "SUPPLIER_195",
+      "SUPPLIER_191"
+    ],
+    [
+      "SUPPLIER_213",
+      "SUPPLIER_193"
+    ],
+    [
+      "SUPPLIER_198",
+      "SUPPLIER_284"
+    ],
+    [
+      "SUPPLIER_236",
+      "SUPPLIER_199"
+    ],
+    [
+      "ArcelorMittal",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_228",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_263",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_272",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_223",
+      "SUPPLIER_203"
+    ],
+    [
+      "Michelin",
+      "SUPPLIER_203"
+    ],
+    [
+      "SUPPLIER_282",
+      "SUPPLIER_203"
+    ],
+    [
+      "SUPPLIER_206",
+      "SUPPLIER_205"
+    ],
+    [
+      "SUPPLIER_230",
+      "SUPPLIER_205"
+    ],
+    [
+      "SUPPLIER_205",
+      "SUPPLIER_297"
+    ],
+    [
+      "SUPPLIER_215",
+      "SUPPLIER_206"
+    ],
+    [
+      "SUPPLIER_285",
+      "SUPPLIER_206"
+    ],
+    [
+      "SUPPLIER_215",
+      "SUPPLIER_209"
+    ],
+    [
+      "SUPPLIER_221",
+      "SUPPLIER_209"
+    ],
+    [
+      "SUPPLIER_209",
+      "SUPPLIER_268"
+    ],
+    [
+      "SUPPLIER_217",
+      "SUPPLIER_240"
+    ],
+    [
+      "SUPPLIER_287",
+      "SUPPLIER_219"
+    ],
+    [
+      "SUPPLIER_290",
+      "SUPPLIER_219"
+    ],
+    [
+      "SUPPLIER_226",
+      "SUPPLIER_221"
+    ],
+    [
+      "SUPPLIER_259",
+      "SUPPLIER_222"
+    ],
+    [
+      "SUPPLIER_226",
+      "SUPPLIER_242"
+    ],
+    [
+      "SUPPLIER_295",
+      "SUPPLIER_228"
+    ],
+    [
+      "SUPPLIER_292",
+      "Michelin"
+    ],
+    [
+      "SUPPLIER_256",
+      "SUPPLIER_238"
+    ],
+    [
+      "SUPPLIER_239",
+      "SUPPLIER_289"
+    ],
+    [
+      "SUPPLIER_293",
+      "SUPPLIER_239"
+    ],
+    [
+      "SUPPLIER_262",
+      "POSCO"
+    ],
+    [
+      "SUPPLIER_273",
+      "SUPPLIER_263"
+    ],
+    [
+      "SUPPLIER_276",
+      "SUPPLIER_265"
+    ],
+    [
+      "SUPPLIER_293",
+      "SUPPLIER_273"
+    ],
+    [
+      "SUPPLIER_296",
+      "SUPPLIER_282"
+    ],
+    [
+      "Continental AG",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "Robert Bosch GmbH",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "DuPont",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "Hyundai Mobis",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "ZF Friedrichshafen",
+      "BMW_GROUP_PROXY"
+    ]
+  ],
+  "meta": {
+    "source": "Generated via Barabasi-Albert Scale-Free Model (Network Science Standard)",
+    "description": "Digital Twin (Enriched) - BMW Group Proxy v1.0",
+    "node_count": 301,
+    "edge_count": 601
+  }
+}

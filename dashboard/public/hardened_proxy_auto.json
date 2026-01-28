@@ -1,0 +1,4217 @@
+{
+  "nodes": [
+    {
+      "id": "SUPPLIER_0",
+      "tier": "1",
+      "spend": 5736.94
+    },
+    {
+      "id": "SUPPLIER_1",
+      "tier": "1",
+      "spend": 6760.4
+    },
+    {
+      "id": "SUPPLIER_2",
+      "tier": "2",
+      "spend": 402.56
+    },
+    {
+      "id": "SUPPLIER_3",
+      "tier": "2",
+      "spend": 190.88
+    },
+    {
+      "id": "SUPPLIER_4",
+      "tier": "1",
+      "spend": 842.55
+    },
+    {
+      "id": "SUPPLIER_5",
+      "tier": "2",
+      "spend": 4065.07
+    },
+    {
+      "id": "SUPPLIER_6",
+      "tier": "1",
+      "spend": 3515.95
+    },
+    {
+      "id": "SUPPLIER_7",
+      "tier": "2",
+      "spend": 321.82
+    },
+    {
+      "id": "SUPPLIER_8",
+      "tier": "2",
+      "spend": 286.45
+    },
+    {
+      "id": "SUPPLIER_9",
+      "tier": "2",
+      "spend": 5019.72
+    },
+    {
+      "id": "SUPPLIER_10",
+      "tier": "2",
+      "spend": 356.13
+    },
+    {
+      "id": "SUPPLIER_11",
+      "tier": "2",
+      "spend": 261.9
+    },
+    {
+      "id": "SUPPLIER_12",
+      "tier": "2",
+      "spend": 843.57
+    },
+    {
+      "id": "SUPPLIER_13",
+      "tier": "2",
+      "spend": 455.71
+    },
+    {
+      "id": "SUPPLIER_14",
+      "tier": "2",
+      "spend": 416.5
+    },
+    {
+      "id": "SUPPLIER_15",
+      "tier": "2",
+      "spend": 1664.84
+    },
+    {
+      "id": "SUPPLIER_16",
+      "tier": "1",
+      "spend": 2949.53
+    },
+    {
+      "id": "SUPPLIER_17",
+      "tier": "2",
+      "spend": 2489.77
+    },
+    {
+      "id": "SUPPLIER_18",
+      "tier": "2",
+      "spend": 2990.86
+    },
+    {
+      "id": "SUPPLIER_19",
+      "tier": "2",
+      "spend": 234.72
+    },
+    {
+      "id": "SUPPLIER_20",
+      "tier": "2",
+      "spend": 2221.63
+    },
+    {
+      "id": "SUPPLIER_21",
+      "tier": "2",
+      "spend": 813.8
+    },
+    {
+      "id": "SUPPLIER_22",
+      "tier": "2",
+      "spend": 97.5
+    },
+    {
+      "id": "SUPPLIER_23",
+      "tier": "2",
+      "spend": 255.97
+    },
+    {
+      "id": "SUPPLIER_24",
+      "tier": "3",
+      "spend": 422.01
+    },
+    {
+      "id": "SUPPLIER_25",
+      "tier": "2",
+      "spend": 1562.42
+    },
+    {
+      "id": "SUPPLIER_26",
+      "tier": "3",
+      "spend": 779.44
+    },
+    {
+      "id": "SUPPLIER_27",
+      "tier": "2",
+      "spend": 810.12
+    },
+    {
+      "id": "SUPPLIER_28",
+      "tier": "2",
+      "spend": 185.4
+    },
+    {
+      "id": "SUPPLIER_29",
+      "tier": "2",
+      "spend": 255.59
+    },
+    {
+      "id": "SUPPLIER_30",
+      "tier": "2",
+      "spend": 3781.07
+    },
+    {
+      "id": "SUPPLIER_31",
+      "tier": "2",
+      "spend": 964.09
+    },
+    {
+      "id": "SUPPLIER_32",
+      "tier": "2",
+      "spend": 157.84
+    },
+    {
+      "id": "SUPPLIER_33",
+      "tier": "2",
+      "spend": 225.53
+    },
+    {
+      "id": "SUPPLIER_34",
+      "tier": "3",
+      "spend": 109.07
+    },
+    {
+      "id": "SUPPLIER_35",
+      "tier": "3",
+      "spend": 381.3
+    },
+    {
+      "id": "SUPPLIER_36",
+      "tier": "2",
+      "spend": 90.27
+    },
+    {
+      "id": "SUPPLIER_37",
+      "tier": "2",
+      "spend": 514.92
+    },
+    {
+      "id": "SUPPLIER_38",
+      "tier": "2",
+      "spend": 823.96
+    },
+    {
+      "id": "SUPPLIER_39",
+      "tier": "3",
+      "spend": 97.23
+    },
+    {
+      "id": "SUPPLIER_40",
+      "tier": "2",
+      "spend": 48.71
+    },
+    {
+      "id": "SUPPLIER_41",
+      "tier": "3",
+      "spend": 4116.95
+    },
+    {
+      "id": "SUPPLIER_42",
+      "tier": "3",
+      "spend": 1115.6
+    },
+    {
+      "id": "SUPPLIER_43",
+      "tier": "2",
+      "spend": 197.14
+    },
+    {
+      "id": "SUPPLIER_44",
+      "tier": "2",
+      "spend": 1446.9
+    },
+    {
+      "id": "SUPPLIER_45",
+      "tier": "2",
+      "spend": 3691.62
+    },
+    {
+      "id": "SUPPLIER_46",
+      "tier": "3",
+      "spend": 73.3
+    },
+    {
+      "id": "SUPPLIER_47",
+      "tier": "2",
+      "spend": 253.05
+    },
+    {
+      "id": "SUPPLIER_48",
+      "tier": "3",
+      "spend": 4943.19
+    },
+    {
+      "id": "SUPPLIER_49",
+      "tier": "2",
+      "spend": 1026.79
+    },
+    {
+      "id": "SUPPLIER_50",
+      "tier": "2",
+      "spend": 211.11
+    },
+    {
+      "id": "SUPPLIER_51",
+      "tier": "3",
+      "spend": 549.97
+    },
+    {
+      "id": "SUPPLIER_52",
+      "tier": "3",
+      "spend": 1324.48
+    },
+    {
+      "id": "SUPPLIER_53",
+      "tier": "2",
+      "spend": 324.57
+    },
+    {
+      "id": "SUPPLIER_54",
+      "tier": "3",
+      "spend": 682.33
+    },
+    {
+      "id": "SUPPLIER_55",
+      "tier": "2",
+      "spend": 508.81
+    },
+    {
+      "id": "SUPPLIER_56",
+      "tier": "3",
+      "spend": 2530.46
+    },
+    {
+      "id": "SUPPLIER_57",
+      "tier": "2",
+      "spend": 6021.3
+    },
+    {
+      "id": "SUPPLIER_58",
+      "tier": "3",
+      "spend": 312.52
+    },
+    {
+      "id": "SUPPLIER_59",
+      "tier": "3",
+      "spend": 549.91
+    },
+    {
+      "id": "SUPPLIER_60",
+      "tier": "2",
+      "spend": 762.88
+    },
+    {
+      "id": "SUPPLIER_61",
+      "tier": "2",
+      "spend": 1247.08
+    },
+    {
+      "id": "SUPPLIER_62",
+      "tier": "2",
+      "spend": 428.33
+    },
+    {
+      "id": "SUPPLIER_63",
+      "tier": "3",
+      "spend": 78.11
+    },
+    {
+      "id": "SUPPLIER_64",
+      "tier": "2",
+      "spend": 26.74
+    },
+    {
+      "id": "SUPPLIER_65",
+      "tier": "2",
+      "spend": 1717.16
+    },
+    {
+      "id": "SUPPLIER_66",
+      "tier": "3",
+      "spend": 892.71
+    },
+    {
+      "id": "SUPPLIER_67",
+      "tier": "2",
+      "spend": 1108.58
+    },
+    {
+      "id": "SUPPLIER_68",
+      "tier": "2",
+      "spend": 1956.39
+    },
+    {
+      "id": "SUPPLIER_69",
+      "tier": "2",
+      "spend": 1529.77
+    },
+    {
+      "id": "SUPPLIER_70",
+      "tier": "3",
+      "spend": 504.17
+    },
+    {
+      "id": "SUPPLIER_71",
+      "tier": "2",
+      "spend": 279.73
+    },
+    {
+      "id": "SUPPLIER_72",
+      "tier": "3",
+      "spend": 411.68
+    },
+    {
+      "id": "SUPPLIER_73",
+      "tier": "3",
+      "spend": 101.02
+    },
+    {
+      "id": "SUPPLIER_74",
+      "tier": "2",
+      "spend": 562.68
+    },
+    {
+      "id": "SUPPLIER_75",
+      "tier": "2",
+      "spend": 904.59
+    },
+    {
+      "id": "SUPPLIER_76",
+      "tier": "3",
+      "spend": 87.85
+    },
+    {
+      "id": "SUPPLIER_77",
+      "tier": "2",
+      "spend": 219.57
+    },
+    {
+      "id": "SUPPLIER_78",
+      "tier": "2",
+      "spend": 6375.78
+    },
+    {
+      "id": "SUPPLIER_79",
+      "tier": "3",
+      "spend": 233.33
+    },
+    {
+      "id": "SUPPLIER_80",
+      "tier": "2",
+      "spend": 194.64
+    },
+    {
+      "id": "SUPPLIER_81",
+      "tier": "3",
+      "spend": 201.38
+    },
+    {
+      "id": "SUPPLIER_82",
+      "tier": "2",
+      "spend": 3000.64
+    },
+    {
+      "id": "SUPPLIER_83",
+      "tier": "2",
+      "spend": 240.05
+    },
+    {
+      "id": "SUPPLIER_84",
+      "tier": "3",
+      "spend": 985.64
+    },
+    {
+      "id": "SUPPLIER_85",
+      "tier": "3",
+      "spend": 34.2
+    },
+    {
+      "id": "SUPPLIER_86",
+      "tier": "2",
+      "spend": 387.64
+    },
+    {
+      "id": "SUPPLIER_87",
+      "tier": "2",
+      "spend": 1442.91
+    },
+    {
+      "id": "SUPPLIER_88",
+      "tier": "2",
+      "spend": 1230.97
+    },
+    {
+      "id": "SUPPLIER_89",
+      "tier": "3",
+      "spend": 341.7
+    },
+    {
+      "id": "SUPPLIER_90",
+      "tier": "3",
+      "spend": 75.85
+    },
+    {
+      "id": "SUPPLIER_91",
+      "tier": "2",
+      "spend": 105.82
+    },
+    {
+      "id": "SUPPLIER_92",
+      "tier": "3",
+      "spend": 520.72
+    },
+    {
+      "id": "SUPPLIER_93",
+      "tier": "2",
+      "spend": 592.13
+    },
+    {
+      "id": "SUPPLIER_94",
+      "tier": "3",
+      "spend": 374.27
+    },
+    {
+      "id": "SUPPLIER_95",
+      "tier": "3",
+      "spend": 149.01
+    },
+    {
+      "id": "SUPPLIER_96",
+      "tier": "2",
+      "spend": 133.4
+    },
+    {
+      "id": "SUPPLIER_97",
+      "tier": "2",
+      "spend": 684.21
+    },
+    {
+      "id": "SUPPLIER_98",
+      "tier": "2",
+      "spend": 1750.57
+    },
+    {
+      "id": "SUPPLIER_99",
+      "tier": "2",
+      "spend": 130.37
+    },
+    {
+      "id": "SUPPLIER_100",
+      "tier": "3",
+      "spend": 286.16
+    },
+    {
+      "id": "SUPPLIER_101",
+      "tier": "2",
+      "spend": 549.15
+    },
+    {
+      "id": "SUPPLIER_102",
+      "tier": "2",
+      "spend": 243.46
+    },
+    {
+      "id": "SUPPLIER_103",
+      "tier": "2",
+      "spend": 1697.3
+    },
+    {
+      "id": "SUPPLIER_104",
+      "tier": "3",
+      "spend": 90.69
+    },
+    {
+      "id": "SUPPLIER_105",
+      "tier": "2",
+      "spend": 217.97
+    },
+    {
+      "id": "SUPPLIER_106",
+      "tier": "2",
+      "spend": 10894.77
+    },
+    {
+      "id": "SUPPLIER_107",
+      "tier": "2",
+      "spend": 1004.8
+    },
+    {
+      "id": "SUPPLIER_108",
+      "tier": "3",
+      "spend": 198.32
+    },
+    {
+      "id": "SUPPLIER_109",
+      "tier": "3",
+      "spend": 281.07
+    },
+    {
+      "id": "SUPPLIER_110",
+      "tier": "2",
+      "spend": 97.21
+    },
+    {
+      "id": "SUPPLIER_111",
+      "tier": "3",
+      "spend": 465.69
+    },
+    {
+      "id": "SUPPLIER_112",
+      "tier": "2",
+      "spend": 528.8
+    },
+    {
+      "id": "SUPPLIER_113",
+      "tier": "2",
+      "spend": 664.5
+    },
+    {
+      "id": "SUPPLIER_114",
+      "tier": "2",
+      "spend": 230.46
+    },
+    {
+      "id": "SUPPLIER_115",
+      "tier": "2",
+      "spend": 407.83
+    },
+    {
+      "id": "SUPPLIER_116",
+      "tier": "2",
+      "spend": 105.68
+    },
+    {
+      "id": "SUPPLIER_117",
+      "tier": "2",
+      "spend": 834.7
+    },
+    {
+      "id": "SUPPLIER_118",
+      "tier": "2",
+      "spend": 475.15
+    },
+    {
+      "id": "SUPPLIER_119",
+      "tier": "3",
+      "spend": 444.02
+    },
+    {
+      "id": "SUPPLIER_120",
+      "tier": "3",
+      "spend": 1110.69
+    },
+    {
+      "id": "SUPPLIER_121",
+      "tier": "3",
+      "spend": 1572.27
+    },
+    {
+      "id": "SUPPLIER_122",
+      "tier": "2",
+      "spend": 356.15
+    },
+    {
+      "id": "SUPPLIER_123",
+      "tier": "3",
+      "spend": 22.99
+    },
+    {
+      "id": "SUPPLIER_124",
+      "tier": "3",
+      "spend": 162.71
+    },
+    {
+      "id": "SUPPLIER_125",
+      "tier": "2",
+      "spend": 76.16
+    },
+    {
+      "id": "SUPPLIER_126",
+      "tier": "3",
+      "spend": 358.02
+    },
+    {
+      "id": "SUPPLIER_127",
+      "tier": "3",
+      "spend": 249.98
+    },
+    {
+      "id": "SUPPLIER_128",
+      "tier": "3",
+      "spend": 246.65
+    },
+    {
+      "id": "SUPPLIER_129",
+      "tier": "3",
+      "spend": 399.59
+    },
+    {
+      "id": "SUPPLIER_130",
+      "tier": "2",
+      "spend": 118.99
+    },
+    {
+      "id": "SUPPLIER_131",
+      "tier": "3",
+      "spend": 55.91
+    },
+    {
+      "id": "SUPPLIER_132",
+      "tier": "3",
+      "spend": 32.56
+    },
+    {
+      "id": "SUPPLIER_133",
+      "tier": "2",
+      "spend": 228.17
+    },
+    {
+      "id": "SUPPLIER_134",
+      "tier": "3",
+      "spend": 1311.83
+    },
+    {
+      "id": "SUPPLIER_135",
+      "tier": "3",
+      "spend": 626.0
+    },
+    {
+      "id": "SUPPLIER_136",
+      "tier": "3",
+      "spend": 169.07
+    },
+    {
+      "id": "SUPPLIER_137",
+      "tier": "2",
+      "spend": 122.88
+    },
+    {
+      "id": "SUPPLIER_138",
+      "tier": "3",
+      "spend": 179.77
+    },
+    {
+      "id": "SUPPLIER_139",
+      "tier": "2",
+      "spend": 455.05
+    },
+    {
+      "id": "SUPPLIER_140",
+      "tier": "2",
+      "spend": 980.68
+    },
+    {
+      "id": "SUPPLIER_141",
+      "tier": "2",
+      "spend": 447.59
+    },
+    {
+      "id": "SUPPLIER_142",
+      "tier": "3",
+      "spend": 178.42
+    },
+    {
+      "id": "SUPPLIER_143",
+      "tier": "2",
+      "spend": 166.79
+    },
+    {
+      "id": "SUPPLIER_144",
+      "tier": "4",
+      "spend": 103.67
+    },
+    {
+      "id": "SUPPLIER_145",
+      "tier": "3",
+      "spend": 461.09
+    },
+    {
+      "id": "SUPPLIER_146",
+      "tier": "2",
+      "spend": 474.07
+    },
+    {
+      "id": "SUPPLIER_147",
+      "tier": "3",
+      "spend": 806.63
+    },
+    {
+      "id": "SUPPLIER_148",
+      "tier": "2",
+      "spend": 285.94
+    },
+    {
+      "id": "SUPPLIER_149",
+      "tier": "3",
+      "spend": 793.48
+    },
+    {
+      "id": "SUPPLIER_150",
+      "tier": "3",
+      "spend": 173.49
+    },
+    {
+      "id": "SUPPLIER_151",
+      "tier": "2",
+      "spend": 1333.98
+    },
+    {
+      "id": "SUPPLIER_152",
+      "tier": "3",
+      "spend": 583.75
+    },
+    {
+      "id": "SUPPLIER_153",
+      "tier": "3",
+      "spend": 37.45
+    },
+    {
+      "id": "SUPPLIER_154",
+      "tier": "2",
+      "spend": 289.7
+    },
+    {
+      "id": "SUPPLIER_155",
+      "tier": "3",
+      "spend": 125.41
+    },
+    {
+      "id": "SUPPLIER_156",
+      "tier": "2",
+      "spend": 496.97
+    },
+    {
+      "id": "SUPPLIER_157",
+      "tier": "2",
+      "spend": 3647.39
+    },
+    {
+      "id": "SUPPLIER_158",
+      "tier": "3",
+      "spend": 472.55
+    },
+    {
+      "id": "SUPPLIER_159",
+      "tier": "3",
+      "spend": 94.39
+    },
+    {
+      "id": "SUPPLIER_160",
+      "tier": "3",
+      "spend": 522.2
+    },
+    {
+      "id": "SUPPLIER_161",
+      "tier": "2",
+      "spend": 1412.72
+    },
+    {
+      "id": "SUPPLIER_162",
+      "tier": "3",
+      "spend": 28.15
+    },
+    {
+      "id": "SUPPLIER_163",
+      "tier": "4",
+      "spend": 62.26
+    },
+    {
+      "id": "SUPPLIER_164",
+      "tier": "3",
+      "spend": 583.0
+    },
+    {
+      "id": "SUPPLIER_165",
+      "tier": "3",
+      "spend": 56.43
+    },
+    {
+      "id": "SUPPLIER_166",
+      "tier": "3",
+      "spend": 728.15
+    },
+    {
+      "id": "SUPPLIER_167",
+      "tier": "2",
+      "spend": 99.24
+    },
+    {
+      "id": "SUPPLIER_168",
+      "tier": "3",
+      "spend": 337.3
+    },
+    {
+      "id": "SUPPLIER_169",
+      "tier": "3",
+      "spend": 217.13
+    },
+    {
+      "id": "SUPPLIER_170",
+      "tier": "3",
+      "spend": 47.95
+    },
+    {
+      "id": "SUPPLIER_171",
+      "tier": "4",
+      "spend": 162.09
+    },
+    {
+      "id": "SUPPLIER_172",
+      "tier": "3",
+      "spend": 90.86
+    },
+    {
+      "id": "SUPPLIER_173",
+      "tier": "3",
+      "spend": 549.94
+    },
+    {
+      "id": "SUPPLIER_174",
+      "tier": "2",
+      "spend": 95.28
+    },
+    {
+      "id": "SUPPLIER_175",
+      "tier": "2",
+      "spend": 202.33
+    },
+    {
+      "id": "SUPPLIER_176",
+      "tier": "3",
+      "spend": 969.76
+    },
+    {
+      "id": "SUPPLIER_177",
+      "tier": "2",
+      "spend": 658.44
+    },
+    {
+      "id": "SUPPLIER_178",
+      "tier": "3",
+      "spend": 207.55
+    },
+    {
+      "id": "SUPPLIER_179",
+      "tier": "3",
+      "spend": 469.33
+    },
+    {
+      "id": "SUPPLIER_180",
+      "tier": "2",
+      "spend": 352.53
+    },
+    {
+      "id": "SUPPLIER_181",
+      "tier": "3",
+      "spend": 61.88
+    },
+    {
+      "id": "SUPPLIER_182",
+      "tier": "2",
+      "spend": 134.67
+    },
+    {
+      "id": "SUPPLIER_183",
+      "tier": "3",
+      "spend": 174.32
+    },
+    {
+      "id": "SUPPLIER_184",
+      "tier": "3",
+      "spend": 14.4
+    },
+    {
+      "id": "SUPPLIER_185",
+      "tier": "3",
+      "spend": 25.14
+    },
+    {
+      "id": "SUPPLIER_186",
+      "tier": "3",
+      "spend": 373.44
+    },
+    {
+      "id": "SUPPLIER_187",
+      "tier": "3",
+      "spend": 166.26
+    },
+    {
+      "id": "SUPPLIER_188",
+      "tier": "3",
+      "spend": 33.67
+    },
+    {
+      "id": "SUPPLIER_189",
+      "tier": "2",
+      "spend": 320.22
+    },
+    {
+      "id": "SUPPLIER_190",
+      "tier": "3",
+      "spend": 132.08
+    },
+    {
+      "id": "SUPPLIER_191",
+      "tier": "2",
+      "spend": 102.5
+    },
+    {
+      "id": "SUPPLIER_192",
+      "tier": "2",
+      "spend": 1056.18
+    },
+    {
+      "id": "SUPPLIER_193",
+      "tier": "3",
+      "spend": 544.06
+    },
+    {
+      "id": "SUPPLIER_194",
+      "tier": "2",
+      "spend": 29.98
+    },
+    {
+      "id": "SUPPLIER_195",
+      "tier": "2",
+      "spend": 269.63
+    },
+    {
+      "id": "SUPPLIER_196",
+      "tier": "2",
+      "spend": 654.39
+    },
+    {
+      "id": "SUPPLIER_197",
+      "tier": "3",
+      "spend": 102.89
+    },
+    {
+      "id": "SUPPLIER_198",
+      "tier": "3",
+      "spend": 124.99
+    },
+    {
+      "id": "SUPPLIER_199",
+      "tier": "2",
+      "spend": 445.33
+    },
+    {
+      "id": "SUPPLIER_200",
+      "tier": "2",
+      "spend": 118.13
+    },
+    {
+      "id": "SUPPLIER_201",
+      "tier": "2",
+      "spend": 464.66
+    },
+    {
+      "id": "SUPPLIER_202",
+      "tier": "2",
+      "spend": 62.72
+    },
+    {
+      "id": "SUPPLIER_203",
+      "tier": "2",
+      "spend": 206.38
+    },
+    {
+      "id": "SUPPLIER_204",
+      "tier": "2",
+      "spend": 973.35
+    },
+    {
+      "id": "SUPPLIER_205",
+      "tier": "3",
+      "spend": 215.31
+    },
+    {
+      "id": "SUPPLIER_206",
+      "tier": "3",
+      "spend": 1199.82
+    },
+    {
+      "id": "SUPPLIER_207",
+      "tier": "2",
+      "spend": 70.74
+    },
+    {
+      "id": "SUPPLIER_208",
+      "tier": "3",
+      "spend": 74.79
+    },
+    {
+      "id": "SUPPLIER_209",
+      "tier": "3",
+      "spend": 291.4
+    },
+    {
+      "id": "SUPPLIER_210",
+      "tier": "2",
+      "spend": 3101.0
+    },
+    {
+      "id": "SUPPLIER_211",
+      "tier": "3",
+      "spend": 80.15
+    },
+    {
+      "id": "SUPPLIER_212",
+      "tier": "2",
+      "spend": 83.4
+    },
+    {
+      "id": "SUPPLIER_213",
+      "tier": "4",
+      "spend": 194.3
+    },
+    {
+      "id": "SUPPLIER_214",
+      "tier": "3",
+      "spend": 60.57
+    },
+    {
+      "id": "SUPPLIER_215",
+      "tier": "4",
+      "spend": 43.0
+    },
+    {
+      "id": "SUPPLIER_216",
+      "tier": "3",
+      "spend": 142.76
+    },
+    {
+      "id": "SUPPLIER_217",
+      "tier": "3",
+      "spend": 219.7
+    },
+    {
+      "id": "SUPPLIER_218",
+      "tier": "2",
+      "spend": 2392.33
+    },
+    {
+      "id": "SUPPLIER_219",
+      "tier": "2",
+      "spend": 832.31
+    },
+    {
+      "id": "SUPPLIER_220",
+      "tier": "3",
+      "spend": 174.35
+    },
+    {
+      "id": "SUPPLIER_221",
+      "tier": "3",
+      "spend": 340.92
+    },
+    {
+      "id": "SUPPLIER_222",
+      "tier": "3",
+      "spend": 195.36
+    },
+    {
+      "id": "SUPPLIER_223",
+      "tier": "3",
+      "spend": 269.17
+    },
+    {
+      "id": "SUPPLIER_224",
+      "tier": "3",
+      "spend": 236.41
+    },
+    {
+      "id": "SUPPLIER_225",
+      "tier": "3",
+      "spend": 275.61
+    },
+    {
+      "id": "SUPPLIER_226",
+      "tier": "4",
+      "spend": 268.8
+    },
+    {
+      "id": "SUPPLIER_227",
+      "tier": "2",
+      "spend": 197.45
+    },
+    {
+      "id": "SUPPLIER_228",
+      "tier": "3",
+      "spend": 181.48
+    },
+    {
+      "id": "SUPPLIER_229",
+      "tier": "3",
+      "spend": 378.96
+    },
+    {
+      "id": "SUPPLIER_230",
+      "tier": "4",
+      "spend": 635.83
+    },
+    {
+      "id": "SUPPLIER_231",
+      "tier": "2",
+      "spend": 254.87
+    },
+    {
+      "id": "SUPPLIER_232",
+      "tier": "2",
+      "spend": 451.58
+    },
+    {
+      "id": "SUPPLIER_233",
+      "tier": "3",
+      "spend": 46.24
+    },
+    {
+      "id": "SUPPLIER_234",
+      "tier": "2",
+      "spend": 276.24
+    },
+    {
+      "id": "SUPPLIER_235",
+      "tier": "3",
+      "spend": 110.84
+    },
+    {
+      "id": "SUPPLIER_236",
+      "tier": "3",
+      "spend": 111.33
+    },
+    {
+      "id": "SUPPLIER_237",
+      "tier": "3",
+      "spend": 358.28
+    },
+    {
+      "id": "SUPPLIER_238",
+      "tier": "3",
+      "spend": 49.53
+    },
+    {
+      "id": "SUPPLIER_239",
+      "tier": "3",
+      "spend": 219.46
+    },
+    {
+      "id": "SUPPLIER_240",
+      "tier": "2",
+      "spend": 611.47
+    },
+    {
+      "id": "SUPPLIER_241",
+      "tier": "2",
+      "spend": 91.68
+    },
+    {
+      "id": "SUPPLIER_242",
+      "tier": "3",
+      "spend": 491.3
+    },
+    {
+      "id": "SUPPLIER_243",
+      "tier": "3",
+      "spend": 277.1
+    },
+    {
+      "id": "SUPPLIER_244",
+      "tier": "3",
+      "spend": 108.97
+    },
+    {
+      "id": "SUPPLIER_245",
+      "tier": "3",
+      "spend": 723.18
+    },
+    {
+      "id": "SUPPLIER_246",
+      "tier": "2",
+      "spend": 840.49
+    },
+    {
+      "id": "SUPPLIER_247",
+      "tier": "4",
+      "spend": 89.15
+    },
+    {
+      "id": "SUPPLIER_248",
+      "tier": "2",
+      "spend": 85.71
+    },
+    {
+      "id": "SUPPLIER_249",
+      "tier": "2",
+      "spend": 196.09
+    },
+    {
+      "id": "SUPPLIER_250",
+      "tier": "3",
+      "spend": 155.85
+    },
+    {
+      "id": "SUPPLIER_251",
+      "tier": "2",
+      "spend": 146.4
+    },
+    {
+      "id": "SUPPLIER_252",
+      "tier": "3",
+      "spend": 257.84
+    },
+    {
+      "id": "SUPPLIER_253",
+      "tier": "2",
+      "spend": 211.12
+    },
+    {
+      "id": "SUPPLIER_254",
+      "tier": "3",
+      "spend": 820.51
+    },
+    {
+      "id": "SUPPLIER_255",
+      "tier": "2",
+      "spend": 1102.02
+    },
+    {
+      "id": "SUPPLIER_256",
+      "tier": "3",
+      "spend": 305.88
+    },
+    {
+      "id": "SUPPLIER_257",
+      "tier": "3",
+      "spend": 187.1
+    },
+    {
+      "id": "SUPPLIER_258",
+      "tier": "3",
+      "spend": 156.22
+    },
+    {
+      "id": "SUPPLIER_259",
+      "tier": "3",
+      "spend": 125.18
+    },
+    {
+      "id": "SUPPLIER_260",
+      "tier": "4",
+      "spend": 141.28
+    },
+    {
+      "id": "SUPPLIER_261",
+      "tier": "3",
+      "spend": 24.32
+    },
+    {
+      "id": "SUPPLIER_262",
+      "tier": "3",
+      "spend": 63.43
+    },
+    {
+      "id": "SUPPLIER_263",
+      "tier": "3",
+      "spend": 322.0
+    },
+    {
+      "id": "SUPPLIER_264",
+      "tier": "3",
+      "spend": 209.59
+    },
+    {
+      "id": "SUPPLIER_265",
+      "tier": "2",
+      "spend": 192.38
+    },
+    {
+      "id": "SUPPLIER_266",
+      "tier": "3",
+      "spend": 141.84
+    },
+    {
+      "id": "SUPPLIER_267",
+      "tier": "2",
+      "spend": 888.45
+    },
+    {
+      "id": "SUPPLIER_268",
+      "tier": "2",
+      "spend": 541.07
+    },
+    {
+      "id": "SUPPLIER_269",
+      "tier": "3",
+      "spend": 132.17
+    },
+    {
+      "id": "SUPPLIER_270",
+      "tier": "3",
+      "spend": 562.31
+    },
+    {
+      "id": "SUPPLIER_271",
+      "tier": "2",
+      "spend": 115.18
+    },
+    {
+      "id": "SUPPLIER_272",
+      "tier": "3",
+      "spend": 422.81
+    },
+    {
+      "id": "SUPPLIER_273",
+      "tier": "4",
+      "spend": 190.12
+    },
+    {
+      "id": "SUPPLIER_274",
+      "tier": "3",
+      "spend": 246.06
+    },
+    {
+      "id": "SUPPLIER_275",
+      "tier": "2",
+      "spend": 696.69
+    },
+    {
+      "id": "SUPPLIER_276",
+      "tier": "3",
+      "spend": 3663.2
+    },
+    {
+      "id": "SUPPLIER_277",
+      "tier": "3",
+      "spend": 890.09
+    },
+    {
+      "id": "SUPPLIER_278",
+      "tier": "3",
+      "spend": 760.27
+    },
+    {
+      "id": "SUPPLIER_279",
+      "tier": "3",
+      "spend": 143.12
+    },
+    {
+      "id": "SUPPLIER_280",
+      "tier": "3",
+      "spend": 211.94
+    },
+    {
+      "id": "SUPPLIER_281",
+      "tier": "3",
+      "spend": 44.57
+    },
+    {
+      "id": "SUPPLIER_282",
+      "tier": "3",
+      "spend": 55.8
+    },
+    {
+      "id": "SUPPLIER_283",
+      "tier": "3",
+      "spend": 395.16
+    },
+    {
+      "id": "SUPPLIER_284",
+      "tier": "2",
+      "spend": 123.13
+    },
+    {
+      "id": "SUPPLIER_285",
+      "tier": "4",
+      "spend": 249.41
+    },
+    {
+      "id": "SUPPLIER_286",
+      "tier": "2",
+      "spend": 754.38
+    },
+    {
+      "id": "SUPPLIER_287",
+      "tier": "3",
+      "spend": 53.68
+    },
+    {
+      "id": "SUPPLIER_288",
+      "tier": "2",
+      "spend": 658.23
+    },
+    {
+      "id": "SUPPLIER_289",
+      "tier": "2",
+      "spend": 99.31
+    },
+    {
+      "id": "SUPPLIER_290",
+      "tier": "3",
+      "spend": 401.13
+    },
+    {
+      "id": "SUPPLIER_291",
+      "tier": "4",
+      "spend": 69.57
+    },
+    {
+      "id": "SUPPLIER_292",
+      "tier": "4",
+      "spend": 245.18
+    },
+    {
+      "id": "SUPPLIER_293",
+      "tier": "4",
+      "spend": 30.66
+    },
+    {
+      "id": "SUPPLIER_294",
+      "tier": "3",
+      "spend": 360.62
+    },
+    {
+      "id": "SUPPLIER_295",
+      "tier": "4",
+      "spend": 1222.86
+    },
+    {
+      "id": "SUPPLIER_296",
+      "tier": "3",
+      "spend": 85.98
+    },
+    {
+      "id": "SUPPLIER_297",
+      "tier": "2",
+      "spend": 14.82
+    },
+    {
+      "id": "SUPPLIER_298",
+      "tier": "2",
+      "spend": 423.56
+    },
+    {
+      "id": "SUPPLIER_299",
+      "tier": "4",
+      "spend": 209.67
+    },
+    {
+      "id": "BMW_GROUP_PROXY",
+      "tier": "Anchor",
+      "spend": 500000.0
+    }
+  ],
+  "edges": [
+    [
+      "SUPPLIER_2",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_3",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_5",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_7",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_9",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_10",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_11",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_13",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_14",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_17",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_18",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_19",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_20",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_22",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_23",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_25",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_28",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_32",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_36",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_38",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_44",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_45",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_47",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_50",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_57",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_60",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_61",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_68",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_71",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_77",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_78",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_86",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_88",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_91",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_98",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_103",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_107",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_110",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_116",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_118",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_122",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_130",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_139",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_140",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_201",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_234",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_240",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_241",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_255",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_267",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_268",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_271",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_284",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_289",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_15",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_27",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_43",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_67",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_106",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_125",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_137",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_141",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_143",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_232",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_251",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_298",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_12",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_40",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_62",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_93",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_249",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_37",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_115",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_21",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_196",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_83",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_218",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_275",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_49",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_96",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_113",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_146",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_8",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_133",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_75",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_161",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_112",
+      "SUPPLIER_0"
+    ],
+    [
+      "SUPPLIER_3",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_7",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_8",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_15",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_17",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_21",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_27",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_28",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_43",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_45",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_49",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_65",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_67",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_75",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_78",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_97",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_99",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_106",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_112",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_125",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_133",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_137",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_140",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_141",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_143",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_156",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_175",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_177",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_189",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_195",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_196",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_199",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_204",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_210",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_212",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_232",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_251",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_253",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_265",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_267",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_275",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_298",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_2",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_10",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_13",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_14",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_23",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_47",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_57",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_71",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_91",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_107",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_116",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_118",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_122",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_130",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_139",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_268",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_284",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_5",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_18",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_53",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_86",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_87",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_102",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_174",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_194",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_207",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_288",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_20",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_32",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_148",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_154",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_182",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_191",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_231",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_234",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_117",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_88",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_219",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_11",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_19",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_60",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_98",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_241",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_103",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_29",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_82",
+      "SUPPLIER_1"
+    ],
+    [
+      "SUPPLIER_2",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_2",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_41",
+      "SUPPLIER_2"
+    ],
+    [
+      "SUPPLIER_79",
+      "SUPPLIER_2"
+    ],
+    [
+      "SUPPLIER_166",
+      "SUPPLIER_2"
+    ],
+    [
+      "SUPPLIER_198",
+      "SUPPLIER_2"
+    ],
+    [
+      "SUPPLIER_238",
+      "SUPPLIER_2"
+    ],
+    [
+      "SUPPLIER_217",
+      "SUPPLIER_3"
+    ],
+    [
+      "SUPPLIER_3",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_3",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_5",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_12",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_13",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_15",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_18",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_19",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_23",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_30",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_36",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_40",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_53",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_62",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_64",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_69",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_74",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_80",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_83",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_86",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_87",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_93",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_99",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_102",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_114",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_117",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_154",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_157",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_174",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_180",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_192",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_194",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_200",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_207",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_218",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_227",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_249",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_253",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_286",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_288",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_297",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_20",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_22",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_32",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_88",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_103",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_255",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_267",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_28",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_75",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_177",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_195",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_212",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_265",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_275",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_10",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_57",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_130",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_268",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_31",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_55",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_133",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_143",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_203",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_248",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_204",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_210",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_91",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_68",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_167",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_202",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_44",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_240",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_7",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_78",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_156",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_101",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_97",
+      "SUPPLIER_4"
+    ],
+    [
+      "SUPPLIER_24",
+      "SUPPLIER_5"
+    ],
+    [
+      "SUPPLIER_34",
+      "SUPPLIER_5"
+    ],
+    [
+      "SUPPLIER_39",
+      "SUPPLIER_5"
+    ],
+    [
+      "SUPPLIER_42",
+      "SUPPLIER_5"
+    ],
+    [
+      "SUPPLIER_135",
+      "SUPPLIER_5"
+    ],
+    [
+      "SUPPLIER_5",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_9",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_29",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_31",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_37",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_50",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_55",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_60",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_82",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_101",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_105",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_110",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_115",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_133",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_143",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_148",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_154",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_161",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_182",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_191",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_203",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_231",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_248",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_25",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_61",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_78",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_86",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_140",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_201",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_234",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_271",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_21",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_97",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_112",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_189",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_196",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_204",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_210",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_253",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_91",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_107",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_116",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_118",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_122",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_284",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_13",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_23",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_30",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_36",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_83",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_117",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_180",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_218",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_286",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_88",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_255",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_275",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_57",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_33",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_151",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_246",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_38",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_289",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_175",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_199",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_47",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_64",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_80",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_192",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_200",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_267",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_28",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_10",
+      "SUPPLIER_6"
+    ],
+    [
+      "SUPPLIER_59",
+      "SUPPLIER_7"
+    ],
+    [
+      "SUPPLIER_129",
+      "SUPPLIER_7"
+    ],
+    [
+      "SUPPLIER_7",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_26",
+      "SUPPLIER_8"
+    ],
+    [
+      "SUPPLIER_121",
+      "SUPPLIER_8"
+    ],
+    [
+      "SUPPLIER_278",
+      "SUPPLIER_8"
+    ],
+    [
+      "SUPPLIER_8",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_104",
+      "SUPPLIER_9"
+    ],
+    [
+      "SUPPLIER_124",
+      "SUPPLIER_9"
+    ],
+    [
+      "SUPPLIER_149",
+      "SUPPLIER_9"
+    ],
+    [
+      "SUPPLIER_9",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_51",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_58",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_85",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_95",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_108",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_121",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_206",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_233",
+      "SUPPLIER_10"
+    ],
+    [
+      "SUPPLIER_10",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_225",
+      "SUPPLIER_11"
+    ],
+    [
+      "SUPPLIER_245",
+      "SUPPLIER_11"
+    ],
+    [
+      "SUPPLIER_11",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_84",
+      "SUPPLIER_12"
+    ],
+    [
+      "SUPPLIER_205",
+      "SUPPLIER_12"
+    ],
+    [
+      "SUPPLIER_26",
+      "SUPPLIER_13"
+    ],
+    [
+      "SUPPLIER_128",
+      "SUPPLIER_13"
+    ],
+    [
+      "SUPPLIER_123",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_134",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_149",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_280",
+      "SUPPLIER_14"
+    ],
+    [
+      "SUPPLIER_46",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_73",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_127",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_131",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_142",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_188",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_216",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_235",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_237",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_258",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_281",
+      "SUPPLIER_15"
+    ],
+    [
+      "SUPPLIER_21",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_33",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_43",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_49",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_68",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_96",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_113",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_146",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_148",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_151",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_167",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_202",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_219",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_246",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_17",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_18",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_19",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_36",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_38",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_44",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_50",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_60",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_77",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_98",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_240",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_241",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_289",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_65",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_78",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_133",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_156",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_175",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_199",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_47",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_64",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_69",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_74",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_80",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_114",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_154",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_157",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_192",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_200",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_227",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_297",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_103",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_267",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_28",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_75",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_265",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_29",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_82",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_101",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_105",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_161",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_201",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_97",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_112",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_30",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_57",
+      "SUPPLIER_16"
+    ],
+    [
+      "SUPPLIER_46",
+      "SUPPLIER_17"
+    ],
+    [
+      "SUPPLIER_52",
+      "SUPPLIER_17"
+    ],
+    [
+      "SUPPLIER_147",
+      "SUPPLIER_17"
+    ],
+    [
+      "SUPPLIER_51",
+      "SUPPLIER_18"
+    ],
+    [
+      "SUPPLIER_54",
+      "SUPPLIER_18"
+    ],
+    [
+      "SUPPLIER_111",
+      "SUPPLIER_18"
+    ],
+    [
+      "SUPPLIER_24",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_153",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_172",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_236",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_264",
+      "SUPPLIER_19"
+    ],
+    [
+      "SUPPLIER_165",
+      "SUPPLIER_20"
+    ],
+    [
+      "SUPPLIER_168",
+      "SUPPLIER_20"
+    ],
+    [
+      "SUPPLIER_34",
+      "SUPPLIER_21"
+    ],
+    [
+      "SUPPLIER_42",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_76",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_152",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_158",
+      "SUPPLIER_22"
+    ],
+    [
+      "SUPPLIER_24",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_35",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_135",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_190",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_193",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_221",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_280",
+      "SUPPLIER_25"
+    ],
+    [
+      "SUPPLIER_26",
+      "SUPPLIER_29"
+    ],
+    [
+      "SUPPLIER_26",
+      "SUPPLIER_64"
+    ],
+    [
+      "SUPPLIER_26",
+      "SUPPLIER_65"
+    ],
+    [
+      "SUPPLIER_26",
+      "SUPPLIER_91"
+    ],
+    [
+      "SUPPLIER_171",
+      "SUPPLIER_26"
+    ],
+    [
+      "SUPPLIER_260",
+      "SUPPLIER_26"
+    ],
+    [
+      "SUPPLIER_291",
+      "SUPPLIER_26"
+    ],
+    [
+      "SUPPLIER_295",
+      "SUPPLIER_26"
+    ],
+    [
+      "SUPPLIER_56",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_90",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_92",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_119",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_164",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_168",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_290",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_294",
+      "SUPPLIER_27"
+    ],
+    [
+      "SUPPLIER_224",
+      "SUPPLIER_29"
+    ],
+    [
+      "SUPPLIER_245",
+      "SUPPLIER_29"
+    ],
+    [
+      "SUPPLIER_281",
+      "SUPPLIER_29"
+    ],
+    [
+      "SUPPLIER_39",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_56",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_181",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_242",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_250",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_282",
+      "SUPPLIER_31"
+    ],
+    [
+      "SUPPLIER_81",
+      "SUPPLIER_32"
+    ],
+    [
+      "SUPPLIER_155",
+      "SUPPLIER_32"
+    ],
+    [
+      "SUPPLIER_48",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_59",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_127",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_188",
+      "SUPPLIER_33"
+    ],
+    [
+      "SUPPLIER_34",
+      "SUPPLIER_204"
+    ],
+    [
+      "SUPPLIER_35",
+      "SUPPLIER_71"
+    ],
+    [
+      "SUPPLIER_163",
+      "SUPPLIER_35"
+    ],
+    [
+      "SUPPLIER_171",
+      "SUPPLIER_35"
+    ],
+    [
+      "SUPPLIER_41",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_81",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_108",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_259",
+      "SUPPLIER_37"
+    ],
+    [
+      "SUPPLIER_39",
+      "SUPPLIER_203"
+    ],
+    [
+      "SUPPLIER_39",
+      "SUPPLIER_248"
+    ],
+    [
+      "SUPPLIER_292",
+      "SUPPLIER_39"
+    ],
+    [
+      "SUPPLIER_41",
+      "SUPPLIER_93"
+    ],
+    [
+      "SUPPLIER_144",
+      "SUPPLIER_41"
+    ],
+    [
+      "SUPPLIER_213",
+      "SUPPLIER_41"
+    ],
+    [
+      "SUPPLIER_48",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_214",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_229",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_283",
+      "SUPPLIER_43"
+    ],
+    [
+      "SUPPLIER_136",
+      "SUPPLIER_44"
+    ],
+    [
+      "SUPPLIER_63",
+      "SUPPLIER_45"
+    ],
+    [
+      "SUPPLIER_217",
+      "SUPPLIER_47"
+    ],
+    [
+      "SUPPLIER_243",
+      "SUPPLIER_47"
+    ],
+    [
+      "SUPPLIER_266",
+      "SUPPLIER_47"
+    ],
+    [
+      "SUPPLIER_52",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_54",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_76",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_95",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_138",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_153",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_186",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_266",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_277",
+      "SUPPLIER_49"
+    ],
+    [
+      "SUPPLIER_66",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_72",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_145",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_252",
+      "SUPPLIER_50"
+    ],
+    [
+      "SUPPLIER_124",
+      "SUPPLIER_53"
+    ],
+    [
+      "SUPPLIER_185",
+      "SUPPLIER_55"
+    ],
+    [
+      "SUPPLIER_208",
+      "SUPPLIER_55"
+    ],
+    [
+      "SUPPLIER_256",
+      "SUPPLIER_55"
+    ],
+    [
+      "SUPPLIER_70",
+      "SUPPLIER_57"
+    ],
+    [
+      "SUPPLIER_85",
+      "SUPPLIER_57"
+    ],
+    [
+      "SUPPLIER_94",
+      "SUPPLIER_57"
+    ],
+    [
+      "SUPPLIER_58",
+      "SUPPLIER_227"
+    ],
+    [
+      "SUPPLIER_59",
+      "SUPPLIER_96"
+    ],
+    [
+      "SUPPLIER_66",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_120",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_132",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_238",
+      "SUPPLIER_61"
+    ],
+    [
+      "SUPPLIER_136",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_193",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_214",
+      "SUPPLIER_62"
+    ],
+    [
+      "SUPPLIER_79",
+      "SUPPLIER_64"
+    ],
+    [
+      "SUPPLIER_172",
+      "SUPPLIER_64"
+    ],
+    [
+      "SUPPLIER_132",
+      "SUPPLIER_65"
+    ],
+    [
+      "SUPPLIER_152",
+      "SUPPLIER_65"
+    ],
+    [
+      "SUPPLIER_209",
+      "SUPPLIER_65"
+    ],
+    [
+      "SUPPLIER_222",
+      "SUPPLIER_65"
+    ],
+    [
+      "SUPPLIER_261",
+      "SUPPLIER_65"
+    ],
+    [
+      "SUPPLIER_270",
+      "SUPPLIER_65"
+    ],
+    [
+      "SUPPLIER_66",
+      "SUPPLIER_74"
+    ],
+    [
+      "SUPPLIER_160",
+      "SUPPLIER_68"
+    ],
+    [
+      "SUPPLIER_243",
+      "SUPPLIER_68"
+    ],
+    [
+      "SUPPLIER_262",
+      "SUPPLIER_68"
+    ],
+    [
+      "SUPPLIER_89",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_100",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_142",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_162",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_170",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_181",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_187",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_244",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_279",
+      "SUPPLIER_69"
+    ],
+    [
+      "SUPPLIER_183",
+      "SUPPLIER_71"
+    ],
+    [
+      "SUPPLIER_254",
+      "SUPPLIER_71"
+    ],
+    [
+      "SUPPLIER_72",
+      "SUPPLIER_191"
+    ],
+    [
+      "SUPPLIER_72",
+      "SUPPLIER_265"
+    ],
+    [
+      "SUPPLIER_173",
+      "SUPPLIER_74"
+    ],
+    [
+      "SUPPLIER_220",
+      "SUPPLIER_74"
+    ],
+    [
+      "SUPPLIER_126",
+      "SUPPLIER_75"
+    ],
+    [
+      "SUPPLIER_145",
+      "SUPPLIER_77"
+    ],
+    [
+      "SUPPLIER_211",
+      "SUPPLIER_77"
+    ],
+    [
+      "SUPPLIER_164",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_179",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_187",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_190",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_294",
+      "SUPPLIER_78"
+    ],
+    [
+      "SUPPLIER_247",
+      "SUPPLIER_79"
+    ],
+    [
+      "SUPPLIER_205",
+      "SUPPLIER_80"
+    ],
+    [
+      "SUPPLIER_104",
+      "SUPPLIER_82"
+    ],
+    [
+      "SUPPLIER_126",
+      "SUPPLIER_82"
+    ],
+    [
+      "SUPPLIER_160",
+      "SUPPLIER_82"
+    ],
+    [
+      "SUPPLIER_165",
+      "SUPPLIER_82"
+    ],
+    [
+      "SUPPLIER_239",
+      "SUPPLIER_82"
+    ],
+    [
+      "SUPPLIER_85",
+      "SUPPLIER_122"
+    ],
+    [
+      "SUPPLIER_226",
+      "SUPPLIER_85"
+    ],
+    [
+      "SUPPLIER_94",
+      "SUPPLIER_87"
+    ],
+    [
+      "SUPPLIER_109",
+      "SUPPLIER_87"
+    ],
+    [
+      "SUPPLIER_158",
+      "SUPPLIER_87"
+    ],
+    [
+      "SUPPLIER_274",
+      "SUPPLIER_88"
+    ],
+    [
+      "SUPPLIER_229",
+      "SUPPLIER_91"
+    ],
+    [
+      "SUPPLIER_237",
+      "SUPPLIER_91"
+    ],
+    [
+      "SUPPLIER_92",
+      "SUPPLIER_103"
+    ],
+    [
+      "SUPPLIER_163",
+      "SUPPLIER_92"
+    ],
+    [
+      "SUPPLIER_92",
+      "SUPPLIER_210"
+    ],
+    [
+      "SUPPLIER_220",
+      "SUPPLIER_93"
+    ],
+    [
+      "SUPPLIER_296",
+      "SUPPLIER_93"
+    ],
+    [
+      "SUPPLIER_273",
+      "SUPPLIER_94"
+    ],
+    [
+      "SUPPLIER_173",
+      "SUPPLIER_96"
+    ],
+    [
+      "SUPPLIER_225",
+      "SUPPLIER_99"
+    ],
+    [
+      "SUPPLIER_100",
+      "SUPPLIER_251"
+    ],
+    [
+      "SUPPLIER_283",
+      "SUPPLIER_101"
+    ],
+    [
+      "SUPPLIER_258",
+      "SUPPLIER_102"
+    ],
+    [
+      "SUPPLIER_279",
+      "SUPPLIER_103"
+    ],
+    [
+      "SUPPLIER_104",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_216",
+      "SUPPLIER_107"
+    ],
+    [
+      "SUPPLIER_120",
+      "SUPPLIER_112"
+    ],
+    [
+      "SUPPLIER_254",
+      "SUPPLIER_113"
+    ],
+    [
+      "SUPPLIER_144",
+      "SUPPLIER_126"
+    ],
+    [
+      "SUPPLIER_285",
+      "SUPPLIER_126"
+    ],
+    [
+      "SUPPLIER_299",
+      "SUPPLIER_128"
+    ],
+    [
+      "SUPPLIER_291",
+      "SUPPLIER_129"
+    ],
+    [
+      "SUPPLIER_150",
+      "SUPPLIER_130"
+    ],
+    [
+      "SUPPLIER_299",
+      "SUPPLIER_134"
+    ],
+    [
+      "SUPPLIER_150",
+      "SUPPLIER_137"
+    ],
+    [
+      "SUPPLIER_169",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_176",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_257",
+      "SUPPLIER_139"
+    ],
+    [
+      "SUPPLIER_147",
+      "SUPPLIER_140"
+    ],
+    [
+      "SUPPLIER_178",
+      "SUPPLIER_143"
+    ],
+    [
+      "SUPPLIER_159",
+      "SUPPLIER_146"
+    ],
+    [
+      "SUPPLIER_269",
+      "SUPPLIER_148"
+    ],
+    [
+      "SUPPLIER_184",
+      "SUPPLIER_156"
+    ],
+    [
+      "SUPPLIER_269",
+      "SUPPLIER_157"
+    ],
+    [
+      "SUPPLIER_160",
+      "SUPPLIER_212"
+    ],
+    [
+      "SUPPLIER_230",
+      "SUPPLIER_160"
+    ],
+    [
+      "SUPPLIER_260",
+      "SUPPLIER_162"
+    ],
+    [
+      "SUPPLIER_166",
+      "SUPPLIER_271"
+    ],
+    [
+      "SUPPLIER_171",
+      "SUPPLIER_179"
+    ],
+    [
+      "SUPPLIER_239",
+      "SUPPLIER_175"
+    ],
+    [
+      "SUPPLIER_186",
+      "SUPPLIER_177"
+    ],
+    [
+      "SUPPLIER_257",
+      "SUPPLIER_177"
+    ],
+    [
+      "SUPPLIER_178",
+      "SUPPLIER_200"
+    ],
+    [
+      "SUPPLIER_197",
+      "SUPPLIER_182"
+    ],
+    [
+      "SUPPLIER_247",
+      "SUPPLIER_188"
+    ],
+    [
+      "SUPPLIER_190",
+      "SUPPLIER_218"
+    ],
+    [
+      "SUPPLIER_213",
+      "SUPPLIER_193"
+    ],
+    [
+      "SUPPLIER_198",
+      "SUPPLIER_284"
+    ],
+    [
+      "SUPPLIER_236",
+      "SUPPLIER_199"
+    ],
+    [
+      "SUPPLIER_211",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_228",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_263",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_272",
+      "SUPPLIER_201"
+    ],
+    [
+      "SUPPLIER_223",
+      "SUPPLIER_203"
+    ],
+    [
+      "SUPPLIER_235",
+      "SUPPLIER_203"
+    ],
+    [
+      "SUPPLIER_282",
+      "SUPPLIER_203"
+    ],
+    [
+      "SUPPLIER_230",
+      "SUPPLIER_205"
+    ],
+    [
+      "SUPPLIER_205",
+      "SUPPLIER_297"
+    ],
+    [
+      "SUPPLIER_215",
+      "SUPPLIER_206"
+    ],
+    [
+      "SUPPLIER_285",
+      "SUPPLIER_206"
+    ],
+    [
+      "SUPPLIER_215",
+      "SUPPLIER_209"
+    ],
+    [
+      "SUPPLIER_209",
+      "SUPPLIER_268"
+    ],
+    [
+      "SUPPLIER_217",
+      "SUPPLIER_240"
+    ],
+    [
+      "SUPPLIER_287",
+      "SUPPLIER_219"
+    ],
+    [
+      "SUPPLIER_290",
+      "SUPPLIER_219"
+    ],
+    [
+      "SUPPLIER_226",
+      "SUPPLIER_221"
+    ],
+    [
+      "SUPPLIER_226",
+      "SUPPLIER_242"
+    ],
+    [
+      "SUPPLIER_295",
+      "SUPPLIER_228"
+    ],
+    [
+      "SUPPLIER_292",
+      "SUPPLIER_235"
+    ],
+    [
+      "SUPPLIER_239",
+      "SUPPLIER_289"
+    ],
+    [
+      "SUPPLIER_293",
+      "SUPPLIER_239"
+    ],
+    [
+      "SUPPLIER_273",
+      "SUPPLIER_263"
+    ],
+    [
+      "SUPPLIER_276",
+      "SUPPLIER_265"
+    ],
+    [
+      "SUPPLIER_0",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "SUPPLIER_1",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "SUPPLIER_4",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "SUPPLIER_6",
+      "BMW_GROUP_PROXY"
+    ],
+    [
+      "SUPPLIER_16",
+      "BMW_GROUP_PROXY"
+    ]
+  ],
+  "meta": {
+    "source": "Hardened Proxy (Scale-Free + Mesh Redundancy)",
+    "description": "Optimized Topology (No Lateral Dependencies, Dual Sourcing)",
+    "node_count": 301,
+    "edge_count": 675
+  }
+}

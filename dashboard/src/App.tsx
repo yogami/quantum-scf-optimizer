@@ -1,225 +1,300 @@
 import { useState, useEffect } from 'react';
-import { Shield, AlertTriangle, RefreshCw, Zap, Activity, Network, Layers, Fingerprint, ChevronRight } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Shield, Lock, Zap, Unlock, RefreshCw } from 'lucide-react';
 
 interface AuditMetrics {
   spectral_radius: number;
-  max_eigenvalue: number;
-  damping_factor: number;
-  contagion_risk_score: number;
-  potential_loss: {
-    amount: number;
-    currency: string;
+  ead_volatility: number;
+  adversarial_test: {
+    status: string;
+    lambda_injected: number;
+    shock_delta: number;
+    resilience_score: number;
+    shock_delta: number;
+    resilience_score: number;
+    description: string;
   };
-  topology: {
-    nodes: any[];
-    links: any[];
-  };
+  governance: { tier: string, policy_locked: boolean, parameters: any };
+  attribution_ledger: any[];
+  benchmarks: { archer_miss_rate: string, identification_alpha: number };
 }
 
 const Dashboard = () => {
   const [metrics, setMetrics] = useState<AuditMetrics | null>(null);
   const [loading, setLoading] = useState(true);
+  const [policy, setPolicy] = useState('bafin_standard');
   const [scenario, setScenario] = useState('baseline');
+  const [auditLog, setAuditLog] = useState<{ msg: string, desc: string }[]>([]);
+  const [simulating, setSimulating] = useState(false);
 
-  const fetchLiveAudit = async (selectedScenario: string = 'baseline') => {
+  const fetchAdversarialAudit = async (p: string = policy, s: string = scenario, runTest: boolean = false) => {
     try {
-      setLoading(true);
-      setScenario(selectedScenario);
-      // Connect to the actual Python Audit Engine with scenario param
-      const res = await fetch(`http://localhost:11885/api/live-scenario?scenario=${selectedScenario}`);
+      if (!runTest) setLoading(true);
+      else setSimulating(true);
+
+      const res = await fetch(`http://localhost:11885/api/live-scenario?scenario=${s}&policy=${p}&run_test=${runTest}`);
       const data = await res.json();
-      setMetrics({
-        spectral_radius: data.spectral_radius,
-        max_eigenvalue: data.max_eigenvalue || 0,
-        damping_factor: 0.15,
-        contagion_risk_score: data.risk_score || 0,
-        potential_loss: data.potential_loss || { amount: 0, currency: 'EUR' },
-        topology: data.topology
-      });
+      setMetrics(data);
+
+      if (runTest) {
+        const passed = data.adversarial_test.status === "PASSED";
+        const logMsg = passed ? "SIMULATION PASSED: POLICIES UNLOCKED" : "SIMULATION FAILED: CONSERVATIVE ENFORCED";
+        setAuditLog(prev => [{ msg: logMsg, desc: `Resilience: ${(data.adversarial_test.resilience_score * 100).toFixed(1)}%` }, ...prev].slice(0, 3));
+        if (!passed && policy !== 'conservative') setPolicy('conservative');
+      }
     } catch (e) {
-      console.error("Engine Connection Failed", e);
-      // Fallback for visual stability
-      setMetrics({
-        spectral_radius: 18.42,
-        max_eigenvalue: 0.95,
-        damping_factor: 0.15,
-        contagion_risk_score: 0.78,
-        potential_loss: { amount: 383500000, currency: 'EUR' },
-        topology: { nodes: [], links: [] }
-      });
+      console.error("Adversarial Sync Failed", e);
     } finally {
-      setTimeout(() => setLoading(false), 800);
+      setLoading(false);
+      setSimulating(false);
     }
   };
 
-  useEffect(() => {
-    fetchLiveAudit();
-  }, []);
+  useEffect(() => { fetchAdversarialAudit(); }, []);
 
-  if (loading) {
-    return (
-      <div className="h-screen w-screen bg-[#0B0C10] flex items-center justify-center font-mono">
-        <div className="flex flex-col items-center gap-4">
-          <RefreshCw className="w-8 h-8 text-[#66FCF1] animate-spin" />
-          <div className="text-[#66FCF1] text-sm tracking-widest animate-pulse">CONNECTING TO SPECTRAL ENGINE...</div>
-        </div>
-      </div>
-    );
+  const handleScenarioChange = (s: string) => {
+    setScenario(s);
+    fetchAdversarialAudit(policy, s, false);
+  };
+
+
+  const handlePolicyChange = (p: string) => {
+    if (p === policy) return;
+    if (metrics?.governance.policy_locked && p !== 'conservative') {
+      alert("GOVERNANCE LOCK ACTIVE: Run 'Hidden Hub Simulation' to prove resilience before unlocking Aggressive tiers.");
+      return;
+    }
+    setPolicy(p);
+    fetchAdversarialAudit(p, scenario, false);
+  };
+
+  const runSimulation = () => {
+    fetchAdversarialAudit(policy, scenario, true);
+  };
+
+  if (loading && !metrics) {
+    return <div style={{ height: '100vh', backgroundColor: '#0B0C10', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#66FCF1', fontFamily: "'JetBrains Mono', monospace" }}>INITIALIZING ADVERSARIAL ENGINE...</div>;
   }
 
+  const isLocked = metrics?.governance.policy_locked;
+
   return (
-    <div className="h-screen w-screen bg-[#0B0C10] text-[#C5C6C7] overflow-hidden flex flex-col font-sans">
-      {/* PROFESSIONAL HEADER */}
-      <header className="h-16 border-b border-[#1F2833] bg-[#1F2833]/50 flex items-center justify-between px-8 backdrop-blur-sm shrink-0">
-        <div className="flex items-center gap-4">
-          <Shield className="text-[#66FCF1] w-8 h-8" />
-          <h1 className="text-white font-bold tracking-wider text-2xl font-sans">CASCADE<span className="text-[#66FCF1]">GUARD</span></h1>
-          <div className="px-3 py-1 bg-[#45A29E]/20 text-[#66FCF1] text-xs font-bold rounded border border-[#45A29E]/30 font-sans tracking-wide">
-            AUDIT V9.0
+    <div style={{ height: '100vh', width: '100vw', backgroundColor: '#0B0C10', color: '#C5C6C7', overflow: 'hidden', display: 'flex', flexDirection: 'column', fontFamily: "'Inter', sans-serif" }}>
+      {/* HEADER: ADVERSARIAL RESILIENCE */}
+      <header style={{ height: '64px', borderBottom: '1px solid #1F2833', backgroundColor: 'rgba(31, 40, 51, 0.5)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 32px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+          <Shield style={{ color: '#4ade80', width: '22px' }} />
+          <h1 style={{ color: 'white', fontWeight: 900, fontSize: '18px', margin: 0, letterSpacing: '0.1em' }}>CASCADE<span style={{ color: '#4ade80' }}>GUARD</span></h1>
+          <div style={{ display: 'flex', gap: '8px', marginLeft: '16px' }}>
+            <button onClick={() => handleScenarioChange('baseline')} style={{ fontSize: '9px', fontWeight: 'bold', padding: '4px 10px', backgroundColor: scenario === 'baseline' ? '#30363D' : 'transparent', color: scenario === 'baseline' ? 'white' : '#6b7280', border: '1px solid #30363D', borderRadius: '4px', cursor: 'pointer' }}>BASELINE (N=3)</button>
+            <button onClick={() => handleScenarioChange('red-sea')} style={{ fontSize: '9px', fontWeight: 'bold', padding: '4px 10px', backgroundColor: scenario === 'red-sea' ? '#30363D' : 'transparent', color: scenario === 'red-sea' ? 'white' : '#6b7280', border: '1px solid #30363D', borderRadius: '4px', cursor: 'pointer' }}>RED SEA (N=15)</button>
           </div>
         </div>
-        <div className="flex items-center gap-8 text-base font-medium font-sans">
-          <div className="flex items-center gap-3">
-            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse ring-4 ring-green-500/20"></div>
-            <span className="text-green-400 tracking-wide">ENGINE ONLINE</span>
-          </div>
-          <div className="text-gray-400">USER: <span className="text-white">ADMIN_01</span></div>
-          <div className="text-gray-400 tabular-nums font-mono">{new Date().toISOString().split('T')[0]}</div>
+        <div style={{ display: 'flex', gap: '24px', fontSize: '11px', fontWeight: 'bold' }}>
+          <div style={{ color: '#9ca3af' }}>RESILIENCE SCORE: <span style={{ color: !isLocked ? '#4ade80' : '#FF4136' }}>{(metrics?.adversarial_test.resilience_score || 0 * 100).toFixed(1)}%</span></div>
+          <div style={{ color: '#9ca3af' }}>POLICY STATE: <span style={{ color: !isLocked ? '#4ade80' : '#FF4136' }}>{!isLocked ? "UNLOCKED" : "LOCKED"}</span></div>
         </div>
       </header>
 
-      {/* MAIN GRID LAYOUT */}
-      <main className="flex-1 grid grid-cols-12 gap-0 overflow-hidden font-sans">
+      <main style={{ flex: 1, display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: 0, overflow: 'hidden' }}>
 
-        {/* LEFT COMPONENT: GLOBAL HEALTH */}
-        <aside className="col-span-3 border-r border-[#1F2833] bg-[#0B0C10] p-8 flex flex-col gap-6 overflow-y-auto relative z-10">
-          <div className="text-white font-bold text-2xl mb-2 border-b border-[#1F2833] pb-4 tracking-tight">SYSTEM RISK</div>
+        {/* LEFT: ADVERSARIAL INJECTION LAB */}
+        <aside style={{ gridColumn: 'span 3', borderRight: '1px solid #1F2833', padding: '24px', display: 'flex', flexDirection: 'column', gap: '20px', overflowY: 'auto' }}>
+          <div style={{ color: 'white', fontWeight: 'bold', fontSize: '12px', borderBottom: '1px solid #1F2833', paddingBottom: '12px' }}>HIDDEN HUB STRESS TEST (AT 4.1)</div>
 
-          {/* SCENARIO SELECTOR */}
-          <div className="space-y-3">
-            <div className="text-[#66FCF1]/50 text-[10px] tracking-widest uppercase font-bold flex items-center gap-2 mb-2">
-              <Zap className="w-3 h-3 text-[#66FCF1]" /> SCENARIO SELECTOR
+          <div style={{ padding: '16px', backgroundColor: '#161B22', borderRadius: '8px', border: '1px solid #30363D' }}>
+            <div style={{ fontSize: '10px', color: '#fbbf24', fontWeight: 'bold', marginBottom: '8px' }}>INJECTION TARGET:</div>
+            <div style={{ fontSize: '11px', color: '#9ca3af', lineHeight: 1.4 }}>
+              "v33.0 FLOW SENTINEL: Targeting 'Capacity Chokepoints' (Max-Flow Min-Cut). Phantom edges (zero capacity) ignored."
             </div>
-            {[
-              { id: 'baseline', label: 'BASELINE AUDIT', icon: <Shield className="w-4 h-4" /> },
-              { id: 'red-sea', label: 'RED SEA BLOCKADE', icon: <AlertTriangle className="w-4 h-4" /> },
-              { id: 'energy-crisis', label: 'ENERGY CRISIS', icon: <Zap className="w-4 h-4" /> },
-              { id: 'port-strike', label: 'PORT STRIKE', icon: <Activity className="w-4 h-4" /> }
-            ].map(s => (
-              <button
-                key={s.id}
-                onClick={() => fetchLiveAudit(s.id)}
-                className={`w-full text-left p-3 border transition-all flex items-center justify-between font-mono text-[11px] tracking-tight ${scenario === s.id
-                  ? 'bg-[#66FCF1] text-black border-[#66FCF1] font-bold shadow-[0_0_15px_rgba(102,252,241,0.3)]'
-                  : 'border-[#1F2833] text-gray-500 hover:border-[#66FCF1]/30 hover:text-[#66FCF1]'
-                  }`}
-              >
-                <span className="flex items-center gap-3">{s.icon} {s.label}</span>
-                {scenario === s.id && <div className="w-1.5 h-1.5 rounded-full bg-black animate-pulse" />}
-              </button>
-            ))}
+
+            <div style={{ marginTop: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+              <div>
+                <div style={{ fontSize: '9px', color: '#4b5563' }}>BASE FLOW</div>
+                <div style={{ fontSize: '14px', color: 'white', fontWeight: 'bold' }}>{metrics?.spectral_radius.toFixed(0)} Units</div>
+              </div>
+              <div style={{ textAlign: 'right' }}>
+                <div style={{ fontSize: '9px', color: '#4b5563' }}>SHOCKED FLOW</div>
+                <div style={{ fontSize: '14px', color: '#FF4136', fontWeight: 'bold' }}>{metrics?.adversarial_test.lambda_injected.toFixed(0)} Units</div>
+              </div>
+            </div>
+            <div style={{ marginTop: '8px', paddingTop: '8px', borderTop: '1px solid #30363D', textAlign: 'center', fontSize: '9px', color: '#FF4136' }}>
+              FLOW DROP: -{(metrics?.adversarial_test.shock_delta * 100).toFixed(1)}%
+            </div>
           </div>
 
-          <div className="mt-4 space-y-6">
-            <div className="text-[#66FCF1]/50 text-[10px] tracking-widest uppercase font-bold flex items-center gap-2">
-              <Activity className="w-3 h-3" /> GLOBAL METRICS
-            </div>
+          <button
+            onClick={runSimulation}
+            disabled={simulating}
+            style={{
+              width: '100%', padding: '12px', backgroundColor: simulating ? '#30363D' : '#fbbf24',
+              color: 'black', fontWeight: 900, fontSize: '11px', border: 'none', borderRadius: '4px', cursor: 'pointer',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
+            }}>
+            {simulating ? <RefreshCw className="animate-spin" size={14} /> : <Zap size={14} />}
+            {simulating ? "RUNNING SIMULATION..." : "RUN HIDDEN HUB SIMULATION"}
+          </button>
 
-            <div className="p-6 bg-[#1F2833]/50 border border-[#66FCF1]/10 rounded-xl relative overflow-hidden group hover:border-[#66FCF1]/30 transition-all">
-              <div className="text-[10px] font-bold uppercase tracking-widest text-[#66FCF1]/70 mb-2">Spectral Radius (λ₁)</div>
-              <div className="text-6xl text-white font-black tracking-tighter tabular-nums font-mono">
-                {metrics?.spectral_radius.toFixed(2)}
-              </div>
-              <div className="w-full h-1 bg-black/50 mt-4 overflow-hidden">
-                <div className="h-full bg-[#66FCF1]" style={{ width: `${Math.min((metrics?.spectral_radius || 0) * 4, 100)}%` }}></div>
-              </div>
+          {/* CHALLENGE MODE UPLOAD */}
+          <div style={{ padding: '16px', backgroundColor: '#161B22', borderRadius: '8px', border: '1px solid #30363D', marginTop: '12px' }}>
+            <div style={{ fontSize: '10px', color: 'white', fontWeight: 'bold', marginBottom: '8px' }}>LIVE CHALLENGE (REPRODUCIBILITY)</div>
+            <div style={{ fontSize: '9px', color: '#9ca3af', marginBottom: '12px' }}>
+              Upload your own graph (JSON) to validate the "Flow Sentinel" against your data.
             </div>
+            <input
+              type="file"
+              accept=".json"
+              onChange={async (e) => {
+                if (!e.target.files?.[0]) return;
+                const file = e.target.files[0];
+                const text = await file.text();
+                try {
+                  setSimulating(true);
+                  const json = JSON.parse(text);
+                  const res = await fetch('http://localhost:11885/api/validate-file', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(json)
+                  });
+                  const data = await res.json();
+                  setMetrics(data);
 
-            <div className="p-6 bg-[#1F2833]/50 border border-[#FF4136]/10 rounded-xl relative overflow-hidden group hover:border-[#FF4136]/30 transition-all">
-              <div className="text-[10px] font-bold uppercase tracking-widest text-[#FF4136]/70 mb-2">Loss Exposure</div>
-              <div className="text-5xl text-white font-black tracking-tighter tabular-nums font-mono break-all">
-                €{((metrics?.potential_loss?.amount || 0) / 1000000).toFixed(1)}M
+                  const passed = data.adversarial_test.status === "PASSED";
+                  const logMsg = passed ? "USER DATA VALIDATED: PASSED" : `ATTACK BLOCKED: ${data.adversarial_test.status}`;
+                  setAuditLog(prev => [{ msg: logMsg, desc: data.adversarial_test.description || "System blocked invalid topology." }, ...prev].slice(0, 3));
+                } catch (err) {
+                  alert("Invalid JSON File");
+                } finally {
+                  setSimulating(false);
+                }
+              }}
+              style={{ fontSize: '9px', color: '#9ca3af' }}
+            />
+          </div>
+
+          <div style={{ marginTop: 'auto', padding: '16px', backgroundColor: '#161B22', borderRadius: '8px' }}>
+            <div style={{ fontSize: '10px', color: '#4ade80', fontWeight: 'bold', marginBottom: '12px' }}>SIMULATION LOG</div>
+            {auditLog.map((log, i) => (
+              <div key={i} style={{ marginBottom: '10px', borderBottom: '1px solid #30363D', paddingBottom: '8px' }}>
+                <div style={{ fontSize: '9px', color: log.msg.includes('PASSED') ? '#4ade80' : '#FF4136', fontWeight: 'bold' }}>{log.msg}</div>
+                <div style={{ fontSize: '9px', color: '#4b5563' }}>{log.desc}</div>
               </div>
-              <div className="flex items-center gap-2 mt-3 text-[10px] text-[#FF4136] font-bold uppercase italic">
-                <AlertTriangle className="w-3 h-3" /> CRITICAL LEVEL
-              </div>
-            </div>
+            ))}
           </div>
         </aside>
 
-        {/* CENTER COMPONENT: SCHEMATIC VISUALIZATION */}
-        <section className="col-span-6 bg-black relative flex items-center justify-center border-r border-[#1F2833] overflow-hidden">
-          {/* Background Grid */}
-          <div className="absolute inset-0 z-0 opacity-20 pointer-events-none"
-            style={{
-              backgroundImage: 'linear-gradient(#1F2833 1px, transparent 1px), linear-gradient(90deg, #1F2833 1px, transparent 1px)',
-              backgroundSize: '40px 40px'
+        {/* CENTER: SIMULATION-GATED GOVERNANCE */}
+        <section style={{ gridColumn: 'span 6', padding: '32px', backgroundColor: '#0D1117', overflowY: 'auto', position: 'relative' }}>
+
+          {/* VISUAL DEFENSE OVERLAY */}
+          {metrics?.adversarial_test?.status && metrics.adversarial_test.status !== "PASSED" && metrics.adversarial_test.status !== "NOT_RUN" && (
+            <div style={{
+              position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
+              backgroundColor: 'rgba(255, 65, 54, 0.95)',
+              display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+              zIndex: 50, backdropFilter: 'blur(4px)'
             }}>
-          </div>
-
-          {/* Schematic Image Overlay */}
-          <div className="relative z-10 w-full h-full flex items-center justify-center p-12 pt-24">
-            <img src="/assets/schematic_grid.png" alt="Supply Chain Schematic" className="max-w-full max-h-full object-contain opacity-90 filter brightness-110 contrast-125 scale-100" />
-          </div>
-
-          {/* Overlay UI Layer */}
-          <div className="absolute top-8 left-8 z-20">
-            <div className="px-5 py-2 bg-black/90 border border-[#66FCF1] text-[#66FCF1] text-base font-bold tracking-widest shadow-[0_0_15px_rgba(102,252,241,0.2)] rounded flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[#66FCF1] animate-pulse"></span>
-              LIVE ENGINE DATA
+              <Shield size={64} style={{ color: 'white', marginBottom: '24px' }} className="animate-pulse" />
+              <div style={{ fontSize: '24px', fontWeight: 900, color: 'white', marginBottom: '8px' }}>ATTACK BLOCKED</div>
+              <div style={{ fontSize: '14px', color: 'white', fontWeight: 'bold', backgroundColor: 'rgba(0,0,0,0.3)', padding: '8px 16px', borderRadius: '4px' }}>
+                {metrics.adversarial_test.status}
+              </div>
+              <div style={{ fontSize: '12px', color: 'white', marginTop: '16px', maxWidth: '300px', textAlign: 'center', lineHeight: 1.5 }}>
+                {metrics.adversarial_test.description}
+              </div>
+              <button
+                onClick={() => handleScenarioChange('baseline')}
+                style={{ marginTop: '32px', padding: '12px 24px', backgroundColor: 'white', color: '#FF4136', border: 'none', borderRadius: '4px', fontWeight: 'bold', cursor: 'pointer' }}>
+                RESET SYSTEM
+              </button>
             </div>
+          )}
+
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '32px' }}>
+            <div style={{ color: 'white', fontWeight: 900, fontSize: '18px' }}>SIMULATION-GATED GOVERNANCE</div>
+            <div style={{ fontSize: '10px', color: !isLocked ? '#4ade80' : '#FF4136', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '8px' }}>
+              {!isLocked ? <Unlock size={14} /> : <Lock size={14} />}
+              STATUS: {!isLocked ? "TIERS UNLOCKED" : "LOCKED (RUN TEST)"}
+            </div>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', marginBottom: '32px' }}>
+            {['CONSERVATIVE', 'BAFIN_STANDARD', 'AGGRESSIVE'].map(p => {
+              const isActive = metrics?.governance.tier === p.toLowerCase();
+              const isLockedBtn = isLocked && p !== 'CONSERVATIVE'; // Standard/Aggressive locked if test fails
+              if (metrics?.adversarial_test.status.includes("FAILED")) return null; // Hide buttons if failed
+
+              return (
+                <button
+                  key={p}
+                  onClick={() => handlePolicyChange(p.toLowerCase())}
+                  style={{
+                    padding: '24px',
+                    backgroundColor: isActive ? 'rgba(74, 222, 128, 0.1)' : '#161B22',
+                    border: `1px solid ${isActive ? '#4ade80' : '#30363D'}`,
+                    borderRadius: '8px',
+                    opacity: isLockedBtn ? 0.5 : 1,
+                    cursor: isLockedBtn ? 'not-allowed' : 'pointer',
+                    textAlign: 'left'
+                  }}>
+                  <div style={{ fontSize: '10px', color: '#4b5563', fontWeight: 'bold', marginBottom: '8px', display: 'flex', justifyContent: 'space-between' }}>
+                    {p} {isLockedBtn && <Lock size={10} />}
+                  </div>
+                  <div style={{ fontSize: '9px', color: '#9ca3af' }}>
+                    {p === 'CONSERVATIVE' && "Always Unlocked (Fail-Safe)"}
+                    {p === 'BAFIN_STANDARD' && "Requires Resilience > 80%"}
+                    {p === 'AGGRESSIVE' && "Requires Resilience > 80%"}
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+
+          <div style={{ padding: '24px', backgroundColor: 'rgba(251, 191, 36, 0.05)', border: '1px solid #fbbf24', borderRadius: '12px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
+              <Zap style={{ color: '#fbbf24' }} />
+              <div style={{ color: '#fbbf24', fontWeight: 'bold', fontSize: '14px' }}>WHY IS THIS LOCKED?</div>
+            </div>
+            <p style={{ fontSize: '12px', color: '#9ca3af', lineHeight: 1.6, margin: 0 }}>
+              To mitigate "Math-Washing", CascadeGuard v33.0 enforces <strong>Flow Sentinel logic</strong>.
+              We simulate a "Capacity Shock" (Max-Flow Min-Cut) to measure the actual drop in system throughput
+              when critical nodes fail. This creates "Incentive Compatible" governance where only real redundancy improves the score.
+            </p>
           </div>
         </section>
 
-        {/* RIGHT COMPONENT: CRITICAL ALERTS */}
-        <aside className="col-span-3 bg-[#0B0C10] p-8 flex flex-col gap-8 overflow-y-auto">
-          <div className="text-white font-bold text-2xl mb-2 border-b border-[#1F2833] pb-4 tracking-tight">CRITICAL ALERTS</div>
+        {/* RIGHT: P&L VOLATILITY */}
+        <aside style={{ gridColumn: 'span 3', borderLeft: '1px solid #1F2833', padding: '32px', backgroundColor: '#0B0C10', display: 'flex', flexDirection: 'column', gap: '32px' }}>
+          <div style={{ color: 'white', fontWeight: 'bold', fontSize: '14px', borderBottom: '1px solid #1F2833', paddingBottom: '16px' }}>ADVERSARIAL P&L (σ)</div>
 
-          <div className="space-y-6">
-            <motion.div
-              initial={{ x: 20, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              className="p-6 bg-[#FF4136]/10 border-l-4 border-[#FF4136] rounded-r-xl group hover:bg-[#FF4136]/20 transition-colors cursor-pointer"
-            >
-              <div className="flex justify-between items-start mb-3">
-                <div className="text-xl font-bold text-white tracking-tight">TSMC</div>
-                <div className="px-3 py-1 bg-[#FF4136] text-black text-xs font-black rounded uppercase tracking-wide">CRITICAL</div>
-              </div>
-              <div className="text-base text-gray-300 mb-4 leading-relaxed font-medium">
-                Single Point of Failure detected in Tier-2 semiconductor supply.
-              </div>
-              <div className="text-xs text-[#FF4136] font-bold tracking-wider bg-black/30 p-2.5 rounded inline-block">
-                IMPACT: 67% OF PRODUCTION
-              </div>
-            </motion.div>
+          <div style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: '42px', color: 'white', fontWeight: 900, fontFamily: "'JetBrains Mono', monospace" }}>±€{metrics?.ead_volatility.toFixed(1)}M</div>
+            <div style={{ fontSize: '10px', color: '#4b5563', marginTop: '12px' }}>SHOCK-WEIGHTED AT RISK</div>
+          </div>
 
-            <div className="p-6 bg-[#1F2833] border-l-4 border-[#FFA500] rounded-r-xl">
-              <div className="flex justify-between items-start mb-3">
-                <div className="text-xl font-bold text-white tracking-tight">NXP Semi</div>
-                <div className="px-3 py-1 bg-[#FFA500] text-black text-xs font-black rounded uppercase tracking-wide">WARNING</div>
+          <div style={{ padding: '20px', backgroundColor: '#161B22', borderRadius: '8px', border: '1px solid #1F2833' }}>
+            <div style={{ fontSize: '10px', color: '#4ade80', fontWeight: 'bold', marginBottom: '12px' }}>RISK PARAMETERS:</div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <div>
+                <div style={{ fontSize: '9px', color: '#4b5563' }}>LGD FLOOR:</div>
+                <div style={{ fontSize: '14px', color: 'white', fontWeight: 'bold' }}>{(metrics?.governance.parameters.lgd_floor * 100).toFixed(0)}%</div>
               </div>
-              <div className="text-base text-gray-300 leading-relaxed font-medium">
-                Inventory levels approaching safety stock threshold (15 days).
+              <div>
+                <div style={{ fontSize: '9px', color: '#4b5563' }}>PD FLOOR:</div>
+                <div style={{ fontSize: '14px', color: 'white', fontWeight: 'bold' }}>{(metrics?.governance.parameters.pd_floor * 100).toFixed(0)}%</div>
               </div>
             </div>
           </div>
 
-          <div className="mt-auto">
-            <button onClick={() => fetchLiveAudit(scenario)} className="w-full py-5 bg-[#66FCF1] hover:bg-[#45A29E] text-black font-black text-base tracking-widest transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 rounded shadow-[0_0_20px_rgba(102,252,241,0.3)]">
-              <RefreshCw className="w-5 h-5" />
-              REFRESH AUDIT
-            </button>
-          </div>
+          <button style={{ marginTop: 'auto', width: '100%', backgroundColor: '#4ade80', color: 'black', fontWeight: 900, fontSize: '14px', padding: '16px', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
+            DEPLOY PILOT BUNDLE
+          </button>
         </aside>
-
       </main>
 
-      {/* STATUS FOOTER */}
-      <footer className="h-8 bg-[#0B0C10] border-t border-[#1F2833] flex items-center justify-between px-6 text-[10px] text-gray-600 tracking-widest shrink-0 font-mono">
-        <div>SERVER: EU-CENTRAL-1a (CONNECTED)</div>
-        <div>LATENCY: 12ms</div>
-        <div>ENCRYPTION: AES-256</div>
+      <footer style={{ height: '32px', borderTop: '1px solid #1F2833', backgroundColor: '#0B0C10', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 24px', fontSize: '9px', color: '#4b5563', fontFamily: "'JetBrains Mono', monospace" }}>
+        <div>METHODOLOGY: FLOW_SENTINEL [v33.0]</div>
+        <div style={{ color: '#fbbf24' }}>* FLOW DROP: -{(metrics?.adversarial_test.shock_delta * 100).toFixed(1)}% | RESILIENCE: {(metrics?.adversarial_test.resilience_score || 0 * 100).toFixed(1)}%</div>
+        <div>PILOT STATUS: READY FOR TIER-1 TRIAL</div>
       </footer>
     </div>
   );

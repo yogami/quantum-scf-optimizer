@@ -1,0 +1,4635 @@
+{
+  "nodes": [
+    {
+      "id": "BMW_GROUP",
+      "tier": "Anchor",
+      "capacity": 1000.0
+    },
+    {
+      "id": "T1_0",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_1",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_2",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_3",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_4",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_5",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_6",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_7",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_8",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T1_9",
+      "tier": "1",
+      "capacity": 100.0
+    },
+    {
+      "id": "T2_0",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_1",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_2",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_3",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_4",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_5",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_6",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_7",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_8",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_9",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_10",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_11",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_12",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_13",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_14",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_15",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_16",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_17",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_18",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_19",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_20",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_21",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_22",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_23",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_24",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_25",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_26",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_27",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_28",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_29",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_30",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_31",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_32",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_33",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_34",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_35",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_36",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_37",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_38",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T2_39",
+      "tier": "2",
+      "capacity": 75.0
+    },
+    {
+      "id": "T3_0",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_1",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_2",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_3",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_4",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_5",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_6",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_7",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_8",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_9",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_10",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_11",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_12",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_13",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_14",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_15",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_16",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_17",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_18",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_19",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_20",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_21",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_22",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_23",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_24",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_25",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_26",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_27",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_28",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_29",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_30",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_31",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_32",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_33",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_34",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_35",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_36",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_37",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_38",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_39",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_40",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_41",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_42",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_43",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_44",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_45",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_46",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_47",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_48",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_49",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_50",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_51",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_52",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_53",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_54",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_55",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_56",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_57",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_58",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_59",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_60",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_61",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_62",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_63",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_64",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_65",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_66",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_67",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_68",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_69",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_70",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_71",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_72",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_73",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_74",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_75",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_76",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_77",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_78",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_79",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_80",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_81",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_82",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_83",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_84",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_85",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_86",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_87",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_88",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_89",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_90",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_91",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_92",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_93",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_94",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_95",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_96",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_97",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_98",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T3_99",
+      "tier": "3",
+      "capacity": 50.0
+    },
+    {
+      "id": "T4_0",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_1",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_2",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_3",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_4",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_5",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_6",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_7",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_8",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_9",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_10",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_11",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_12",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_13",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_14",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_15",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_16",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_17",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_18",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_19",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_20",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_21",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_22",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_23",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_24",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_25",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_26",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_27",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_28",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_29",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_30",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_31",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_32",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_33",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_34",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_35",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_36",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_37",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_38",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_39",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_40",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_41",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_42",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_43",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_44",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_45",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_46",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_47",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_48",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_49",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_50",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_51",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_52",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_53",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_54",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_55",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_56",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_57",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_58",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_59",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_60",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_61",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_62",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_63",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_64",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_65",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_66",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_67",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_68",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_69",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_70",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_71",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_72",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_73",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_74",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_75",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_76",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_77",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_78",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_79",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_80",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_81",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_82",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_83",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_84",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_85",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_86",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_87",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_88",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_89",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_90",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_91",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_92",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_93",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_94",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_95",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_96",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_97",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_98",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_99",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_100",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_101",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_102",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_103",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_104",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_105",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_106",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_107",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_108",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_109",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_110",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_111",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_112",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_113",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_114",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_115",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_116",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_117",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_118",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_119",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_120",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_121",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_122",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_123",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_124",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_125",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_126",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_127",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_128",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_129",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_130",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_131",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_132",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_133",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_134",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_135",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_136",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_137",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_138",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_139",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_140",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_141",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_142",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_143",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_144",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_145",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_146",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_147",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_148",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_149",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_150",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_151",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_152",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_153",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_154",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_155",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_156",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_157",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_158",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_159",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_160",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_161",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_162",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_163",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_164",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_165",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_166",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_167",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_168",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_169",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_170",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_171",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_172",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_173",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_174",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_175",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_176",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_177",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_178",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_179",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_180",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_181",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_182",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_183",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_184",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_185",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_186",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_187",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_188",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_189",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_190",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_191",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_192",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_193",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_194",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_195",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_196",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_197",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_198",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_199",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_200",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_201",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_202",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_203",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_204",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_205",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_206",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_207",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_208",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_209",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_210",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_211",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_212",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_213",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_214",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_215",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_216",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_217",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_218",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_219",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_220",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_221",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_222",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_223",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_224",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_225",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_226",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_227",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_228",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_229",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_230",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_231",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_232",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_233",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_234",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_235",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_236",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_237",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_238",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_239",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_240",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_241",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_242",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_243",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_244",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_245",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_246",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_247",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_248",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_249",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_250",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_251",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_252",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_253",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_254",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_255",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_256",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_257",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_258",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_259",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_260",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_261",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_262",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_263",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_264",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_265",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_266",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_267",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_268",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_269",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_270",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_271",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_272",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_273",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_274",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_275",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_276",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_277",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_278",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_279",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_280",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_281",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_282",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_283",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_284",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_285",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_286",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_287",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_288",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_289",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_290",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_291",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_292",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_293",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_294",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_295",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_296",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_297",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_298",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_299",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_300",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_301",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_302",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_303",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_304",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_305",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_306",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_307",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_308",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_309",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_310",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_311",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_312",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_313",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_314",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_315",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_316",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_317",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_318",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_319",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_320",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_321",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_322",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_323",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_324",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_325",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_326",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_327",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_328",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_329",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_330",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_331",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_332",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_333",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_334",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_335",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_336",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_337",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_338",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_339",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_340",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_341",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_342",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_343",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_344",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_345",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_346",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_347",
+      "tier": "4",
+      "capacity": 25.0
+    },
+    {
+      "id": "T4_348",
+      "tier": "4",
+      "capacity": 25.0
+    }
+  ],
+  "edges": [
+    [
+      "T1_0",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_1",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_2",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_3",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_4",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_5",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_6",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_7",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_8",
+      "BMW_GROUP"
+    ],
+    [
+      "T1_9",
+      "BMW_GROUP"
+    ],
+    [
+      "T2_0",
+      "T1_1"
+    ],
+    [
+      "T2_0",
+      "T1_4"
+    ],
+    [
+      "T2_1",
+      "T1_3"
+    ],
+    [
+      "T2_2",
+      "T1_1"
+    ],
+    [
+      "T2_3",
+      "T1_8"
+    ],
+    [
+      "T2_3",
+      "T1_6"
+    ],
+    [
+      "T2_4",
+      "T1_0"
+    ],
+    [
+      "T2_4",
+      "T1_3"
+    ],
+    [
+      "T2_5",
+      "T1_3"
+    ],
+    [
+      "T2_6",
+      "T1_0"
+    ],
+    [
+      "T2_7",
+      "T1_8"
+    ],
+    [
+      "T2_8",
+      "T1_7"
+    ],
+    [
+      "T2_9",
+      "T1_0"
+    ],
+    [
+      "T2_10",
+      "T1_2"
+    ],
+    [
+      "T2_11",
+      "T1_5"
+    ],
+    [
+      "T2_12",
+      "T1_3"
+    ],
+    [
+      "T2_13",
+      "T1_5"
+    ],
+    [
+      "T2_14",
+      "T1_6"
+    ],
+    [
+      "T2_14",
+      "T1_5"
+    ],
+    [
+      "T2_15",
+      "T1_9"
+    ],
+    [
+      "T2_16",
+      "T1_0"
+    ],
+    [
+      "T2_17",
+      "T1_8"
+    ],
+    [
+      "T2_18",
+      "T1_6"
+    ],
+    [
+      "T2_18",
+      "T1_4"
+    ],
+    [
+      "T2_19",
+      "T1_9"
+    ],
+    [
+      "T2_20",
+      "T1_5"
+    ],
+    [
+      "T2_21",
+      "T1_1"
+    ],
+    [
+      "T2_21",
+      "T1_3"
+    ],
+    [
+      "T2_22",
+      "T1_4"
+    ],
+    [
+      "T2_23",
+      "T1_3"
+    ],
+    [
+      "T2_24",
+      "T1_6"
+    ],
+    [
+      "T2_25",
+      "T1_5"
+    ],
+    [
+      "T2_26",
+      "T1_5"
+    ],
+    [
+      "T2_27",
+      "T1_4"
+    ],
+    [
+      "T2_28",
+      "T1_1"
+    ],
+    [
+      "T2_29",
+      "T1_2"
+    ],
+    [
+      "T2_30",
+      "T1_3"
+    ],
+    [
+      "T2_31",
+      "T1_6"
+    ],
+    [
+      "T2_32",
+      "T1_8"
+    ],
+    [
+      "T2_33",
+      "T1_5"
+    ],
+    [
+      "T2_34",
+      "T1_0"
+    ],
+    [
+      "T2_35",
+      "T1_0"
+    ],
+    [
+      "T2_36",
+      "T1_6"
+    ],
+    [
+      "T2_37",
+      "T1_3"
+    ],
+    [
+      "T2_38",
+      "T1_9"
+    ],
+    [
+      "T2_39",
+      "T1_5"
+    ],
+    [
+      "T3_0",
+      "T2_31"
+    ],
+    [
+      "T3_1",
+      "T2_29"
+    ],
+    [
+      "T3_2",
+      "T2_8"
+    ],
+    [
+      "T3_3",
+      "T2_35"
+    ],
+    [
+      "T3_4",
+      "T2_37"
+    ],
+    [
+      "T3_5",
+      "T2_37"
+    ],
+    [
+      "T3_6",
+      "T2_14"
+    ],
+    [
+      "T3_7",
+      "T2_8"
+    ],
+    [
+      "T3_8",
+      "T2_5"
+    ],
+    [
+      "T3_9",
+      "T2_7"
+    ],
+    [
+      "T3_10",
+      "T2_10"
+    ],
+    [
+      "T3_11",
+      "T2_27"
+    ],
+    [
+      "T3_12",
+      "T2_24"
+    ],
+    [
+      "T3_13",
+      "T2_29"
+    ],
+    [
+      "T3_14",
+      "T2_35"
+    ],
+    [
+      "T3_15",
+      "T2_0"
+    ],
+    [
+      "T3_16",
+      "T2_7"
+    ],
+    [
+      "T3_17",
+      "T2_34"
+    ],
+    [
+      "T3_18",
+      "T2_21"
+    ],
+    [
+      "T3_19",
+      "T2_27"
+    ],
+    [
+      "T3_20",
+      "T2_0"
+    ],
+    [
+      "T3_21",
+      "T2_16"
+    ],
+    [
+      "T3_22",
+      "T2_11"
+    ],
+    [
+      "T3_23",
+      "T2_6"
+    ],
+    [
+      "T3_24",
+      "T2_19"
+    ],
+    [
+      "T3_25",
+      "T2_32"
+    ],
+    [
+      "T3_26",
+      "T2_9"
+    ],
+    [
+      "T3_27",
+      "T2_10"
+    ],
+    [
+      "T3_28",
+      "T2_33"
+    ],
+    [
+      "T3_29",
+      "T2_38"
+    ],
+    [
+      "T3_30",
+      "T2_1"
+    ],
+    [
+      "T3_31",
+      "T2_23"
+    ],
+    [
+      "T3_32",
+      "T2_19"
+    ],
+    [
+      "T3_33",
+      "T2_15"
+    ],
+    [
+      "T3_34",
+      "T2_5"
+    ],
+    [
+      "T3_34",
+      "T2_31"
+    ],
+    [
+      "T3_35",
+      "T2_4"
+    ],
+    [
+      "T3_36",
+      "T2_34"
+    ],
+    [
+      "T3_37",
+      "T2_8"
+    ],
+    [
+      "T3_38",
+      "T2_35"
+    ],
+    [
+      "T3_39",
+      "T2_33"
+    ],
+    [
+      "T3_40",
+      "T2_27"
+    ],
+    [
+      "T3_41",
+      "T2_34"
+    ],
+    [
+      "T3_42",
+      "T2_12"
+    ],
+    [
+      "T3_43",
+      "T2_25"
+    ],
+    [
+      "T3_44",
+      "T2_23"
+    ],
+    [
+      "T3_45",
+      "T2_33"
+    ],
+    [
+      "T3_46",
+      "T2_15"
+    ],
+    [
+      "T3_47",
+      "T2_21"
+    ],
+    [
+      "T3_47",
+      "T2_35"
+    ],
+    [
+      "T3_48",
+      "T2_14"
+    ],
+    [
+      "T3_49",
+      "T2_0"
+    ],
+    [
+      "T3_49",
+      "T2_3"
+    ],
+    [
+      "T3_50",
+      "T2_14"
+    ],
+    [
+      "T3_50",
+      "T2_2"
+    ],
+    [
+      "T3_51",
+      "T2_21"
+    ],
+    [
+      "T3_51",
+      "T2_15"
+    ],
+    [
+      "T3_52",
+      "T2_17"
+    ],
+    [
+      "T3_53",
+      "T2_13"
+    ],
+    [
+      "T3_54",
+      "T2_36"
+    ],
+    [
+      "T3_55",
+      "T2_15"
+    ],
+    [
+      "T3_56",
+      "T2_26"
+    ],
+    [
+      "T3_57",
+      "T2_6"
+    ],
+    [
+      "T3_58",
+      "T2_22"
+    ],
+    [
+      "T3_59",
+      "T2_29"
+    ],
+    [
+      "T3_60",
+      "T2_3"
+    ],
+    [
+      "T3_61",
+      "T2_6"
+    ],
+    [
+      "T3_61",
+      "T2_21"
+    ],
+    [
+      "T3_62",
+      "T2_6"
+    ],
+    [
+      "T3_63",
+      "T2_12"
+    ],
+    [
+      "T3_64",
+      "T2_8"
+    ],
+    [
+      "T3_65",
+      "T2_17"
+    ],
+    [
+      "T3_66",
+      "T2_4"
+    ],
+    [
+      "T3_67",
+      "T2_35"
+    ],
+    [
+      "T3_67",
+      "T2_34"
+    ],
+    [
+      "T3_68",
+      "T2_0"
+    ],
+    [
+      "T3_69",
+      "T2_15"
+    ],
+    [
+      "T3_70",
+      "T2_31"
+    ],
+    [
+      "T3_71",
+      "T2_25"
+    ],
+    [
+      "T3_72",
+      "T2_10"
+    ],
+    [
+      "T3_73",
+      "T2_24"
+    ],
+    [
+      "T3_74",
+      "T2_29"
+    ],
+    [
+      "T3_75",
+      "T2_35"
+    ],
+    [
+      "T3_76",
+      "T2_31"
+    ],
+    [
+      "T3_77",
+      "T2_18"
+    ],
+    [
+      "T3_78",
+      "T2_3"
+    ],
+    [
+      "T3_79",
+      "T2_34"
+    ],
+    [
+      "T3_79",
+      "T2_20"
+    ],
+    [
+      "T3_80",
+      "T2_3"
+    ],
+    [
+      "T3_80",
+      "T2_30"
+    ],
+    [
+      "T3_81",
+      "T2_32"
+    ],
+    [
+      "T3_82",
+      "T2_33"
+    ],
+    [
+      "T3_83",
+      "T2_32"
+    ],
+    [
+      "T3_83",
+      "T2_11"
+    ],
+    [
+      "T3_84",
+      "T2_4"
+    ],
+    [
+      "T3_85",
+      "T2_15"
+    ],
+    [
+      "T3_86",
+      "T2_36"
+    ],
+    [
+      "T3_87",
+      "T2_38"
+    ],
+    [
+      "T3_87",
+      "T2_5"
+    ],
+    [
+      "T3_88",
+      "T2_26"
+    ],
+    [
+      "T3_89",
+      "T2_36"
+    ],
+    [
+      "T3_90",
+      "T2_16"
+    ],
+    [
+      "T3_91",
+      "T2_20"
+    ],
+    [
+      "T3_92",
+      "T2_25"
+    ],
+    [
+      "T3_93",
+      "T2_19"
+    ],
+    [
+      "T3_94",
+      "T2_4"
+    ],
+    [
+      "T3_94",
+      "T2_39"
+    ],
+    [
+      "T3_95",
+      "T2_36"
+    ],
+    [
+      "T3_96",
+      "T2_4"
+    ],
+    [
+      "T3_97",
+      "T2_32"
+    ],
+    [
+      "T3_98",
+      "T2_22"
+    ],
+    [
+      "T3_99",
+      "T2_15"
+    ],
+    [
+      "T4_0",
+      "T3_20"
+    ],
+    [
+      "T4_1",
+      "T3_69"
+    ],
+    [
+      "T4_2",
+      "T3_78"
+    ],
+    [
+      "T4_3",
+      "T3_83"
+    ],
+    [
+      "T4_4",
+      "T3_85"
+    ],
+    [
+      "T4_5",
+      "T3_38"
+    ],
+    [
+      "T4_6",
+      "T3_13"
+    ],
+    [
+      "T4_7",
+      "T3_17"
+    ],
+    [
+      "T4_8",
+      "T3_13"
+    ],
+    [
+      "T4_9",
+      "T3_19"
+    ],
+    [
+      "T4_10",
+      "T3_77"
+    ],
+    [
+      "T4_11",
+      "T3_43"
+    ],
+    [
+      "T4_12",
+      "T3_81"
+    ],
+    [
+      "T4_13",
+      "T3_64"
+    ],
+    [
+      "T4_14",
+      "T3_6"
+    ],
+    [
+      "T4_15",
+      "T3_54"
+    ],
+    [
+      "T4_16",
+      "T3_5"
+    ],
+    [
+      "T4_16",
+      "T3_98"
+    ],
+    [
+      "T4_17",
+      "T3_16"
+    ],
+    [
+      "T4_18",
+      "T3_33"
+    ],
+    [
+      "T4_19",
+      "T3_56"
+    ],
+    [
+      "T4_20",
+      "T3_54"
+    ],
+    [
+      "T4_21",
+      "T3_14"
+    ],
+    [
+      "T4_22",
+      "T3_88"
+    ],
+    [
+      "T4_23",
+      "T3_69"
+    ],
+    [
+      "T4_23",
+      "T3_47"
+    ],
+    [
+      "T4_24",
+      "T3_74"
+    ],
+    [
+      "T4_25",
+      "T3_55"
+    ],
+    [
+      "T4_26",
+      "T3_39"
+    ],
+    [
+      "T4_27",
+      "T3_5"
+    ],
+    [
+      "T4_28",
+      "T3_26"
+    ],
+    [
+      "T4_29",
+      "T3_85"
+    ],
+    [
+      "T4_30",
+      "T3_99"
+    ],
+    [
+      "T4_31",
+      "T3_52"
+    ],
+    [
+      "T4_32",
+      "T3_95"
+    ],
+    [
+      "T4_33",
+      "T3_30"
+    ],
+    [
+      "T4_34",
+      "T3_22"
+    ],
+    [
+      "T4_35",
+      "T3_3"
+    ],
+    [
+      "T4_36",
+      "T3_42"
+    ],
+    [
+      "T4_37",
+      "T3_52"
+    ],
+    [
+      "T4_38",
+      "T3_94"
+    ],
+    [
+      "T4_39",
+      "T3_34"
+    ],
+    [
+      "T4_40",
+      "T3_89"
+    ],
+    [
+      "T4_41",
+      "T3_4"
+    ],
+    [
+      "T4_42",
+      "T3_28"
+    ],
+    [
+      "T4_43",
+      "T3_58"
+    ],
+    [
+      "T4_44",
+      "T3_29"
+    ],
+    [
+      "T4_45",
+      "T3_84"
+    ],
+    [
+      "T4_46",
+      "T3_42"
+    ],
+    [
+      "T4_47",
+      "T3_8"
+    ],
+    [
+      "T4_48",
+      "T3_35"
+    ],
+    [
+      "T4_49",
+      "T3_65"
+    ],
+    [
+      "T4_50",
+      "T3_68"
+    ],
+    [
+      "T4_51",
+      "T3_3"
+    ],
+    [
+      "T4_52",
+      "T3_33"
+    ],
+    [
+      "T4_53",
+      "T3_33"
+    ],
+    [
+      "T4_53",
+      "T3_76"
+    ],
+    [
+      "T4_54",
+      "T3_55"
+    ],
+    [
+      "T4_55",
+      "T3_40"
+    ],
+    [
+      "T4_56",
+      "T3_65"
+    ],
+    [
+      "T4_57",
+      "T3_73"
+    ],
+    [
+      "T4_58",
+      "T3_5"
+    ],
+    [
+      "T4_59",
+      "T3_0"
+    ],
+    [
+      "T4_60",
+      "T3_68"
+    ],
+    [
+      "T4_61",
+      "T3_94"
+    ],
+    [
+      "T4_62",
+      "T3_25"
+    ],
+    [
+      "T4_63",
+      "T3_8"
+    ],
+    [
+      "T4_64",
+      "T3_42"
+    ],
+    [
+      "T4_65",
+      "T3_84"
+    ],
+    [
+      "T4_66",
+      "T3_92"
+    ],
+    [
+      "T4_67",
+      "T3_64"
+    ],
+    [
+      "T4_68",
+      "T3_52"
+    ],
+    [
+      "T4_69",
+      "T3_89"
+    ],
+    [
+      "T4_70",
+      "T3_16"
+    ],
+    [
+      "T4_71",
+      "T3_85"
+    ],
+    [
+      "T4_72",
+      "T3_86"
+    ],
+    [
+      "T4_73",
+      "T3_22"
+    ],
+    [
+      "T4_74",
+      "T3_38"
+    ],
+    [
+      "T4_75",
+      "T3_0"
+    ],
+    [
+      "T4_76",
+      "T3_26"
+    ],
+    [
+      "T4_77",
+      "T3_74"
+    ],
+    [
+      "T4_78",
+      "T3_41"
+    ],
+    [
+      "T4_79",
+      "T3_56"
+    ],
+    [
+      "T4_80",
+      "T3_65"
+    ],
+    [
+      "T4_81",
+      "T3_94"
+    ],
+    [
+      "T4_82",
+      "T3_10"
+    ],
+    [
+      "T4_83",
+      "T3_84"
+    ],
+    [
+      "T4_84",
+      "T3_42"
+    ],
+    [
+      "T4_85",
+      "T3_96"
+    ],
+    [
+      "T4_86",
+      "T3_39"
+    ],
+    [
+      "T4_87",
+      "T3_25"
+    ],
+    [
+      "T4_88",
+      "T3_5"
+    ],
+    [
+      "T4_89",
+      "T3_60"
+    ],
+    [
+      "T4_90",
+      "T3_98"
+    ],
+    [
+      "T4_91",
+      "T3_53"
+    ],
+    [
+      "T4_92",
+      "T3_73"
+    ],
+    [
+      "T4_93",
+      "T3_89"
+    ],
+    [
+      "T4_94",
+      "T3_51"
+    ],
+    [
+      "T4_95",
+      "T3_83"
+    ],
+    [
+      "T4_96",
+      "T3_96"
+    ],
+    [
+      "T4_97",
+      "T3_13"
+    ],
+    [
+      "T4_98",
+      "T3_28"
+    ],
+    [
+      "T4_99",
+      "T3_89"
+    ],
+    [
+      "T4_100",
+      "T3_6"
+    ],
+    [
+      "T4_101",
+      "T3_15"
+    ],
+    [
+      "T4_102",
+      "T3_59"
+    ],
+    [
+      "T4_103",
+      "T3_71"
+    ],
+    [
+      "T4_104",
+      "T3_96"
+    ],
+    [
+      "T4_105",
+      "T3_78"
+    ],
+    [
+      "T4_106",
+      "T3_64"
+    ],
+    [
+      "T4_107",
+      "T3_70"
+    ],
+    [
+      "T4_108",
+      "T3_20"
+    ],
+    [
+      "T4_109",
+      "T3_60"
+    ],
+    [
+      "T4_110",
+      "T3_96"
+    ],
+    [
+      "T4_111",
+      "T3_81"
+    ],
+    [
+      "T4_112",
+      "T3_99"
+    ],
+    [
+      "T4_113",
+      "T3_80"
+    ],
+    [
+      "T4_114",
+      "T3_56"
+    ],
+    [
+      "T4_115",
+      "T3_36"
+    ],
+    [
+      "T4_116",
+      "T3_42"
+    ],
+    [
+      "T4_117",
+      "T3_69"
+    ],
+    [
+      "T4_118",
+      "T3_19"
+    ],
+    [
+      "T4_119",
+      "T3_88"
+    ],
+    [
+      "T4_120",
+      "T3_27"
+    ],
+    [
+      "T4_121",
+      "T3_52"
+    ],
+    [
+      "T4_122",
+      "T3_59"
+    ],
+    [
+      "T4_123",
+      "T3_26"
+    ],
+    [
+      "T4_124",
+      "T3_49"
+    ],
+    [
+      "T4_125",
+      "T3_74"
+    ],
+    [
+      "T4_126",
+      "T3_2"
+    ],
+    [
+      "T4_127",
+      "T3_97"
+    ],
+    [
+      "T4_128",
+      "T3_61"
+    ],
+    [
+      "T4_128",
+      "T3_45"
+    ],
+    [
+      "T4_129",
+      "T3_38"
+    ],
+    [
+      "T4_130",
+      "T3_53"
+    ],
+    [
+      "T4_131",
+      "T3_94"
+    ],
+    [
+      "T4_132",
+      "T3_77"
+    ],
+    [
+      "T4_133",
+      "T3_62"
+    ],
+    [
+      "T4_134",
+      "T3_55"
+    ],
+    [
+      "T4_135",
+      "T3_49"
+    ],
+    [
+      "T4_136",
+      "T3_86"
+    ],
+    [
+      "T4_137",
+      "T3_92"
+    ],
+    [
+      "T4_138",
+      "T3_59"
+    ],
+    [
+      "T4_139",
+      "T3_79"
+    ],
+    [
+      "T4_140",
+      "T3_50"
+    ],
+    [
+      "T4_141",
+      "T3_84"
+    ],
+    [
+      "T4_141",
+      "T3_82"
+    ],
+    [
+      "T4_142",
+      "T3_54"
+    ],
+    [
+      "T4_143",
+      "T3_59"
+    ],
+    [
+      "T4_144",
+      "T3_33"
+    ],
+    [
+      "T4_145",
+      "T3_27"
+    ],
+    [
+      "T4_146",
+      "T3_43"
+    ],
+    [
+      "T4_147",
+      "T3_48"
+    ],
+    [
+      "T4_148",
+      "T3_53"
+    ],
+    [
+      "T4_149",
+      "T3_10"
+    ],
+    [
+      "T4_150",
+      "T3_95"
+    ],
+    [
+      "T4_151",
+      "T3_44"
+    ],
+    [
+      "T4_152",
+      "T3_8"
+    ],
+    [
+      "T4_153",
+      "T3_83"
+    ],
+    [
+      "T4_153",
+      "T3_3"
+    ],
+    [
+      "T4_154",
+      "T3_31"
+    ],
+    [
+      "T4_155",
+      "T3_2"
+    ],
+    [
+      "T4_156",
+      "T3_30"
+    ],
+    [
+      "T4_157",
+      "T3_85"
+    ],
+    [
+      "T4_158",
+      "T3_27"
+    ],
+    [
+      "T4_159",
+      "T3_32"
+    ],
+    [
+      "T4_160",
+      "T3_21"
+    ],
+    [
+      "T4_161",
+      "T3_95"
+    ],
+    [
+      "T4_162",
+      "T3_99"
+    ],
+    [
+      "T4_163",
+      "T3_39"
+    ],
+    [
+      "T4_164",
+      "T3_3"
+    ],
+    [
+      "T4_165",
+      "T3_73"
+    ],
+    [
+      "T4_166",
+      "T3_48"
+    ],
+    [
+      "T4_167",
+      "T3_91"
+    ],
+    [
+      "T4_168",
+      "T3_75"
+    ],
+    [
+      "T4_169",
+      "T3_80"
+    ],
+    [
+      "T4_170",
+      "T3_89"
+    ],
+    [
+      "T4_171",
+      "T3_87"
+    ],
+    [
+      "T4_172",
+      "T3_15"
+    ],
+    [
+      "T4_173",
+      "T3_72"
+    ],
+    [
+      "T4_174",
+      "T3_44"
+    ],
+    [
+      "T4_175",
+      "T3_84"
+    ],
+    [
+      "T4_176",
+      "T3_64"
+    ],
+    [
+      "T4_177",
+      "T3_1"
+    ],
+    [
+      "T4_178",
+      "T3_62"
+    ],
+    [
+      "T4_179",
+      "T3_46"
+    ],
+    [
+      "T4_180",
+      "T3_58"
+    ],
+    [
+      "T4_181",
+      "T3_55"
+    ],
+    [
+      "T4_182",
+      "T3_66"
+    ],
+    [
+      "T4_183",
+      "T3_34"
+    ],
+    [
+      "T4_184",
+      "T3_68"
+    ],
+    [
+      "T4_185",
+      "T3_59"
+    ],
+    [
+      "T4_186",
+      "T3_93"
+    ],
+    [
+      "T4_187",
+      "T3_41"
+    ],
+    [
+      "T4_188",
+      "T3_11"
+    ],
+    [
+      "T4_189",
+      "T3_57"
+    ],
+    [
+      "T4_190",
+      "T3_59"
+    ],
+    [
+      "T4_191",
+      "T3_85"
+    ],
+    [
+      "T4_192",
+      "T3_3"
+    ],
+    [
+      "T4_193",
+      "T3_41"
+    ],
+    [
+      "T4_194",
+      "T3_27"
+    ],
+    [
+      "T4_195",
+      "T3_33"
+    ],
+    [
+      "T4_196",
+      "T3_76"
+    ],
+    [
+      "T4_197",
+      "T3_35"
+    ],
+    [
+      "T4_198",
+      "T3_66"
+    ],
+    [
+      "T4_199",
+      "T3_10"
+    ],
+    [
+      "T4_200",
+      "T3_52"
+    ],
+    [
+      "T4_201",
+      "T3_97"
+    ],
+    [
+      "T4_202",
+      "T3_60"
+    ],
+    [
+      "T4_203",
+      "T3_62"
+    ],
+    [
+      "T4_204",
+      "T3_2"
+    ],
+    [
+      "T4_205",
+      "T3_28"
+    ],
+    [
+      "T4_206",
+      "T3_31"
+    ],
+    [
+      "T4_207",
+      "T3_74"
+    ],
+    [
+      "T4_208",
+      "T3_70"
+    ],
+    [
+      "T4_209",
+      "T3_54"
+    ],
+    [
+      "T4_210",
+      "T3_70"
+    ],
+    [
+      "T4_211",
+      "T3_89"
+    ],
+    [
+      "T4_212",
+      "T3_39"
+    ],
+    [
+      "T4_213",
+      "T3_15"
+    ],
+    [
+      "T4_214",
+      "T3_40"
+    ],
+    [
+      "T4_215",
+      "T3_68"
+    ],
+    [
+      "T4_216",
+      "T3_88"
+    ],
+    [
+      "T4_217",
+      "T3_27"
+    ],
+    [
+      "T4_218",
+      "T3_35"
+    ],
+    [
+      "T4_219",
+      "T3_97"
+    ],
+    [
+      "T4_220",
+      "T3_36"
+    ],
+    [
+      "T4_221",
+      "T3_24"
+    ],
+    [
+      "T4_222",
+      "T3_46"
+    ],
+    [
+      "T4_223",
+      "T3_1"
+    ],
+    [
+      "T4_224",
+      "T3_16"
+    ],
+    [
+      "T4_225",
+      "T3_6"
+    ],
+    [
+      "T4_226",
+      "T3_89"
+    ],
+    [
+      "T4_227",
+      "T3_81"
+    ],
+    [
+      "T4_228",
+      "T3_62"
+    ],
+    [
+      "T4_229",
+      "T3_1"
+    ],
+    [
+      "T4_230",
+      "T3_60"
+    ],
+    [
+      "T4_231",
+      "T3_43"
+    ],
+    [
+      "T4_232",
+      "T3_6"
+    ],
+    [
+      "T4_233",
+      "T3_61"
+    ],
+    [
+      "T4_234",
+      "T3_8"
+    ],
+    [
+      "T4_235",
+      "T3_9"
+    ],
+    [
+      "T4_236",
+      "T3_87"
+    ],
+    [
+      "T4_237",
+      "T3_19"
+    ],
+    [
+      "T4_238",
+      "T3_38"
+    ],
+    [
+      "T4_239",
+      "T3_31"
+    ],
+    [
+      "T4_240",
+      "T3_97"
+    ],
+    [
+      "T4_241",
+      "T3_76"
+    ],
+    [
+      "T4_242",
+      "T3_28"
+    ],
+    [
+      "T4_243",
+      "T3_48"
+    ],
+    [
+      "T4_244",
+      "T3_56"
+    ],
+    [
+      "T4_245",
+      "T3_75"
+    ],
+    [
+      "T4_246",
+      "T3_39"
+    ],
+    [
+      "T4_247",
+      "T3_7"
+    ],
+    [
+      "T4_248",
+      "T3_94"
+    ],
+    [
+      "T4_249",
+      "T3_97"
+    ],
+    [
+      "T4_250",
+      "T3_27"
+    ],
+    [
+      "T4_251",
+      "T3_10"
+    ],
+    [
+      "T4_252",
+      "T3_22"
+    ],
+    [
+      "T4_253",
+      "T3_20"
+    ],
+    [
+      "T4_253",
+      "T3_57"
+    ],
+    [
+      "T4_254",
+      "T3_88"
+    ],
+    [
+      "T4_255",
+      "T3_37"
+    ],
+    [
+      "T4_255",
+      "T3_36"
+    ],
+    [
+      "T4_256",
+      "T3_90"
+    ],
+    [
+      "T4_257",
+      "T3_58"
+    ],
+    [
+      "T4_258",
+      "T3_29"
+    ],
+    [
+      "T4_259",
+      "T3_80"
+    ],
+    [
+      "T4_260",
+      "T3_25"
+    ],
+    [
+      "T4_261",
+      "T3_69"
+    ],
+    [
+      "T4_262",
+      "T3_19"
+    ],
+    [
+      "T4_263",
+      "T3_18"
+    ],
+    [
+      "T4_264",
+      "T3_21"
+    ],
+    [
+      "T4_265",
+      "T3_76"
+    ],
+    [
+      "T4_266",
+      "T3_72"
+    ],
+    [
+      "T4_267",
+      "T3_56"
+    ],
+    [
+      "T4_268",
+      "T3_88"
+    ],
+    [
+      "T4_269",
+      "T3_51"
+    ],
+    [
+      "T4_270",
+      "T3_64"
+    ],
+    [
+      "T4_271",
+      "T3_56"
+    ],
+    [
+      "T4_272",
+      "T3_5"
+    ],
+    [
+      "T4_273",
+      "T3_94"
+    ],
+    [
+      "T4_274",
+      "T3_32"
+    ],
+    [
+      "T4_274",
+      "T3_29"
+    ],
+    [
+      "T4_275",
+      "T3_86"
+    ],
+    [
+      "T4_276",
+      "T3_73"
+    ],
+    [
+      "T4_277",
+      "T3_2"
+    ],
+    [
+      "T4_278",
+      "T3_86"
+    ],
+    [
+      "T4_279",
+      "T3_73"
+    ],
+    [
+      "T4_279",
+      "T3_96"
+    ],
+    [
+      "T4_280",
+      "T3_22"
+    ],
+    [
+      "T4_281",
+      "T3_83"
+    ],
+    [
+      "T4_282",
+      "T3_35"
+    ],
+    [
+      "T4_283",
+      "T3_74"
+    ],
+    [
+      "T4_284",
+      "T3_62"
+    ],
+    [
+      "T4_285",
+      "T3_60"
+    ],
+    [
+      "T4_286",
+      "T3_42"
+    ],
+    [
+      "T4_287",
+      "T3_13"
+    ],
+    [
+      "T4_288",
+      "T3_42"
+    ],
+    [
+      "T4_289",
+      "T3_63"
+    ],
+    [
+      "T4_290",
+      "T3_51"
+    ],
+    [
+      "T4_291",
+      "T3_70"
+    ],
+    [
+      "T4_291",
+      "T3_11"
+    ],
+    [
+      "T4_292",
+      "T3_40"
+    ],
+    [
+      "T4_293",
+      "T3_14"
+    ],
+    [
+      "T4_294",
+      "T3_51"
+    ],
+    [
+      "T4_295",
+      "T3_0"
+    ],
+    [
+      "T4_296",
+      "T3_69"
+    ],
+    [
+      "T4_297",
+      "T3_6"
+    ],
+    [
+      "T4_298",
+      "T3_46"
+    ],
+    [
+      "T4_299",
+      "T3_63"
+    ],
+    [
+      "T4_300",
+      "T3_97"
+    ],
+    [
+      "T4_301",
+      "T3_34"
+    ],
+    [
+      "T4_302",
+      "T3_36"
+    ],
+    [
+      "T4_303",
+      "T3_89"
+    ],
+    [
+      "T4_304",
+      "T3_3"
+    ],
+    [
+      "T4_305",
+      "T3_77"
+    ],
+    [
+      "T4_306",
+      "T3_90"
+    ],
+    [
+      "T4_307",
+      "T3_70"
+    ],
+    [
+      "T4_307",
+      "T3_52"
+    ],
+    [
+      "T4_308",
+      "T3_11"
+    ],
+    [
+      "T4_309",
+      "T3_14"
+    ],
+    [
+      "T4_310",
+      "T3_15"
+    ],
+    [
+      "T4_311",
+      "T3_19"
+    ],
+    [
+      "T4_312",
+      "T3_91"
+    ],
+    [
+      "T4_313",
+      "T3_90"
+    ],
+    [
+      "T4_314",
+      "T3_61"
+    ],
+    [
+      "T4_315",
+      "T3_31"
+    ],
+    [
+      "T4_316",
+      "T3_18"
+    ],
+    [
+      "T4_317",
+      "T3_76"
+    ],
+    [
+      "T4_318",
+      "T3_17"
+    ],
+    [
+      "T4_319",
+      "T3_35"
+    ],
+    [
+      "T4_320",
+      "T3_53"
+    ],
+    [
+      "T4_321",
+      "T3_64"
+    ],
+    [
+      "T4_322",
+      "T3_0"
+    ],
+    [
+      "T4_323",
+      "T3_38"
+    ],
+    [
+      "T4_324",
+      "T3_74"
+    ],
+    [
+      "T4_325",
+      "T3_62"
+    ],
+    [
+      "T4_326",
+      "T3_57"
+    ],
+    [
+      "T4_327",
+      "T3_44"
+    ],
+    [
+      "T4_328",
+      "T3_97"
+    ],
+    [
+      "T4_329",
+      "T3_58"
+    ],
+    [
+      "T4_330",
+      "T3_24"
+    ],
+    [
+      "T4_331",
+      "T3_30"
+    ],
+    [
+      "T4_332",
+      "T3_29"
+    ],
+    [
+      "T4_333",
+      "T3_52"
+    ],
+    [
+      "T4_333",
+      "T3_95"
+    ],
+    [
+      "T4_334",
+      "T3_60"
+    ],
+    [
+      "T4_335",
+      "T3_48"
+    ],
+    [
+      "T4_336",
+      "T3_84"
+    ],
+    [
+      "T4_337",
+      "T3_83"
+    ],
+    [
+      "T4_338",
+      "T3_63"
+    ],
+    [
+      "T4_339",
+      "T3_16"
+    ],
+    [
+      "T4_340",
+      "T3_75"
+    ],
+    [
+      "T4_341",
+      "T3_12"
+    ],
+    [
+      "T4_342",
+      "T3_56"
+    ],
+    [
+      "T4_343",
+      "T3_58"
+    ],
+    [
+      "T4_343",
+      "T3_18"
+    ],
+    [
+      "T4_344",
+      "T3_52"
+    ],
+    [
+      "T4_345",
+      "T3_19"
+    ],
+    [
+      "T4_346",
+      "T3_33"
+    ],
+    [
+      "T4_347",
+      "T3_88"
+    ],
+    [
+      "T4_348",
+      "T3_10"
+    ]
+  ],
+  "meta": {
+    "name": "Synthetic BMW Supply Chain",
+    "N": 500,
+    "description": "Clustered Pyramid: T4(Raw)->T3->T2->T1->Anchor"
+  }
+}
